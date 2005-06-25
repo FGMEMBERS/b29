@@ -1,0 +1,296 @@
+########
+#
+# Thre's a standard version of this, it should be removed.
+# 
+########
+
+toggleDoor = func {
+    val = doorProp.getValue();
+    time = abs(val - doorTarget) * doorSwingTime;
+    interpolate(doorProp, doorTarget, time);
+    doorTarget = !doorTarget;
+}
+
+########
+#
+# This function watches altitude and conks out the putt=putt when it gets too high.
+# 
+########
+
+puttPuttStop = func {
+    if(getprop("/position/altitude-ft") > 10000) {
+        setprop("/controls/APU/putt-putt", 0);
+    }
+    settimer(puttPuttStop, 20);
+}
+
+########
+#
+# This function starts the putt-putt if it is at a low enough altitude
+# Bind it to a command
+# 
+########
+
+puttPuttStart = func {
+    if(getprop("/position/altitude-ft") < 8000) {
+        setprop("/controls/APU/putt-putt", 1);
+    }
+}
+
+########
+#
+# This function turns the p-brake on and off
+#
+########
+
+pBrakeCheck = func {
+    
+    # When attempting to pull handle, check to make sure the pedals are depressed too.  
+    if ( !oldPbrakeSetting and getprop("/controls/gear/brake-parking") ) {
+        if ( !getprop("/controls/gear/brake-left") or !getprop("/controls/gear/brake-right") ) {
+            # Nope. You gotta press both the pedals too. Pop it back out.
+            setprop("/controls/gear/brake-parking", 0);
+        }      
+        # Don't let the handle popping routine touch us yet.
+        primedToPop = 0;
+    }
+
+    if ( !getprop("/controls/gear/brake-left") and !getprop("/controls/gear/brake-right") ) {
+        # OK, now it's ok to pop the handle.
+        primedToPop = 1;
+    }
+    
+    # Pop handle when both pedals are touched.
+    if ( primedToPop and getprop("/controls/gear/brake-left") and getprop("/controls/gear/brake-right") ) {
+        setprop("/controls/gear/brake-parking", 0);
+    }
+
+    # Set the real control prop to whatever the handle is now set at.
+    setprop("/controls/gear/brake-my-parking", getprop("controls/gear/brake-parking"));
+    # Remember it here in case something mucks with the property vaue.
+    oldPbrakeSetting = getprop("/controls/gear/brake-parking");
+    
+    settimer(pBrakeCheck, 0.05);
+}
+
+########
+#
+# This function maintains a property that is used to animate the brake pedals.
+#
+########
+
+brakePedalAnim = func {
+    if ( getprop("/controls/gear/brake-parking") > getprop("/controls/gear/brake-left") ) {
+        setprop("/controls/gear/brake-left-rot", getprop("/controls/gear/brake-parking"));
+    } else {
+        setprop("/controls/gear/brake-left-rot", getprop("/controls/gear/brake-left"));
+    }    
+    if ( getprop("/controls/gear/brake-parking") > getprop("/controls/gear/brake-right") ) {
+        setprop("/controls/gear/brake-right-rot", getprop("/controls/gear/brake-parking"));
+    } else {
+        setprop("/controls/gear/brake-right-rot", getprop("/controls/gear/brake-right"));
+    }
+
+    settimer(brakePedalAnim, 0.05);
+}
+    
+########
+#
+# This function watches the switch props /controls/lighting/landing-lights-* and sets
+# the light props /controls/lighting/landing-light-*-* appropriately. Each switch has
+# three mutually exclusive positions: 0,1,2 corresponding to: off, high, down.
+#
+########
+
+landLightCheck = func {
+ 
+    if(getprop(leftLandLightProp) == 1) {
+        setprop(upLeftLandLightProp, 1);
+        setprop(downLeftLandLightProp, 0);
+    } elsif(getprop(leftLandLightProp) == 2) {
+        setprop(upLeftLandLightProp, 0);
+        setprop(downLeftLandLightProp, 1);
+    } else {
+        setprop(upLeftLandLightProp, 0);
+        setprop(downLeftLandLightProp, 0);
+    }
+
+    if(getprop(rightLandLightProp) == 1) {
+        setprop(upRightLandLightProp, 1);
+        setprop(downRightLandLightProp, 0);
+    } elsif(getprop(rightLandLightProp) == 2) {
+        setprop(upRightLandLightProp, 0);
+        setprop(downRightLandLightProp, 1);
+    } else {
+        setprop(upRightLandLightProp, 0);
+        setprop(downRightLandLightProp, 0);
+    }
+
+    settimer(landLightCheck, 0.5);
+}
+
+########
+#
+# Stole this from Melchior. Thanks Melchior!
+#
+########
+
+matlist = { # MATERIALS
+#                       diffuse             ambient            emission           specular          shi trans
+        "lens":         [0.3, 0.3, 0.3,     0.6, 0.6, 0.6,     0.0, 0.0, 0.0,     0.0, 0.0, 0.0,    90, 0],
+        "redlight":     [0.0, 0.0, 0.0,     0.0, 0.0, 0.0,     1.0, 0.0, 0.0,     0.0, 0.0, 0.0,    0,  0],
+        "greenlight":   [0.0, 0.0, 0.0,     0.0, 0.0, 0.0,     0.0, 1.0, 0.0,     0.0, 0.0, 0.0,    0,  0],
+};
+
+apply_mat = func(obj, mat) {
+        i = 0;
+        base = "/sim/model/b29/material/" ~ obj ~ "/";
+        foreach (t; ["diffuse", "ambient", "emission", "specular"]) {
+                foreach (c; ["red", "green", "blue"]) {
+                        setprop(base ~ t ~ "/" ~ c, mat[i]);
+                        i += 1;
+                }
+        }
+        setprop(base ~ "shininess", mat[i]);
+        setprop(base ~ "transparency/alpha", 1.0 - mat[i + 1]);
+}
+
+########
+#
+# Check the status of the gear and set lights
+#
+########
+
+gearLightCheck = func {
+    for (lightIndex=0; lightIndex<4; lightIndex=lightIndex+1) {
+        thisObject = "GearLight" ~ (lightIndex+1);
+        # Take a gander at the landing gear.
+        newValue = getprop("/gear/gear[" ~ lightIndex ~ "]/position-norm");
+        if (newValue != 1 and newValue != 0) {
+            newValue = 2;
+        }
+        # See if things have changed.
+        if ( newValue != oldLightValue[lightIndex]) {
+            if ( newValue == 1 ) {
+                apply_mat(thisObject, matlist["greenlight"]);
+            } elsif ( newValue == 0 ) {
+                apply_mat(thisObject, matlist["lens"]);
+            } else {
+                apply_mat(thisObject, matlist["redlight"]);
+            }
+            # Remember the current state.
+            oldLightValue[lightIndex] = newValue;
+        }
+    }
+    settimer(gearLightCheck, 0.5);
+}
+
+########
+#
+# Cowl Flaps
+#
+########
+
+adjustCowlFlaps = func {
+    # Figure out what the max safe deployment is.
+    if (getprop("/gear/gear/wow") == 1) {
+        max = 15;
+    } else {
+        max = 10;
+    }
+
+    # Figure out how much flap we want, and clamp to 0 and 1.
+    # We could do the clamping in the animation xml, but iut's easier to just
+    # do it once here. Sneak in some intercooler action too.
+    setprop(cowlTarget, ((getprop("/instrumentation/airspeed-indicator/indicated-speed-kt")-50)/160));
+    if (getprop(cowlTarget) > 1 ) {
+        setprop(cowlTarget, 1);
+    } elsif (getprop(cowlTarget) < 0 ) {
+        setprop(cowlTarget, 0 );
+    }
+    setprop(cowlTarget, (1-(getprop(cowlTarget)*(max/15))));
+
+    setprop(intercoolerTarget, ((getprop("/instrumentation/airspeed-indicator/indicated-speed-kt")-60)/200));
+    if (getprop(intercoolerTarget) > 1 ) {
+        setprop(intercoolerTarget, 1);
+    } elsif (getprop(intercoolerTarget) < 0 ) {
+        setprop(intercoolerTarget, 0 );
+    }
+    setprop(intercoolerTarget, (1-(getprop(intercoolerTarget))));
+
+    # If the cowls are more than 1 or 1.5 deg off from what we want, kick off an interpolate to fix it
+    for (i=0; i<4; i=i+1) {
+        if (abs(getprop("/controls/engines/engine[" ~ i ~ "]/cowl-flaps-norm") - getprop(cowlTarget)) > 0.1 ) {
+	    interpolate("/controls/engines/engine[" ~ i ~ "]/cowl-flaps-norm",  getprop(cowlTarget), 2.9);
+	}
+        if (abs(getprop("/controls/engines/engine[" ~ i ~ "]/intercooler-norm") - getprop(intercoolerTarget)) > 0.1 ) {
+	    interpolate("/controls/engines/engine[" ~ i ~ "]/intercooler-norm",  getprop(intercoolerTarget), 2.9);
+	}
+    }
+
+    settimer(adjustCowlFlaps, 3);
+}
+
+########
+#
+# Init section
+#
+########
+
+    ### Landing lights
+    # Switch position
+    leftLandLightProp = "/controls/lighting/landing-lights-left";
+    rightLandLightProp = "/controls/lighting/landing-lights-right";
+    # High beams
+    upLeftLandLightProp = "/controls/lighting/landing-light-up-left";
+    upRightLandLightProp = "/controls/lighting/landing-light-up-right";
+    # Downward lights
+    downLeftLandLightProp = "/controls/lighting/landing-light-down-left";
+    downRightLandLightProp = "/controls/lighting/landing-light-down-right";
+    # Init switches to any pre-existing landing light default.
+    setprop(leftLandLightProp, getprop("/controls/lighting/landing-lights"));
+    setprop(rightLandLightProp, getprop("/controls/lighting/landing-lights"));
+    settimer(landLightCheck, 0);
+
+    ### Nav lights
+    # Init switches to any pre-existing nav light default.
+    setprop("/controls/lighting/tail-nav-lights", getprop("/controls/lighting/nav-lights"));
+    setprop("/controls/lighting/wingtip-nav-lights", getprop("/controls/lighting/nav-lights"));
+
+    ### Putt Putt
+    settimer(puttPuttStop, 0);
+
+    ### Parking brake and brake pedals
+    # Set the *real* parking brake prop. brake-parking is only used for the handle.
+    setprop("/controls/gear/brake-my-parking", getprop("/controls/gear/brake-parking"));
+    oldPbrakeSetting = getprop("/controls/gear/brake-parking");
+    primedToPop = 0;
+    settimer(pBrakeCheck, 0);
+    settimer(brakePedalAnim, 0);
+
+    ### Bomb bay
+    # Start closed, so initial target is "open"
+    doorTarget = 1;
+    doorSwingTime = 1.5;
+    doorProp = props.globals.getNode("/systems/weapons/bomb-door-pos", 1);
+    doorProp.setValue(!doorTarget);
+
+    ### Gear indicator lights
+    for (i=0; i<4; i=i+1) {
+        if (getprop("/gear/gear[" ~ i ~ "]/position-norm") == nil) {
+            setprop("/gear/gear[" ~ i ~ "]/position-norm", 0);
+        }
+    }
+    oldLightValue = [0,0,0,0];
+    settimer(gearLightCheck, 0);
+
+    ### Cowl flaps and intercoolers -- Move to crew.nas
+    cowlTarget="/controls/engines/cowl-target";
+    intercoolerTarget="/controls/engines/intercooler-target";
+    for (i=0; i<4; i=i+1) {
+        setprop("/controls/engines/engine[" ~ i ~ "]/cowl-flaps-norm", 0);
+        setprop("/controls/engines/engine[" ~ i ~ "]/intercooler-norm", 0);
+    }
+    settimer(adjustCowlFlaps, 0);
+
+print("b29-common.xml initialized");

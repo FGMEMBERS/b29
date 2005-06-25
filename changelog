@@ -1,0 +1,41 @@
+
+=====================
+2005-Jun-11
+
+Added switches for nav lights and landing lights with hotspots. Also included
+NASAL to drive the landing light behavior.
+
+Minor changes to some cockpit objects in the .ac file.
+
+Added NASAL to make the p-brake behave more realistically. You now have to depress the pedals
+before putting on the brake for it to stick, and touching the brakes also turns the brake off.
+
+
+
+=====================
+2005-Jun-13
+
+Finished landing gear light material animation.
+
+Animated cowl and intercooler flaps (that was a chore)
+
+Added rudimentary AI to simulate the engineer controlling the cowl and intercooler flaps.
+
+Fixed the tail insignia for "Lucky Lady", now a circle as in real life.
+
+More minor model and texturing changes.
+
+=====================
+2005-Jun-20
+
+Made new custom ASI.
+
+Made new turn and slip instrument.
+
+Made new alt instrument.
+
+Made new clock.
+
+Made new VSI.
+
+Made more changes to cabin interior.

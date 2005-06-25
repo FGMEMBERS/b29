@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!DOCTYPE PropertyList SYSTEM "panel.dtd">
+
+<PropertyList>
+
+ <name>Pedestal Hotspots</name>
+ <background>Aircraft/b29/Models/transparent.rgb</background>
+ <w>1024</w>
+ <h>768</h>
+ <y-offset>0</y-offset>
+ <instruments>
+  <instrument>
+   <name>Pedestal</name>
+   <x>512</x>
+   <y>384</y>
+   <w>1024</w>
+   <h>768</h>
+   <w-base>1024</w-base>
+   <h-base>1024</h-base>
+   <layers>
+    <layer>
+     <name>background</name>
+     <texture>
+      <path>Aircraft/b29/Models/hotspot.rgb</path>
+      <x1>0.0</x1>
+      <y1>0.0</y1>
+      <x2>1.0</x2>
+      <y2>1.0</y2>
+     </texture>
+    </layer>
+   </layers>
+   <actions>
+
+    <!--
+    <action>
+     <name>_____</name>
+     <button>0</button>
+     <x>_____</x>
+     <y>_____</y>
+     <w>_____</w>
+     <h>_____</h>
+     <binding>
+      <command>property-adjust</command>
+      <property>_____</property>
+      <step>_____</step>
+      <min>_____</min>
+      <max>_____</max>
+      <wrap>_____</wrap>
+     </binding>
+    </action>
+    -->
+
+    <action>
+     <button>0</button>
+     <x>-290</x>
+     <y>195</y>
+     <w>50</w>
+     <h>50</h>
+     <binding>
+      <command>property-adjust</command>
+      <property>/controls/lighting/landing-lights-left</property>
+      <step>1</step>
+      <min>0</min>
+      <max>3</max>
+      <wrap>true</wrap>
+     </binding>
+    </action>
+
+    <action>
+     <button>0</button>
+     <x>-230</x>
+     <y>195</y>
+     <w>50</w>
+     <h>50</h>
+     <binding>
+      <command>property-adjust</command>
+      <property>/controls/lighting/landing-lights-right</property>
+      <step>1</step>
+      <min>0</min>
+      <max>3</max>
+      <wrap>true</wrap>
+     </binding>
+    </action>
+
+    <action>
+     <button>0</button>
+     <x>-375</x>
+     <y>195</y>
+     <w>50</w>
+     <h>50</h>
+     <binding>
+      <command>property-adjust</command>
+      <property>/controls/lighting/tail-nav-lights</property>
+      <step>1</step>
+      <min>0</min>
+      <max>3</max>
+      <wrap>true</wrap>
+     </binding>
+    </action>
+
+    <action>
+     <button>0</button>
+     <x>-430</x>
+     <y>195</y>
+     <w>50</w>
+     <h>50</h>
+     <binding>
+      <command>property-adjust</command>
+      <property>/controls/lighting/wingtip-nav-lights</property>
+      <step>1</step>
+      <min>0</min>
+      <max>3</max>
+      <wrap>true</wrap>
+     </binding>
+    </action>
+
+   </actions>
+  </instrument>
+ </instruments>
+
+</PropertyList>
