@@ -10,6 +10,9 @@ jbabcock@atlantech.net
 This file is released under the GNU GPL.
 
 $Log$
+Revision 1.2  2005/06/29 23:14:37  mfranz
+Josh Babcock: update
+
 Revision 1.1  2005/06/25 11:50:21  mfranz
 Josh Babcock: b29 (fdm unfinished)
 
@@ -694,18 +697,18 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/b29-compass.xml</path>
+  <path>Aircraft/b29/Models/jrb-wbd-compass.xml</path>
   <offsets>
-   <x-m>1.335</x-m>
+   <x-m>1.325</x-m>
    <y-m>-0.93</y-m>
    <z-m>0.44</z-m>
   </offsets>
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/b29-compass.xml</path>
+  <path>Aircraft/b29/Models/jrb-wbd-compass.xml</path>
   <offsets>
-   <x-m>1.335</x-m>
+   <x-m>1.325</x-m>
    <y-m>0.55</y-m>
    <z-m>0.44</z-m>
   </offsets>
@@ -730,17 +733,26 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/b29-magcompass.xml</path>
+  <path>Aircraft/b29/Models/jrb-wbd-magcompass.xml</path>
   <offsets>
    <x-m>1.325</x-m>
-   <y-m>0.83</y-m>
-   <z-m>0.41</z-m>
+   <y-m>0.835</y-m>
+   <z-m>0.42</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/b29/Models/jrb-wbd-flaps.xml</path>
+  <offsets>
+   <x-m>1.325</x-m>
+   <y-m>0.385</y-m>
+   <z-m>0.28</z-m>
   </offsets>
  </model>
 
  <!-- 9 lines
  <model>
-  <path>Aircraft/p51d/Models/p51d-jw-.xml</path>
+  <path>Aircraft/b29/Models/jrb-wbd-.xml</path>
   <offsets>
    <x-m>1.325</x-m>
    <y-m></y-m>
@@ -754,6 +766,43 @@ Josh Babcock: b29 (fdm unfinished)
 
  <!-- Nav Light Switches -->
 
+ <!--animation>
+MELCHIOR
+  <type>rotate</type>
+  <object-name>Vstab</object-name>
+  <property>gear/gear[2]/position-norm</property>
+  <interpolation>
+   <entry> <ind>1</ind> <dep>0</dep> </entry>
+   <entry> <ind>0.53</ind> <dep>-20</dep> </entry>
+   <entry> <ind>0.20</ind> <dep>-48.7</dep> </entry>
+  </interpolation>
+  <center>
+   <x-m>9.78</x-m>
+   <z-m>0.22</z-m>
+  </center>
+  <axis>
+   <y>1</y>
+  </axis>
+ </animation>
+  
+ <animation>
+  <type>rotate</type>
+  <object-name>Vstab</object-name>
+  <property>controls/lighting/wingtip-nav-lights</property>
+  <interpolation>
+   <entry> <ind>0</ind> <dep>0</dep> </entry>
+   <entry> <ind>1</ind> <dep>-15</dep> </entry>
+   <entry> <ind>2</ind> <dep>15</dep> </entry>
+  </interpolation>
+  <center>
+   <x-m>2.13</x-m>
+   <z-m>-0.01</z-m>
+  </center>
+  <axis>
+   <y>-1</y>
+  </axis>
+ </animation-->
+  
  <animation>
   <type>rotate</type>
   <object-name>WingPositionSw</object-name>
@@ -838,6 +887,36 @@ Josh Babcock: b29 (fdm unfinished)
 
  <animation>
   <type>material</type>
+  <object-name>GearLight0</object-name>
+  <property-base>/sim/model/b29/material/GearLight0</property-base>
+  <diffuse>
+   <red-prop>diffuse/red</red-prop>
+   <green-prop>diffuse/green</green-prop>
+   <blue-prop>diffuse/blue</blue-prop>
+  </diffuse>
+  <ambient>
+   <red-prop>ambient/red</red-prop>
+   <green-prop>ambient/green</green-prop>
+   <blue-prop>ambient/blue</blue-prop>
+  </ambient>
+  <specular>
+   <red-prop>specular/red</red-prop>
+   <green-prop>specular/green</green-prop>
+   <blue-prop>specular/blue</blue-prop>
+  </specular>
+  <emission>
+   <red-prop>emission/red</red-prop>
+   <green-prop>emission/green</green-prop>
+   <blue-prop>emission/blue</blue-prop>
+  </emission>
+  <transparency>
+   <alpha-prop>transparency/alpha</alpha-prop>
+  </transparency>
+  <shininess-prop>shininess</shininess-prop>
+ </animation>
+
+ <animation>
+  <type>material</type>
   <object-name>GearLight1</object-name>
   <property-base>/sim/model/b29/material/GearLight1</property-base>
   <diffuse>
@@ -898,38 +977,8 @@ Josh Babcock: b29 (fdm unfinished)
 
  <animation>
   <type>material</type>
-  <object-name>GearLight3</object-name>
-  <property-base>/sim/model/b29/material/GearLight3</property-base>
-  <diffuse>
-   <red-prop>diffuse/red</red-prop>
-   <green-prop>diffuse/green</green-prop>
-   <blue-prop>diffuse/blue</blue-prop>
-  </diffuse>
-  <ambient>
-   <red-prop>ambient/red</red-prop>
-   <green-prop>ambient/green</green-prop>
-   <blue-prop>ambient/blue</blue-prop>
-  </ambient>
-  <specular>
-   <red-prop>specular/red</red-prop>
-   <green-prop>specular/green</green-prop>
-   <blue-prop>specular/blue</blue-prop>
-  </specular>
-  <emission>
-   <red-prop>emission/red</red-prop>
-   <green-prop>emission/green</green-prop>
-   <blue-prop>emission/blue</blue-prop>
-  </emission>
-  <transparency>
-   <alpha-prop>transparency/alpha</alpha-prop>
-  </transparency>
-  <shininess-prop>shininess</shininess-prop>
- </animation>
-
- <animation>
-  <type>material</type>
-  <object-name>GearLight4</object-name>
-  <property-base>/sim/model/b29/material/GearLight4</property-base>
+  <object-name>GearLightM</object-name>
+  <property-base>/sim/model/b29/material/GearLightM</property-base>
   <diffuse>
    <red-prop>diffuse/red</red-prop>
    <green-prop>diffuse/green</green-prop>
@@ -1132,6 +1181,7 @@ Josh Babcock: b29 (fdm unfinished)
 
  <!-- Propeller 1 -->
 
+<!--
  <animation>
   <type>select</type>
   <object-name>Prop1</object-name>
@@ -1189,9 +1239,11 @@ Josh Babcock: b29 (fdm unfinished)
    <z>0.0</z>
   </axis>
  </animation>
+-->
 
  <!-- Propeller 2 -->
 
+<!--
  <animation>
   <type>select</type>
   <object-name>Prop2</object-name>
@@ -1249,9 +1301,11 @@ Josh Babcock: b29 (fdm unfinished)
    <z>0.0</z>
   </axis>
  </animation>
+-->
 
  <!-- Propeller 3 -->
 
+<!--
  <animation>
   <type>select</type>
   <object-name>Prop3</object-name>
@@ -1309,9 +1363,11 @@ Josh Babcock: b29 (fdm unfinished)
    <z>0.0</z>
   </axis>
  </animation>
+-->
 
  <!-- Propeller 4 -->
 
+<!--
  <animation>
   <type>select</type>
   <object-name>Prop4</object-name>
@@ -1369,6 +1425,7 @@ Josh Babcock: b29 (fdm unfinished)
    <z>0.0</z>
   </axis>
  </animation>
+-->
 
  <!-- Cowl Flaps -->
 
@@ -2310,12 +2367,29 @@ Josh Babcock: b29 (fdm unfinished)
   </axis>
  </animation>
 
+ <!-- Cabin Doors and Windows -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Hatch</object-name>
+  <property>sim/model/doors/hatch/position-norm</property>
+  <factor>110</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>-0.35</y-m>
+   <z-m>-0.34</z-m>
+  </center>
+  <axis>
+   <x>1.0</x>
+  </axis>
+ </animation>
+
  <!-- Bomb Bays -->
 
  <animation>
   <type>rotate</type>
   <object-name>RFBombDoor</object-name>
-  <property>systems/weapons/bomb-door-pos</property>
+  <property>sim/model/doors/bombbay/position-norm</property>
   <factor>90</factor>
   <center>
    <x-m>7.85</x-m>
@@ -2332,7 +2406,7 @@ Josh Babcock: b29 (fdm unfinished)
  <animation>
   <type>rotate</type>
   <object-name>LFBombDoor</object-name>
-  <property>systems/weapons/bomb-door-pos</property>
+  <property>sim/model/doors/bombbay/position-norm</property>
   <factor>-90</factor>
   <center>
    <x-m>7.85</x-m>
@@ -2349,7 +2423,7 @@ Josh Babcock: b29 (fdm unfinished)
  <animation>
   <type>rotate</type>
   <object-name>RRBombDoor</object-name>
-  <property>systems/weapons/bomb-door-pos</property>
+  <property>sim/model/doors/bombbay/position-norm</property>
   <factor>90</factor>
   <center>
    <x-m>13.95</x-m>
@@ -2365,7 +2439,7 @@ Josh Babcock: b29 (fdm unfinished)
  <animation>
   <type>rotate</type>
   <object-name>LRBombDoor</object-name>
-  <property>systems/weapons/bomb-door-pos</property>
+  <property>sim/model/doors/bombbay/position-norm</property>
   <factor>-90</factor>
   <center>
    <x-m>13.95</x-m>
@@ -2486,9 +2560,9 @@ Josh Babcock: b29 (fdm unfinished)
   <!-- 1.4m * pi -->
   <factor>4.3982297</factor>
   <center>
-   <x-m>11.42</x-m>
-   <y-m>4.166</y-m>
-   <z-m>-2.54</z-m>
+   <x-m>11.59</x-m>
+   <y-m>0</y-m>
+   <z-m>-2.46</z-m>
   </center>
   <axis>
    <y>-1</y>
@@ -2502,9 +2576,9 @@ Josh Babcock: b29 (fdm unfinished)
   <!-- 1.4m * pi -->
   <factor>4.3982297</factor>
   <center>
-   <x-m>11.42</x-m>
-   <y-m>-4.166</y-m>
-   <z-m>-2.54</z-m>
+   <x-m>11.59</x-m>
+   <y-m>0</y-m>
+   <z-m>-2.46</z-m>
   </center>
   <axis>
    <y>-1</y>
@@ -2793,13 +2867,15 @@ Josh Babcock: b29 (fdm unfinished)
   
  <!-- Left Gear Retraction -->
 
-<!--
+
+ <!-- Right Gear Retraction -->
+
  <animation>
   <type>rotate</type>
-  <object-name>LeftInStrutDoor</object-name>
-  <object-name>LeftOutStrutDoor</object-name>
-  <object-name>LeftGearRetract</object-name>
-  <property>gear/gear[1]/position-norm</property>
+  <object-name>RightInStrutDoor</object-name>
+  <object-name>RightInInStrutDoor</object-name>
+  <object-name>RightOutStrutDoor</object-name>
+  <property>gear/gear[2]/position-norm</property>
   <offset-deg>-120</offset-deg>
   <factor>120</factor>
   <min-deg>-95</min-deg>
@@ -2810,68 +2886,36 @@ Josh Babcock: b29 (fdm unfinished)
    <z-m>-0.927</z-m>
   </center>
   <axis>
-   <x>0</x>
    <y>-1</y>
-   <z>0</z>
   </axis>
  </animation>
   
  <animation>
   <type>rotate</type>
-  <object-name>InGearDoor1</object-name>
-  <object-name>OutGearDoor1</object-name>
-  <property>gear/gear[1]/position-norm</property>
-  <offset-deg>0</offset-deg>
-  <factor>110</factor>
-  <min-deg>0</min-deg>
-  <max-deg>60</max-deg>
+  <object-name>RightGearLink</object-name>
+  <property>gear/gear[2]/position-norm</property>
+  <interpolation>
+   <entry> <ind>1</ind> <dep>0</dep> </entry>
+   <entry> <ind>0.45</ind> <dep>22</dep> </entry>
+   <entry> <ind>0.2</ind> <dep>-22</dep> </entry>
+  </interpolation>
   <center>
-   <x-m>0</x-m>
-   <y-m>-4.93</y-m>
-   <z-m>-0.787</z-m>
+   <x-m>11.67</x-m>
+   <z-m>-1.82</z-m>
   </center>
   <axis>
-   <x>-1</x>
-   <y>0</y>
-   <z>0</z>
+   <y>1</y>
   </axis>
  </animation>
 
  <animation>
   <type>rotate</type>
-  <object-name>InGearDoor2</object-name>
-  <object-name>OutGearDoor2</object-name>
-  <property>gear/gear[1]/position-norm</property>
-  <offset-deg>0</offset-deg>
-  <factor>110</factor>
-  <min-deg>0</min-deg>
-  <max-deg>60</max-deg>
-  <center>
-   <x-m>0</x-m>
-   <y-m>-3.41</y-m>
-   <z-m>-0.780</z-m>
-  </center>
-  <axis>
-   <x>1</x>
-   <y>0</y>
-   <z>0</z>
-  </axis>
- </animation>
--->
-
- <!-- Right Gear Retraction -->
-
- <animation>
-  <type>rotate</type>
-  <object-name>RightInStrutDoor</object-name>
-  <object-name>RightInInStrutDoor</object-name>
-  <object-name>RightOutStrutDoor</object-name>
   <object-name>RightGearRetract</object-name>
   <property>gear/gear[2]/position-norm</property>
-  <offset-deg>-120</offset-deg>
-  <factor>120</factor>
-  <min-deg>-95</min-deg>
-  <max-deg>0</max-deg>
+  <interpolation>
+   <entry> <ind>1</ind> <dep>0</dep> </entry>
+   <entry> <ind>0.20</ind> <dep>-95</dep> </entry>
+  </interpolation>
   <center>
    <x-m>12.001</x-m>
    <z-m>-0.927</z-m>
@@ -2880,7 +2924,7 @@ Josh Babcock: b29 (fdm unfinished)
    <y>-1</y>
   </axis>
  </animation>
-  
+
  <animation>
   <type>rotate</type>
   <object-name>GearDoor3</object-name>
@@ -2986,7 +3030,7 @@ Josh Babcock: b29 (fdm unfinished)
   <object-name>BombBayAssy</object-name>
   <condition>
    <greater-than>
-    <property>systems/weapons/bomb-door-pos</property>
+    <property>sim/model/doors/bombbay/position-norm</property>
     <value>0</value>
    </greater-than>
   </condition>

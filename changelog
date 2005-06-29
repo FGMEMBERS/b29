@@ -39,3 +39,44 @@ Made new clock.
 Made new VSI.
 
 Made more changes to cabin interior.
+
+=====================
+2005-Jun-27
+
+Added the cockpit floor hatch and animated it. It's quite attractive.
+
+Made some adjustments to the struts on the canopy
+
+Added tail gunner's gunsight
+
+Made changes to the .ac postprocessor to easily add custom crease angles and overwrite materials.
+
+Fixed the landing gear light behavior by adding a master safe to land light and removing the tailskid light.
+
+Added some more struts to the MLG, tweaked the wheel well for more realism and so they'd fit.
+
+=====================
+2005-Jun-27
+
+
+=====================
+2005-Jun-27
+
+
+=====================
+2005-Jun-27
+
+
+=====================
+2005-Jun-29
+
+Installed a new gyro compass dial.
+
+Install a new mag compass dial.
+
+Added multiple pilot views. Access via 'j' (for jump) key.
+
+Added flaps position indicator.
+
+Added instantaneous controls for the flaps. You now have to hold down the flaps up/down key.
+

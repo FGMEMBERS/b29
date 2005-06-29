@@ -6,5 +6,5 @@ Copyright 2003 Joshua Babcock
 jbabcock@atlantech.net
 -->
 
-<PropertyList include="b29-yasim-set.xml"/>
+<PropertyList include="b29-yasim-incl.xml"/>
 

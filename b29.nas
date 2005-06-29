@@ -1,18 +1,5 @@
 ########
 #
-# Thre's a standard version of this, it should be removed.
-# 
-########
-
-toggleDoor = func {
-    val = doorProp.getValue();
-    time = abs(val - doorTarget) * doorSwingTime;
-    interpolate(doorProp, doorTarget, time);
-    doorTarget = !doorTarget;
-}
-
-########
-#
 # This function watches altitude and conks out the putt=putt when it gets too high.
 # 
 ########
@@ -158,19 +145,25 @@ apply_mat = func(obj, mat) {
 ########
 #
 # Check the status of the gear and set lights
+# Needs to have /gear/gear[*]/position-norm non-nil
+# Also needs lastLightValue[0..2] and checkMasterLight initialised
+# lightIndex=0 corresponds to /gear/gear[0] and GearLight0
 #
 ########
 
 gearLightCheck = func {
-    for (lightIndex=0; lightIndex<4; lightIndex=lightIndex+1) {
-        thisObject = "GearLight" ~ (lightIndex+1);
+    for (lightIndex=0; lightIndex<3; lightIndex=lightIndex+1) {
+        thisObject = "GearLight" ~ lightIndex;
         # Take a gander at the landing gear.
         newValue = getprop("/gear/gear[" ~ lightIndex ~ "]/position-norm");
-        if (newValue != 1 and newValue != 0) {
-            newValue = 2;
+        # So we don't trigger the following block while the gear is in motion.
+        if ((newValue != 1) and (newValue != 0)) {
+            newValue = -1;
         }
         # See if things have changed.
-        if ( newValue != oldLightValue[lightIndex]) {
+        if ( newValue != lastLightValue[lightIndex]) {
+	    # And change the lights if they have.
+            checkMasterLight=1;
             if ( newValue == 1 ) {
                 apply_mat(thisObject, matlist["greenlight"]);
             } elsif ( newValue == 0 ) {
@@ -179,9 +172,21 @@ gearLightCheck = func {
                 apply_mat(thisObject, matlist["redlight"]);
             }
             # Remember the current state.
-            oldLightValue[lightIndex] = newValue;
+            lastLightValue[lightIndex] = newValue;
         }
     }
+    # Set the master light if other lights have changed.
+    if (checkMasterLight == 1) {
+        if ( (lastLightValue[0]==-1) or (lastLightValue[1]==-1) or (lastLightValue[2]==-1) ) {
+            apply_mat("GearLightM", matlist["redlight"]);
+        } elsif ( (lastLightValue[0]==1) and (lastLightValue[1]==1) and (lastLightValue[2]==1) ) {
+            apply_mat("GearLightM", matlist["greenlight"]);
+        } else {
+            apply_mat("GearLightM", matlist["lens"]);
+        }
+        checkMasterLight=0;
+    }
+    # Rinse, Repeat.
     settimer(gearLightCheck, 0.5);
 }
 
@@ -233,6 +238,77 @@ adjustCowlFlaps = func {
 
 ########
 #
+# Door functions
+#
+########
+
+togglecabindoors = func {
+    if (getprop("/gear/gear/wow")) {
+        b29.tail.toggle();
+        b29.pilotwin.toggle();
+        b29.copilotwin.toggle();
+        b29.hatch.toggle();
+    } else {
+        b29.tail.close();
+        b29.pilotwin.close();
+        b29.copilotwin.close();
+        b29.hatch.close();
+    }
+}
+
+########
+#
+# View functions
+#
+########
+
+nextPosition = func {
+    if (getprop('/sim/current-view/view-number') == 0) {
+        if ( (currentPosition+1) < size(positionData) ) {
+            currentPosition = currentPosition + 1;
+        } else {
+            currentPosition = 0;
+        }
+        setprop('/sim/current-view/x-offset-m',  positionData[currentPosition][1]);
+        setprop('/sim/current-view/y-offset-m',  positionData[currentPosition][2]);
+        setprop('/sim/current-view/z-offset-m',  positionData[currentPosition][3]);
+    }
+}
+
+########
+#
+# Flaps handling
+#
+########
+
+moveFlaps = func {
+    if (flapMotion == 1) {
+        if ( getprop('/controls/flight/flaps') < 1 ) {
+            # spin up motor
+            controls.slewProp('/controls/flight/flaps', 0.11);
+        # } else {
+            # check for motor burnout
+            # spin down motor
+        }
+    } elsif (flapMotion == -1) {
+        if ( getprop('/controls/flight/flaps') > 0 ) {
+            # spin up motor
+            controls.slewProp('/controls/flight/flaps', -0.11);
+        # } else {
+            # check for motor burnout
+            # spin down motor
+        }
+    } else {
+    }
+    settimer(moveFlaps, 0.1);
+}
+
+controls.flapsDown = func {
+    flapMotion = arg[0];
+}
+
+########
+#
 # Init section
 #
 ########
@@ -268,20 +344,21 @@ adjustCowlFlaps = func {
     settimer(pBrakeCheck, 0);
     settimer(brakePedalAnim, 0);
 
-    ### Bomb bay
-    # Start closed, so initial target is "open"
-    doorTarget = 1;
-    doorSwingTime = 1.5;
-    doorProp = props.globals.getNode("/systems/weapons/bomb-door-pos", 1);
-    doorProp.setValue(!doorTarget);
+    # Doors
+    bombbay = aircraft.door.new("sim/model/doors/bombbay", 1.5);
+    tail = aircraft.door.new("sim/model/doors/tail", 0.75);
+    hatch = aircraft.door.new("sim/model/doors/hatch", 0.5);
+    pilotwin = aircraft.door.new("sim/model/doors/pilotwin", 1.75);
+    copilotwin = aircraft.door.new("sim/model/doors/copilotwin", 1.75);
 
     ### Gear indicator lights
-    for (i=0; i<4; i=i+1) {
+    for (i=0; i<3; i=i+1) {
         if (getprop("/gear/gear[" ~ i ~ "]/position-norm") == nil) {
             setprop("/gear/gear[" ~ i ~ "]/position-norm", 0);
         }
     }
-    oldLightValue = [0,0,0,0];
+    lastLightValue = [0,0,0];
+    checkMasterLight=1;
     settimer(gearLightCheck, 0);
 
     ### Cowl flaps and intercoolers -- Move to crew.nas
@@ -293,4 +370,16 @@ adjustCowlFlaps = func {
     }
     settimer(adjustCowlFlaps, 0);
 
-print("b29-common.xml initialized");
+    ### Interior view data
+    currentPosition = 0;
+    positionData = [
+    ["Pilot"      , -0.67, 0.9,  -8.7],
+    ["Co-pilot"   ,  0.67, 0.9,  -8.7],
+    ["Bombadier"  ,     0, 0.4, -10.1],
+    ];
+
+    ### Flaps
+    flapMotion = 0;
+    settimer(moveFlaps, 0);
+
+print('b29-common.xml initialized');

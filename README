@@ -1,0 +1,13 @@
+B-29 Superfortress.
+
+At the moment this airplane is under heavy develpoment. The FDM is flyable but
+does not reflect the performance of the real world aircraft. The 3D model is
+also incomplete. Most of the parts are there, but many animations are missing
+and there is a lot of tweaking of materials, object order and grouping to be
+done. Instrumentation is also minimal at this point, but one of the main
+priorities.
+
+For more information see the files changelog, stuff/NOTES and stuff/TODO.
+
+Jun 25 `05
+Josh

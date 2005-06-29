@@ -7,55 +7,31 @@ Common definitions
 <PropertyList>
  <sim>
   <description>Boeing B-29 Superfortress</description>
+  <author>Josh Babcock</author>
+  <!--status>not even alpha :-)</status>
+  <version>0.1</version-->
+
 
   <model>
    <path>Aircraft/b29/Models/b29-model.xml</path>
    <shadow type="bool">true</shadow>
+   <doors>
+    <bombbay/>
+    <tail/>
+    <pilotwin/>
+    <copilotwin/>
+    <hatch/>
+   </doors>
   </model>
 
   <virtual-cockpit archive="y">true</virtual-cockpit>
-  <allow-toggle-cockpit archive="y">false</allow-toggle-cockpit>
+  <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
 
   <panel>
    <visibility>false</visibility>
   </panel>
 
   <chase-distance-m type="double" archive="y">-90.0</chase-distance-m>
-
-<!--
-  <number-views type="int">7</number-views>
-
-  <view n="7">
-   <name>Copilot View</name>
-   <type>lookfrom</type>
-   <internal type="bool">false</internal>
-   <config>
-
-    <x-offset-m archive="y" type="double">0.67</x-offset-m>
-    <y-offset-m archive="y" type="double">0.9</y-offset-m>
-    #### changes for difference between the origin and the CG 
-    <z-offset-m archive="y" type="double">2.2</z-offset-m>
-    ####<z-offset-m archive="y" type="double">-8.8</z-offset-m> 
-    <pitch-offset-deg>-10.0</pitch-offset-deg>
-
-    <from-model type="bool">true</from-model>
-    <from-model-idx type="int">0</from-model-idx>
-    <ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m>
-    <default-field-of-view-deg type="double">55.0</default-field-of-view-deg>
-    <default-pitch-deg type="double">0</default-pitch-deg>
-    <default-heading-deg type="double">0</default-heading-deg>
-    <front-direction-deg type="double">0</front-direction-deg>
-    <front-left-direction-deg type="double">45</front-left-direction-deg>
-    <left-direction-deg type="double">90</left-direction-deg>
-    <back-left-direction-deg type="double">135</back-left-direction-deg>
-    <back-direction-deg type="double">180</back-direction-deg>
-    <back-right-direction-deg type="double">225</back-right-direction-deg>
-    <right-direction-deg type="double">270</right-direction-deg>
-    <front-right-direction-deg type="double">315</front-right-direction-deg>
-   </config>
-  </view>
--->
-
 
   <view n="0">
    <internal archive="y">true</internal>
@@ -101,10 +77,26 @@ Common definitions
   <keyboard>
    <key n="4">
     <name>Ctrl-D</name>
-    <desc>Open/Close bomb bay doors</desc>
+    <desc>Open/close bomb bay doors</desc>
     <binding>
      <command>nasal</command>
-     <script>b29.toggleDoor()</script>
+     <script>b29.bombbay.toggle()</script>
+    </binding>
+   </key>
+   <key n="6">
+    <name>Ctrl-F</name>
+    <desc>Open/close cabin doors and windows</desc>
+    <binding>
+     <command>nasal</command>
+     <script>b29.togglecabindoors()</script>
+    </binding>
+   </key>
+   <key n="106">
+    <name>j</name>
+    <desc>Jump to next seat</desc>
+    <binding>
+     <command>nasal</command>
+     <script>b29.nextPosition()</script>
     </binding>
    </key>
   </keyboard>
