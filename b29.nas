@@ -362,6 +362,9 @@ controls.flapsDown = func {
     settimer(gearLightCheck, 0);
 
     ### Cowl flaps and intercoolers -- Move to crew.nas
+    if (getprop("instrumentation/airspeed-indicator/indicated-speed-kt") == nil) {
+        setprop("instrumentation/airspeed-indicator/indicated-speed-kt", 0);
+    }
     cowlTarget="/controls/engines/cowl-target";
     intercoolerTarget="/controls/engines/intercooler-target";
     for (i=0; i<4; i=i+1) {
