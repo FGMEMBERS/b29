@@ -282,23 +282,29 @@ nextPosition = func {
 ########
 
 moveFlaps = func {
-    if (flapMotion == 1) {
-        if ( getprop('/controls/flight/flaps') < 1 ) {
-            # spin up motor
-            controls.slewProp('/controls/flight/flaps', 0.11);
-        # } else {
-            # check for motor burnout
+    if ( lastFlapMotion != flapMotion ) {
+        flapPos=getprop('/controls/flight/flaps');
+        if (flapMotion == 1) {
+            if ( flapPos < 1 ) {
+                # spin up motor
+                timeToGo = 9 * (1-flapPos);
+                interpolate('/controls/flight/flaps', 1, timeToGo);
+            # } else {
+                # check for motor burnout
+            }
+        } elsif (flapMotion == -1) {
+            if ( flapPos > 0 ) {
+                # spin up motor
+                timeToGo = 9 * flapPos;
+                interpolate('/controls/flight/flaps', 0, timeToGo);
+            # } else {
+                # check for motor burnout
+            }
+        } else {
             # spin down motor
+            interpolate('/controls/flight/flaps');
         }
-    } elsif (flapMotion == -1) {
-        if ( getprop('/controls/flight/flaps') > 0 ) {
-            # spin up motor
-            controls.slewProp('/controls/flight/flaps', -0.11);
-        # } else {
-            # check for motor burnout
-            # spin down motor
-        }
-    } else {
+        lastFlapMotion = flapMotion;
     }
     settimer(moveFlaps, 0.1);
 }
@@ -362,6 +368,7 @@ controls.flapsDown = func {
     settimer(gearLightCheck, 0);
 
     ### Cowl flaps and intercoolers -- Move to crew.nas
+    # Since the FDM can be a little slow out of bed, and we need this set ...
     if (getprop("instrumentation/airspeed-indicator/indicated-speed-kt") == nil) {
         setprop("instrumentation/airspeed-indicator/indicated-speed-kt", 0);
     }
@@ -382,6 +389,7 @@ controls.flapsDown = func {
     ];
 
     ### Flaps
+    lastFlapMotion = 0;
     flapMotion = 0;
     settimer(moveFlaps, 0);
 
