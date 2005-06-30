@@ -31,7 +31,7 @@
   <control-setting axis="/controls/engines/engine[3]/propeller-pitch" value="1.0"/>
   <control-setting axis="/controls/engines/engine[0]/boost" value="1.0"/>
   <control-setting axis="/controls/engines/engine[1]/boost" value="1.0"/>
-  <control-setting axis="/controls/engines/engine[3]/boost" value="1.0"/>
+  <control-setting axis="/controls/engines/engine[2]/boost" value="1.0"/>
   <control-setting axis="/controls/engines/engine[3]/boost" value="1.0"/>
   <control-setting axis="/controls/flight/flaps" value="0.0"/>
   <control-setting axis="/controls/gear/gear-down" value="0"/>
