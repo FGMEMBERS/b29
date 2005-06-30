@@ -23,10 +23,12 @@
   <control-setting axis="/controls/engines/engine[3]/throttle" value="1.0"/>
   <control-setting axis="/controls/engines/engine[0]/mixture" value="1.0"/>
   <control-setting axis="/controls/engines/engine[1]/mixture" value="1.0"/>
-  <control-setting axis="/controls/engines/engine[2]/throttle" value="1.0"/>
-  <control-setting axis="/controls/engines/engine[3]/throttle" value="1.0"/>
+  <control-setting axis="/controls/engines/engine[2]/mixture" value="1.0"/>
+  <control-setting axis="/controls/engines/engine[3]/mixture" value="1.0"/>
   <control-setting axis="/controls/engines/engine[0]/propeller-pitch" value="1.0"/>
   <control-setting axis="/controls/engines/engine[1]/propeller-pitch" value="1.0"/>
+  <control-setting axis="/controls/engines/engine[2]/propeller-pitch" value="1.0"/>
+  <control-setting axis="/controls/engines/engine[3]/propeller-pitch" value="1.0"/>
   <control-setting axis="/controls/engines/engine[0]/boost" value="1.0"/>
   <control-setting axis="/controls/engines/engine[1]/boost" value="1.0"/>
   <control-setting axis="/controls/engines/engine[3]/boost" value="1.0"/>
