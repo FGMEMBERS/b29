@@ -10,7 +10,7 @@ jbabcock@atlantech.net
 This file is released under the GNU GPL.
 
 $Log$
-Revision 1.2  2005/06/29 23:14:37  mfranz
+Revision 1.3  2005/07/01 16:51:47  mfranz
 Josh Babcock: update
 
 Revision 1.1  2005/06/25 11:50:21  mfranz
@@ -320,17 +320,30 @@ Josh Babcock: b29 (fdm unfinished)
  <animation>
   <type>rotate</type>
   <object-name>BombDoorLever</object-name>
-  <property>systems/weapons/bomb-door-pos</property>
-  <factor>-90</factor>
+  <property>sim/model/doors/bombbay/position-norm</property>
+  <factor>90</factor>
   <center>
    <x-m>0.9</x-m>
-   <y-m>-0.42</y-m>
+   <y-m>0</y-m>
    <z-m>-0.51</z-m>
   </center>
   <axis>
-   <x>0.0</x>
-   <y>1.0</y>
-   <z>0.0</z>
+   <y>-1</y>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>BombReleaseLever</object-name>
+  <property>sim/systems/weapons/bomb-lever-norm</property>
+  <factor>90</factor>
+  <center>
+   <x-m>0.9</x-m>
+   <y-m>0</y-m>
+   <z-m>-0.51</z-m>
+  </center>
+  <axis>
+   <y>-1</y>
   </axis>
  </animation>
 
@@ -568,64 +581,8 @@ Josh Babcock: b29 (fdm unfinished)
 
  <!-- ** Instruments ** -->
 
- <!--
  <model>
-  <path>Aircraft/p51d/Models/p51d-jw-asi.xml</path>
-  <offsets>
-   <x-m>1.306</x-m>
-   <y-m>-0.788</y-m>
-   <z-m>0.548</z-m>
-  </offsets>
- </model>
-
- <model>
-  <path>Aircraft/p51d/Models/p51d-jw-asi.xml</path>
-  <offsets>
-   <x-m>1.306</x-m>
-   <y-m>0.588</y-m>
-   <z-m>0.548</z-m>
-  </offsets>
- </model>
-
- <model>
-  <path>Aircraft/p51d/Models/p51d-jw-turn.xml</path>
-  <offsets>
-   <x-m>1.299</x-m>
-   <y-m>-0.688</y-m>
-   <z-m>0.548</z-m>
-  </offsets>
- </model>
-
- <model>
-  <path>Aircraft/p51d/Models/p51d-jw-turn.xml</path>
-  <offsets>
-   <x-m>1.299</x-m>
-   <y-m>0.688</y-m>
-   <z-m>0.548</z-m>
-  </offsets>
- </model>
-
- <model>
-  <path>Aircraft/p51d/Models/p51d-jw-alt.xml</path>
-  <offsets>
-   <x-m>1.305</x-m>
-   <y-m>-0.588</y-m>
-   <z-m>0.548</z-m>
-  </offsets>
- </model>
-
- <model>
-  <path>Aircraft/p51d/Models/p51d-jw-alt.xml</path>
-  <offsets>
-   <x-m>1.305</x-m>
-   <y-m>0.788</y-m>
-   <z-m>0.548</z-m>
-  </offsets>
- </model>
- -->
-
- <model>
-  <path>Aircraft/b29/Models/jrb-wbd-asi.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-asi.xml</path>
   <offsets>
    <x-m>1.268</x-m>
    <y-m>-0.865</y-m>
@@ -634,7 +591,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
    
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-asi.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-asi.xml</path>
   <offsets>
    <x-m>1.268</x-m>
    <y-m>0.665</y-m>
@@ -643,7 +600,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
  
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-turn.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-turn.xml</path>
   <offsets>
    <x-m>1.263</x-m>
    <y-m>-0.765</y-m>
@@ -652,7 +609,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-turn.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-turn.xml</path>
   <offsets>
    <x-m>1.263</x-m>
    <y-m>0.765</y-m>
@@ -661,7 +618,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-vsi.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-vsi.xml</path>
   <offsets>
    <x-m>1.268</x-m>
    <y-m>-0.665</y-m>
@@ -670,7 +627,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-vsi.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-vsi.xml</path>
   <offsets>
    <x-m>1.268</x-m>
    <y-m>0.865</y-m>
@@ -679,7 +636,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-alt.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-alt.xml</path>
   <offsets>
    <x-m>1.325</x-m>
    <y-m>-1.035</y-m>
@@ -688,7 +645,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-alt.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-alt.xml</path>
   <offsets>
    <x-m>1.325</x-m>
    <y-m>0.425</y-m>
@@ -697,7 +654,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-compass.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-compass.xml</path>
   <offsets>
    <x-m>1.325</x-m>
    <y-m>-0.93</y-m>
@@ -706,7 +663,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-compass.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-compass.xml</path>
   <offsets>
    <x-m>1.325</x-m>
    <y-m>0.55</y-m>
@@ -715,7 +672,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-clock.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-clock.xml</path>
   <offsets>
    <x-m>1.325</x-m>
    <y-m>-1.05</y-m>
@@ -724,7 +681,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-clock.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-clock.xml</path>
   <offsets>
    <x-m>1.325</x-m>
    <y-m>0.95</y-m>
@@ -733,7 +690,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-magcompass.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-magcompass.xml</path>
   <offsets>
    <x-m>1.325</x-m>
    <y-m>0.835</y-m>
@@ -742,7 +699,7 @@ Josh Babcock: b29 (fdm unfinished)
  </model>
 
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-flaps.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-flaps.xml</path>
   <offsets>
    <x-m>1.325</x-m>
    <y-m>0.385</y-m>
@@ -752,7 +709,7 @@ Josh Babcock: b29 (fdm unfinished)
 
  <!-- 9 lines
  <model>
-  <path>Aircraft/b29/Models/jrb-wbd-.xml</path>
+  <path>Aircraft/b29/Instruments/jrb-wbd-.xml</path>
   <offsets>
    <x-m>1.325</x-m>
    <y-m></y-m>
@@ -769,7 +726,7 @@ Josh Babcock: b29 (fdm unfinished)
  <!--animation>
 MELCHIOR
   <type>rotate</type>
-  <object-name>Vstab</object-name>
+  <object-name>Hstab</object-name>
   <property>gear/gear[2]/position-norm</property>
   <interpolation>
    <entry> <ind>1</ind> <dep>0</dep> </entry>
@@ -1025,6 +982,22 @@ MELCHIOR
 
  <!-- Flaps Switch -->
 
+  <animation>
+  <type>rotate</type>
+  <object-name>FlapSwitch</object-name>
+  <property>sim/model/b29/flap-switch-pos-norm</property>
+  <interpolation>
+   <entry> <ind>-1</ind> <dep>15</dep> </entry>
+   <entry> <ind>0</ind> <dep>0</dep> </entry>
+   <entry> <ind>1</ind> <dep>-15</dep> </entry>
+  </interpolation>
+  <center>
+   <x-m>2.07</x-m>
+  </center>
+  <axis>
+   <y>-1</y>
+  </axis>
+ </animation>
  <!-- ** Control Surface Animations ** -->
 
  <!-- Elevator -->

@@ -114,6 +114,60 @@
      </binding>
     </action>
 
+    <action>
+     <button>0</button>
+     <x>130</x>
+     <y>280</y>
+     <w>50</w>
+     <h>50</h>
+     <binding>
+      <command>nasal</command>
+      <script>controls.flapsDown(1)</script>
+     </binding>
+     <mod-up>
+      <binding>
+       <command>nasal</command>
+       <script>controls.flapsDown(0)</script>
+      </binding>
+     </mod-up>
+    </action>
+
+    <action>
+     <button>0</button>
+     <x>130</x>
+     <y>330</y>
+     <w>50</w>
+     <h>50</h>
+     <binding>
+      <command>nasal</command>
+      <script>controls.flapsDown(-1)</script>
+     </binding>
+     <mod-up>
+      <binding>
+       <command>nasal</command>
+       <script>controls.flapsDown(0)</script>
+      </binding>
+     </mod-up>
+    </action>
+
+    <!--action>
+     <button>0</button>
+     <x></x>
+     <y></y>
+     <w></w>
+     <h></h>
+     <binding>
+      <command>nasal</command>
+      <script>controls.adjPropeller(1)</script>
+     </binding>
+     <mod-up>
+      <binding>
+       <command>nasal</command>
+       <script>controls.adjPropeller(0)</script>
+      </binding>
+     </mod-up>
+    </action-->
+
    </actions>
   </instrument>
  </instruments>
