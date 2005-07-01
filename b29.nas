@@ -278,39 +278,27 @@ nextPosition = func {
 ########
 #
 # Flaps handling
+# Flaps switch handling
 #
 ########
 
-moveFlaps = func {
-    if ( lastFlapMotion != flapMotion ) {
-        flapPos=getprop('/controls/flight/flaps');
-        if (flapMotion == 1) {
-            if ( flapPos < 1 ) {
-                # spin up motor
-                timeToGo = 9 * (1-flapPos);
-                interpolate('/controls/flight/flaps', 1, timeToGo);
-            # } else {
-                # check for motor burnout
-            }
-        } elsif (flapMotion == -1) {
-            if ( flapPos > 0 ) {
-                # spin up motor
-                timeToGo = 9 * flapPos;
-                interpolate('/controls/flight/flaps', 0, timeToGo);
-            # } else {
-                # check for motor burnout
-            }
-        } else {
-            # spin down motor
-            interpolate('/controls/flight/flaps');
-        }
-        lastFlapMotion = flapMotion;
-    }
-    settimer(moveFlaps, 0.1);
-}
-
 controls.flapsDown = func {
-    flapMotion = arg[0];
+    setprop('/sim/model/b29/flap-switch-pos-norm', arg[0]);
+    if (arg[0] == 1) {
+        if ( getprop('/controls/flight/flaps') < 1 ) {
+            interpolate('/controls/flight/flaps', 1, (9*(1-getprop('/controls/flight/flaps'))));
+        # } else {
+            # check for motor burnout
+        }
+    } elsif (arg[0] == -1) {
+        if ( getprop('/controls/flight/flaps') > 0 ) {
+            interpolate('/controls/flight/flaps', 0, (9*getprop('/controls/flight/flaps')));
+        # } else {
+            # check for motor burnout
+        }
+    } else {
+        interpolate('/controls/flight/flaps');
+    }
 }
 
 ########
@@ -387,10 +375,5 @@ controls.flapsDown = func {
     ["Co-pilot"   ,  0.67, 0.9,  -8.7],
     ["Bombadier"  ,     0, 0.4, -10.1],
     ];
-
-    ### Flaps
-    lastFlapMotion = 0;
-    flapMotion = 0;
-    settimer(moveFlaps, 0);
 
 print('b29-common.xml initialized');
