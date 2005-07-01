@@ -41,14 +41,14 @@ Common definitions
    </config>
   </view>
 
-  <!--flaps>
+  <flaps>
    <setting archive="y">0.0</setting>
    <setting archive="y">0.05</setting>    <!-- 2.5 -->
    <setting archive="y">0.12</setting>    <!-- 5 -->
    <setting archive="y">0.24</setting>    <!-- 10 -->
    <setting archive="y">0.55</setting>    <!-- 25 -->
    <setting archive="y">1.0</setting>     <!-- 45 -->
-  </flaps-->
+  </flaps>
 
   <sound>
    <audible>true</audible>
