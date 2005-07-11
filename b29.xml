@@ -48,7 +48,7 @@
 
  <UNDERCARRIAGE>
   <!--                                  Spring   Damp    Dyn  Stat Roll           Brake Steer Retract
-   !--              X-pos  Y-pos  Z-pos coef     coef    Fric Fric Fric Steering  Group Angle fixed   -->
+                    X-pos  Y-pos  Z-pos coef     coef    Fric Fric Fric Steering  Group Angle fixed   -->
   AC_GEAR NOSE      42.6   0.0    -145  40050.0  13350.0 0.5  0.8  0.02 STEERABLE NOSE  45.0  RETRACT
   AC_GEAR LEFT      454.65 -341.6 -145  133500.0 26700.0 0.5  0.8  0.02 FIXED     LEFT  0     RETRACT
   AC_GEAR RIGHT     454.65 341.6  -145  133500.0 26700.0 0.5  0.8  0.02 FIXED     RIGHT 0     RETRACT
