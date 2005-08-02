@@ -4,6 +4,12 @@
  <path>jrb-wbd-asi.ac</path>
 
  <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>3</max-m>
+ </animation>
+
+ <animation>
   <type>rotate</type>
   <object-name>Needle1</object-name>
   <property>instrumentation/airspeed-indicator/indicated-speed-kt</property>

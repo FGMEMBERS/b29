@@ -52,7 +52,30 @@ Common definitions
    <nosewheel-caster type="bool" archive="y">true</nosewheel-caster>
    <antiskid type="bool" archive="y">false</antiskid>
   </gear>
+  <engines>
+   <engine n="0">
+    <boost>0.8</boost>
+   </engine>
+   <engine n="1">
+    <boost>0.8</boost>
+   </engine>
+   <engine n="2">
+    <boost>0.8</boost>
+   </engine>
+   <engine n="3">
+    <boost>0.8</boost>
+   </engine>
+  </engines>
  </controls>
+
+ <instrumentation>
+  <pdi>
+   <direction-norm>0</direction-norm>
+  </pdi>
+  <magnetic-compass>
+   <bug-heading-deg>0</bug-heading-deg>
+  </magnetic-compass>
+ </instrumentation>
 
  <systems>
   <electrical>

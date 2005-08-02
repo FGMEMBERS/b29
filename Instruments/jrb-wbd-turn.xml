@@ -4,6 +4,12 @@
  <path>jrb-wbd-turn.ac</path>
 
  <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>3</max-m>
+ </animation>
+
+ <animation>
   <type>rotate</type>
   <object-name>Ball</object-name>
   <property>instrumentation/slip-skid-ball/indicated-slip-skid</property>

@@ -150,6 +150,78 @@
      </mod-up>
     </action>
 
+    <action>
+     <button>0</button>
+     <x>320</x>
+     <y>74</y>
+     <w>80</w>
+     <h>100</h>
+     <binding>
+      <command>property-adjust</command>
+      <property>/controls/engines/engine[0]/boost</property>
+      <step>0.1</step>
+      <min>0</min>
+      <max>1</max>
+     </binding>
+     <binding>
+      <command>property-adjust</command>
+      <property>/controls/engines/engine[1]/boost</property>
+      <step>0.1</step>
+      <min>0</min>
+      <max>1</max>
+     </binding>
+     <binding>
+      <command>property-adjust</command>
+      <property>/controls/engines/engine[2]/boost</property>
+      <step>0.1</step>
+      <min>0</min>
+      <max>1</max>
+     </binding>
+     <binding>
+      <command>property-adjust</command>
+      <property>/controls/engines/engine[3]/boost</property>
+      <step>0.1</step>
+      <min>0</min>
+      <max>1</max>
+     </binding>
+    </action>
+
+    <action>
+     <button>0</button>
+     <x>240</x>
+     <y>74</y>
+     <w>80</w>
+     <h>100</h>
+     <binding>
+      <command>property-adjust</command>
+      <property>/controls/engines/engine[0]/boost</property>
+      <step>-0.1</step>
+      <min>0</min>
+      <max>1</max>
+     </binding>
+     <binding>
+      <command>property-adjust</command>
+      <property>/controls/engines/engine[1]/boost</property>
+      <step>-0.1</step>
+      <min>0</min>
+      <max>1</max>
+     </binding>
+     <binding>
+      <command>property-adjust</command>
+      <property>/controls/engines/engine[2]/boost</property>
+      <step>-0.1</step>
+      <min>0</min>
+      <max>1</max>
+     </binding>
+     <binding>
+      <command>property-adjust</command>
+      <property>/controls/engines/engine[3]/boost</property>
+      <step>-0.1</step>
+      <min>0</min>
+      <max>1</max>
+     </binding>
+    </action>
+
     <!--action>
      <button>0</button>
      <x></x>

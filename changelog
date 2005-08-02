@@ -89,39 +89,32 @@ Cleaned up controls.flapsDown function overload.
 Animated flaps switch and added clickable zones.
 
 
+=====================
+2005-Jul-25
+
+Animated boost dial and added boost hostspots to panel.
+
+Added MP and RPM guages.
+
+Added the blind landing indicator.
 
 =====================
-2005-Jul-01
+2005-Jul-29
 
+Added attitude indicator, complete with cageing knob and flag animations.
 
-=====================
-2005-Jul-01
+Added PDI instrument. It doesn't do anything yet, because there is no bombing
+AI.
 
+Animated crew entry ladder.
 
-=====================
-2005-Jul-01
+Added Flux Gate Compass instrument.
 
+Added the Radio Compass. It is implemented as a simple ADF without a rotating
+dial.
 
-=====================
-2005-Jul-01
+Remodeled Mag Compass to be more historically accurate.
 
+Remodeled Heading Indicator to be more historically accurate.
 
-=====================
-2005-Jul-01
-
-
-=====================
-2005-Jul-01
-
-
-=====================
-2005-Jul-01
-
-
-=====================
-2005-Jul-01
-
-
-=====================
-2005-Jul-01
-
+Cut holes in pilot panels and did away with old temporary alpha channel panel.

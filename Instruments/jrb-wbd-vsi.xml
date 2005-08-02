@@ -4,6 +4,12 @@
  <path>jrb-wbd-vsi.ac</path>
 
  <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>3</max-m>
+ </animation>
+
+ <animation>
   <type>rotate</type>
   <object-name>Needle1</object-name>
   <property>instrumentation/vertical-speed-indicator/indicated-speed-fpm</property>
