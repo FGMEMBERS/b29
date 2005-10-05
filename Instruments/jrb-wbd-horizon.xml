@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+ <path>jrb-wbd-horizon.ac</path>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>3</max-m>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Horizon</object-name>
+  <property>instrumentation/attitude-indicator/indicated-pitch-deg</property>
+  <min-deg>-30</min-deg>
+  <max-deg>30</max-deg>
+  <factor>0.5</factor>
+  <center>
+   <x-m>-0.12</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <y>1</y>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Horizon</object-name>
+  <property>instrumentation/attitude-indicator/indicated-roll-deg</property>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+  </axis>
+ </animation>
+
+ <animation>
+  <name>RollAnimation</name>
+  <type>rotate</type>
+  <object-name>Pin</object-name>
+  <object-name>Background</object-name>
+  <property>instrumentation/attitude-indicator/indicated-roll-deg</property>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>CageKnob</object-name>
+  <property>instrumentation/attitude-indicator/caged</property>
+  <factor>90</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0.06</y-m>
+   <z-m>-0.06</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>CageFlag</object-name>
+  <property>instrumentation/attitude-indicator/caged</property>
+  <factor>60</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0.04</y-m>
+   <z-m>-0.05</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>Wings</object-name>
+  <property>instrumentation/attitude-indicator/horizon-offset-deg</property>
+  <factor>0.0007</factor>
+  <min-m>-0.015</min-m>
+  <max-m>0.015</max-m>
+  <axis>
+   <z>1</z>
+  </axis>
+ </animation>
+
+</PropertyList>
+
+
