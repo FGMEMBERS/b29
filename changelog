@@ -120,15 +120,6 @@ Remodeled Heading Indicator to be more historically accurate.
 Cut holes in pilot panels and did away with old temporary alpha channel panel.
 
 =====================
-2005-Aug-01
-
-Remodeled pilot's and bombadier's seats to be more accurate.
-
-Added a control box for the ADF, with animated dial.
-
-
-
-=====================
 2006-Feb-03
 
 Remodeled pilot's and bombadier's seats to be more accurate.
@@ -146,5 +137,4 @@ Finally fixed the prop animations. They fade in/out, are layered over the engine
 Added more detail to the brake pedal animation.
 
 Repaired main gear animation.
-
 

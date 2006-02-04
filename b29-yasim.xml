@@ -33,10 +33,10 @@ The reference datum for measurements is the nose.
       <control-setting axis="/controls/engines/engine[1]/boost" value="1"/>
       <control-setting axis="/controls/engines/engine[2]/boost" value="1"/>
       <control-setting axis="/controls/engines/engine[3]/boost" value="1"/>
-      <control-setting axis="/controls/engines/engine[0]/wastegate" value="0.8"/>
+      <!--control-setting axis="/controls/engines/engine[0]/wastegate" value="0.8"/>
       <control-setting axis="/controls/engines/engine[1]/wastegate" value="0.8"/>
       <control-setting axis="/controls/engines/engine[2]/wastegate" value="0.8"/>
-      <control-setting axis="/controls/engines/engine[3]/wastegate" value="0.8"/>
+      <control-setting axis="/controls/engines/engine[3]/wastegate" value="0.8"/-->
       <control-setting axis="/controls/flight/flaps" value="1.0"/>
       <control-setting axis="/controls/gear/gear-down" value="1"/>
     </approach>
@@ -58,10 +58,10 @@ The reference datum for measurements is the nose.
       <control-setting axis="/controls/engines/engine[1]/boost" value="1"/>
       <control-setting axis="/controls/engines/engine[2]/boost" value="1"/>
       <control-setting axis="/controls/engines/engine[3]/boost" value="1"/>
-      <control-setting axis="/controls/engines/engine[0]/wastegate" value="0.8"/>
+      <!--control-setting axis="/controls/engines/engine[0]/wastegate" value="0.8"/>
       <control-setting axis="/controls/engines/engine[1]/wastegate" value="0.8"/>
       <control-setting axis="/controls/engines/engine[2]/wastegate" value="0.8"/>
-      <control-setting axis="/controls/engines/engine[3]/wastegate" value="0.8"/>
+      <control-setting axis="/controls/engines/engine[3]/wastegate" value="0.8"/-->
       <control-setting axis="/controls/flight/flaps" value="0.0"/>
       <control-setting axis="/controls/gear/gear-down" value="0"/>
     </cruise>
@@ -256,7 +256,7 @@ The reference datum for measurements is the nose.
     </propeller>
     
 <!-- ***** Gear ***** -->
-	<gear x="-1.09" y="0.0" z="-2.99" compression="0.3" upx="-0.08" upy="0" upz="0.29"
+	<gear x="-1.09" y="0.0" z="-3.27" compression="0.3" upx="-0.08" upy="0" upz="0.29"
 	  castering="1" retract-time = "0" > 
       <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
       <control-input axis="/controls/gear/nosewheel-lock" 
@@ -265,7 +265,7 @@ The reference datum for measurements is the nose.
       <control-output control="EXTEND" prop="/gear/gear[0]/foo"/>
     </gear>
 
-    <gear x="-11.60" y="4.17" z="-2.9" compression="0.3" upx="-0.05" upy="0" upz="0.29"
+    <gear x="-11.59" y="4.17" z="-3.17" compression="0.3" upx="-0.05" upy="0" upz="0.29"
 	  retract-time = "0" > 
       <control-input axis="/controls/gear/brake-my-parking" control="BRAKE"/>
       <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
@@ -274,7 +274,7 @@ The reference datum for measurements is the nose.
       <control-output control="EXTEND" prop="/gear/gear[1]/foo"/>
     </gear>
 
-    <gear x="-11.60" y="-4.17" z="-2.9" compression="0.3" upx="-0.05" upy="0" upz="0.29"
+    <gear x="-11.59" y="-4.17" z="-3.17" compression="0.3" upx="-0.05" upy="0" upz="0.29"
 	  retract-time = "0" > 
       <control-input axis="/controls/gear/brake-my-parking" control="BRAKE"/>
       <control-input axis="/controls/gear/brake-right" control="BRAKE"/>

@@ -35,7 +35,7 @@ Common definitions
     <y-offset-m archive="y" type="double">0.9</y-offset-m>
     <!-- changes for difference between the origin and the CG -->
     <!-- <z-offset-m archive="y" type="double">2.3</z-offset-m> -->
-    <z-offset-m archive="y" type="double">-8.7</z-offset-m>
+    <z-offset-m archive="y" type="double">2.3</z-offset-m>
     <pitch-offset-deg archive="y">-10.0</pitch-offset-deg>
    </config>
   </view>

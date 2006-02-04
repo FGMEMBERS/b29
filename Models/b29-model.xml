@@ -9,33 +9,11 @@ Copyright 2003 Joshua Babcock
 jbabcock@atlantech.net
 This file is released under the GNU GPL.
 
-$Log$
-Revision 1.5  2006/02/04 13:50:41  mfranz
-Josh Babcock: update
-
-Revision 1.4  2005/08/02 17:23:55  andy
-Updates from Josh:
-
-It's mostly panel stuff, in fact it's pretty much the last of the
-modeling that needs to be done for the panel. All that's left there is
-some texturing and a clickable panel. Lots of other work to be done in
-the cabin though.
-
-Revision 1.1  2005/06/25 11:50:21  mfranz
-Josh Babcock: b29 (fdm unfinished)
-
-
 -->
 
 <PropertyList>
 
  <path>b29.ac</path>
-
- <offsets>
-  <!-- 11m is a guess for the CG.  Don't forget to change the view too! -->
-  <!-- Get the real number from YASim when the FDM is stable -->
-  <x-m>-11</x-m>
- </offsets>
 
 <!-- ** Hotspots ** -->
 
