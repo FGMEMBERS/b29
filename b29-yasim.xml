@@ -153,7 +153,7 @@ The reference datum for measurements is the nose.
         <control-input axis="/controls/engines/engine[0]/magnetos" control="MAGNETOS"/>
         <control-input axis="/controls/engines/engine[0]/mixture" control="MIXTURE"/>
         <control-input axis="/controls/engines/engine[0]/boost" control="BOOST"/>
-        <control-input axis="/controls/engines/wastegate" control="WASTEGATE"/>
+        <!--control-input axis="/controls/engines/wastegate" control="WASTEGATE"/-->
       </piston-engine>
     </propeller>
     <!-- #2 engine -->
@@ -185,7 +185,7 @@ The reference datum for measurements is the nose.
         <control-input axis="/controls/engines/engine[1]/magnetos" control="MAGNETOS"/>
         <control-input axis="/controls/engines/engine[1]/mixture" control="MIXTURE"/>
         <control-input axis="/controls/engines/engine[1]/boost" control="BOOST"/>
-        <control-input axis="/controls/engines/wastegate" control="WASTEGATE"/>
+        <!--control-input axis="/controls/engines/wastegate" control="WASTEGATE"/-->
       </piston-engine>
     </propeller>
     
@@ -218,7 +218,7 @@ The reference datum for measurements is the nose.
         <control-input axis="/controls/engines/engine[2]/magnetos" control="MAGNETOS"/>
         <control-input axis="/controls/engines/engine[2]/mixture" control="MIXTURE"/>
         <control-input axis="/controls/engines/engine[2]/boost" control="BOOST"/>
-        <control-input axis="/controls/engines/wastegate" control="WASTEGATE"/>
+        <!--control-input axis="/controls/engines/wastegate" control="WASTEGATE"/-->
       </piston-engine>
     </propeller>
     
@@ -251,7 +251,7 @@ The reference datum for measurements is the nose.
         <control-input axis="/controls/engines/engine[3]/magnetos" control="MAGNETOS"/>
         <control-input axis="/controls/engines/engine[3]/mixture" control="MIXTURE"/>
         <control-input axis="/controls/engines/engine[3]/boost" control="BOOST"/>
-        <control-input axis="/controls/engines/wastegate" control="WASTEGATE"/>
+        <!--control-input axis="/controls/engines/wastegate" control="WASTEGATE"/-->
       </piston-engine>
     </propeller>
     
