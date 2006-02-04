@@ -113,7 +113,7 @@ landLightCheck = func {
         setprop(downRightLandLightProp, 0);
     }
 
-    settimer(landLightCheck, 0.5);
+    settimer(landLightCheck, 0.25);
 }
 
 ########
@@ -150,6 +150,9 @@ apply_mat = func(obj, mat) {
 # lightIndex=0 corresponds to /gear/gear[0] and GearLight0
 #
 ########
+
+newGearLightCheck = func {
+}
 
 gearLightCheck = func {
     for (lightIndex=0; lightIndex<3; lightIndex=lightIndex+1) {
@@ -303,6 +306,95 @@ controls.flapsDown = func {
 
 ########
 #
+# Gear switch handling
+#
+########
+
+gearInit = func {
+    setprop('/gear/gear[0]/position-norm', getprop('/controls/gear/gear-down'));
+    setprop('/gear/gear[1]/position-norm', getprop('/controls/gear/gear-down'));
+    setprop('/gear/gear[2]/position-norm', getprop('/controls/gear/gear-down'));
+    setprop('/gear/gear[3]/position-norm', getprop('/controls/gear/gear-down'));
+
+    settimer(waitGearDown, 0);
+}
+
+########
+#
+# Acts as a wrapper script to start/stop the animation handler and
+# the function that watches to see when the gear is down and locked.
+# It causes gear controls to act as instantaneous switches.
+#
+########
+
+controls.gearDown = func {
+    # Call gear animation handler and spread the word
+    moveGear(0, arg[0], 20);
+    moveGear(1, arg[0], 30);
+    moveGear(2, arg[0], 30);
+    moveGear(3, arg[0], 5);
+}
+
+########
+#
+# This is a handler function to tell the FDM when gear is down and locked.
+# It get kicked off by the gear init function.
+# It watches tha animations to see when to tell the FDM to put the gear down.
+#
+########
+
+waitGearDown = func {
+    p0 = getprop('/gear/gear[0]/position-norm');
+    p1 = getprop('/gear/gear[1]/position-norm');
+    p2 = getprop('/gear/gear[2]/position-norm');
+    p3 = getprop('/gear/gear[3]/position-norm');
+
+    if ((p0==1) and (p1==1) and (p2==1) and (p3==1)) {
+        setprop('/controls/gear/gear-down', '1');
+    } else {
+        setprop('/controls/gear/gear-down', '0');
+    }
+
+    settimer(waitGearDown, 0.1);
+}
+
+########
+#
+# This is an animation handler script. commands.gearDown should be overloaded to
+# be a wrapper calling this once for each wheel.
+# The wheels need to have 0 second transition times for this to work properly.
+#
+# args: gear_num down/off/up time_delta
+#
+########
+
+moveGear = func {
+    gProp = '/gear/gear['~arg[0]~']/position-norm';
+
+    # Wiggle switch appropriately
+    setprop('/sim/model/b29/gear-switch-pos-norm', arg[0]);
+
+    if (arg[1] == 1) {
+        # transit gear downward
+        if( getprop(gProp) < 1) {
+            interpolate(gProp, 1, (arg[2]*(1-getprop(gProp))));
+        # } else {
+            # check for motor burnout
+        }
+    } elsif (arg[1] == -1) {
+        # transit gear upward
+        if( getprop(gProp) > 0) {
+            interpolate(gProp, 0, (arg[2]*(getprop(gProp))));
+        # } else {
+            # check for motor burnout
+        }
+    } else {
+        interpolate(gProp);
+    }
+}
+
+########
+#
 # Init section
 #
 ########
@@ -376,4 +468,7 @@ controls.flapsDown = func {
     ["Bombadier"  ,     0, 0.4, -10.1],
     ];
 
-print('b29-common.xml initialized');
+    ### Gear
+    # Since we are controling position-norm instead of YASim, we have to init it.
+    settimer(gearInit, 0);
+

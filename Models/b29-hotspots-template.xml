@@ -15,7 +15,7 @@
    <y>512</y>
    <w>1024</w>
    <h>1024</h>
-   <w-base>1024</w-base>
+   <w-base>1024<w-base>
    <h-base>1024</h-base>
    <layers>
     <layer>
@@ -49,4 +49,3 @@
    </actions>
   </instrument>
  </instruments>
-</PropertyList>

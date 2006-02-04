@@ -118,3 +118,33 @@ Remodeled Mag Compass to be more historically accurate.
 Remodeled Heading Indicator to be more historically accurate.
 
 Cut holes in pilot panels and did away with old temporary alpha channel panel.
+
+=====================
+2005-Aug-01
+
+Remodeled pilot's and bombadier's seats to be more accurate.
+
+Added a control box for the ADF, with animated dial.
+
+
+
+=====================
+2006-Feb-03
+
+Remodeled pilot's and bombadier's seats to be more accurate.
+
+Added a control box for the ADF, with animated dial.
+
+Started a basic b29-sound.xml file. Much more to come.
+
+Applied Vivian's engine changes (Thanks Vivian!) and made some adjustments to the FDM config.
+
+Added noshadow animations for a multitude of objects.
+
+Finally fixed the prop animations. They fade in/out, are layered over the engines and each other correctly and of course spin. No prop pitch though, that's just too much work for now.
+
+Added more detail to the brake pedal animation.
+
+Repaired main gear animation.
+
+

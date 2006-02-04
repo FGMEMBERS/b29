@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<PropertyList> 
+		<help> 
+			<title>Boeing B29 Superfortress</title>
+			<key> 
+				<name>Ctrl-D</name>
+				<desc>toggle bombbay doors</desc>
+			</key>
+			<key> 
+				<name>Ctrl-F</name>
+				<desc>toggle cabin doors</desc>
+			</key>
+			<!--key> 
+				<name>n/N</name>
+				<desc>propeller fine/coarse</desc>
+			</key>
+			<key> 
+				<name>t/T</name>
+				<desc>adjust Turbo pressure</desc>
+			</key-->
+			<key> 
+				<name>j</name>
+				<desc>jump to next seat</desc>
+			</key>
+			
+			<line>Start Routine</line>
+			<line>1. increase throttle to one third</line>
+			<line>2. select engine #1 </line>
+			<line>3. operate starter</line>
+			<line>4. switch magnetos to ON</line>
+		<line>5. repeat for the engines #2 - #4</line>
+			<line></line>
+			<line>Approach</line>
+			<line>flap 45 deg</line>
+			<line>speed 130-140 MPH IAS depending on auw</line>
+			<line>rpm 2100</line>
+		<line>turbo setting 0.8</line>
+			<line>boost(approx) 10 psi </line>
+			<line>touchdown speed: 95 - 110 MPH IAS depending on auw</line>
+		</help>
+	</PropertyList>

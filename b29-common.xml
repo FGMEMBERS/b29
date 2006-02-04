@@ -5,12 +5,11 @@ Common definitions
 -->
 
 <PropertyList>
- <sim>
+ <sim include="help.xml">
   <description>Boeing B-29 Superfortress</description>
 
   <model>
    <path>Aircraft/b29/Models/b29-model.xml</path>
-   <shadow type="bool">true</shadow>
    <doors>
     <bombbay/>
     <tail/>
@@ -43,7 +42,7 @@ Common definitions
 
   <sound>
    <audible>true</audible>
-   <path>Aircraft/Generic/generic-sound.xml</path>
+   <path>Aircraft/b29/b29-sound.xml</path>
   </sound>
  </sim>
 
@@ -79,8 +78,11 @@ Common definitions
 
  <systems>
   <electrical>
-   <path>Aircraft/Generic/generic-electrical.xml</path>
+   <!--path>b29-electrical.xml</path-->
   </electrical>
+  <autopilot>
+   <path>b29-autopilot.xml</path>
+  </autopilot>
  </systems> 
 
  <input>
