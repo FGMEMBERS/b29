@@ -395,6 +395,102 @@ moveGear = func {
 
 ########
 #
+# Bombs
+#
+########
+
+loadBombs = func {
+	# Find out which bomb configuration we are now using and get some important nodes.
+	loadoutIndex =  getprop('/sim/weapons/current-loadout');
+	printlog('info', 'Loadout ', loadoutIndex, ' selected');
+	loadout =  props.globals.getNode('/sim/weapons/loadout[' ~ loadoutIndex ~ ']');
+	weights = props.globals.getNode('/yasim/weights/bomb-bay');
+
+	# Set interleave to the recommended value for this loadout.
+	setprop('/sim/weapons/interleave-sec', loadout.getChild('interleave-sec').getValue());
+
+	# Delete any YASim weights.
+	foreach (bombRack; weights.getChildren('rack')) {
+		bombRack.setDoubleValue(0);
+	}
+
+	# Set all the bomb triggers, and assign the proper weights for YASim.
+	foreach (bomb; loadout.getChildren('bomb')) {
+		# Triggers
+		dropped =  bomb.getNode('dropped');
+		dropped.setBoolValue(0);
+		# Weights
+		rackIndex = (bomb.getNode('rack').getValue() - 1);
+		weight = bomb.getNode('weight');
+		bombRack = weights.getChild('rack', rackIndex);
+		bombRack.setDoubleValue(bombRack.getValue() + weight.getValue());
+		printlog('info', 'Rack ', rackIndex, ' now: ', (bombRack.getValue()));
+	}
+
+}
+
+dropBombs = func {
+	dropBomb = func (bomb, weights) {
+		var dropped = bomb.getNode('dropped');
+		if (! dropped.getValue()) {
+			var weight = bomb.getNode('weight');
+			var rackIndex = (bomb.getNode('rack').getValue() - 1);
+			var bombRack = weights.getChild('rack', rackIndex);
+			bombRack.setDoubleValue(bombRack.getValue() - weight.getValue());
+			dropped.setBoolValue(1);
+			printlog('info', 'Dropping bomb ', bomb.getIndex());
+		} else {
+			printlog('warn', 'Dropping unloaded bomb ', bomb.getIndex(), ' failed');
+		}
+	}
+
+	# Check if we even need to do anything
+	if (! getprop('/controls/armament/bombs/pickle')) {
+		return;
+	}
+	setprop('/controls/armament/bombs/pickle', 0);
+
+	var loadoutIndex =  getprop('/sim/weapons/current-loadout');
+	var loadout =  props.globals.getNode('/sim/weapons/loadout[' ~ loadoutIndex ~ ']');
+	var weights = props.globals.getNode('/yasim/weights/bomb-bay');
+	var interleave = getprop('/sim/weapons/interleave-sec');
+
+	var time = 0;
+	foreach (var bomb; loadout.getChildren('bomb')) {
+		printlog('info', 'Scheduling bomb ', bomb.getIndex(), ' for drop in ', time);
+		settimer(func { dropBomb(bomb, weights) }, time);
+		time += interleave;
+	}
+}
+
+########
+#
+# View
+#
+########
+
+adjustViewTarget = func {
+	maxD   = getprop('sim/current-view/target-z-offset-max-m');
+	minD   = getprop('sim/current-view/target-z-offset-min-m');
+	fovMin = getprop('sim/current-view/field-of-view-min');
+	fovMax = getprop('sim/current-view/field-of-view-max');
+	fov    = getprop('sim/current-view/field-of-view');
+	bays   = getprop('sim/model/doors/bombbay/position-norm');
+	if ( bays ) {
+		setprop('sim/current-view/target-z-offset-m', 10.5);
+	} else {
+		if ( fov < fovMin ) {
+			setprop('sim/current-view/target-z-offset-m', minD);
+		} elsif ( fov <= fovMax ) {
+			setprop('sim/current-view/target-z-offset-m', minD+(maxD-minD)*(fov-fovMin)/(fovMax-fovMin));
+		} else {
+			setprop('sim/current-view/target-z-offset-m', maxD);
+		}
+	}
+}
+
+########
+#
 # Init section
 #
 ########
@@ -463,12 +559,22 @@ moveGear = func {
     ### Interior view data
     currentPosition = 0;
     positionData = [
-    ["Pilot"      , -0.67, 0.9,  -8.7],
-    ["Co-pilot"   ,  0.67, 0.9,  -8.7],
-    ["Bombadier"  ,     0, 0.4, -10.1],
+    ["Pilot"      , -0.67,  0.9,  2.3],
+    ["Co-pilot"   ,  0.67,  0.9,  2.3],
+    ["Bombadier"  ,     0,  0.4,  0.9],
     ];
 
     ### Gear
     # Since we are controling position-norm instead of YASim, we have to init it.
     settimer(gearInit, 0);
 
+    ### Bombs
+    setlistener("/sim/weapons/current-loadout", loadBombs);
+    setlistener("/controls/armament/bombs/pickle", dropBombs);
+    settimer(loadBombs, 0);
+
+    ### View
+    # setlistener("sim/current-view", foo);
+    setlistener("sim/current-view/field-of-view", adjustViewTarget);
+    setlistener("sim/current-view/view-number", adjustViewTarget);
+    setlistener("sim/model/doors/bombbay/position-norm", adjustViewTarget);

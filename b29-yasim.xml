@@ -308,4 +308,15 @@ The reference datum for measurements is the nose.
 <!-- Ballast -->
     <ballast x="-0.875" y="0.0" z="-2" mass="14500"/><!-- move CG forward -->
     <ballast x="-30" y="0.0" z="2" mass="-6000"/>    <!-- move CG forward -->
+
+<!-- Bomb racks -->
+    <weight x="6.6"   y="-0.83" z="0" mass-prop="/yasim/weights/rack-1"/>
+    <weight x="6.6"   y="0.83"  z="0" mass-prop="/yasim/weights/rack-2"/>
+    <weight x="8.89"  y="-0.83" z="0" mass-prop="/yasim/weights/rack-3"/>
+    <weight x="8.89"  y="0.83"  z="0" mass-prop="/yasim/weights/rack-4"/>
+    <weight x="12.76" y="-0.83" z="0" mass-prop="/yasim/weights/rack-5"/>
+    <weight x="12.76" y="0.83"  z="0" mass-prop="/yasim/weights/rack-6"/>
+    <weight x="15.06" y="-0.83" z="0" mass-prop="/yasim/weights/rack-7"/>
+    <weight x="15.06" y="0.83"  z="0" mass-prop="/yasim/weights/rack-8"/>
+
   </airplane>

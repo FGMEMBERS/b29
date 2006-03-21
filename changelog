@@ -138,3 +138,18 @@ Added more detail to the brake pedal animation.
 
 Repaired main gear animation.
 
+
+=====================
+2006-Mar-20
+
+Enlarged Bomb Bay.
+
+Added two bomb loadaouts, both the models and the data for the weights.
+
+Started a set of nasal calls to drop bombs and handle the animation/submodel triggers, as well as to update the YASim weights.
+
+Started a submodel configuration for both loadouts.
+
+Nasalized the view offset and fov control so that you zoom in on the pilot's head, but zoom out to the ac's cg. There's even a special mode that centers on the bomb bay when the doors open!
+
+Chromed some fixtures in the cockpit.

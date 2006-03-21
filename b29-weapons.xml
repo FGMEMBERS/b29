@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<!--
+Josh Babcock 2006.3.16
+
+This file contains information for the bomb handling nasal script and the animations that 
+display the shackled bombs.  When adding a loadout, you must also add the objects to the
+.ac model as well as select animations in b29-model.xml to make them disappear when dropped.
+There must also be entries in b29-submodels.xml as well. The bomb routines in b29.nas will
+automaticaly handle setting all the weights for YASim as well as handling the triggers
+/sim/weapons/loadout[*]/bomb[*]/dropped when a particular loadout is selected or the bomb
+pickle is pressed. The animations should use those triggers for their select conditions.
+
+This is a list of bomb shackle coords in the b29 for use in the animations:
+
+1)
+<x-m>6.60</x-m> <y-m type="bool">-0.88</y-m> <z-m type="bool">-0.83</z-m>
+<x-m>6.60</x-m> <y-m type="bool">-0.87</y-m> <z-m type="bool">-0.56</z-m>
+<x-m>6.60</x-m> <y-m type="bool">-0.86</y-m> <z-m type="bool">-0.34</z-m>
+<x-m>6.60</x-m> <y-m type="bool">-0.84</y-m> <z-m type="bool">-0.09</z-m>
+<x-m>6.60</x-m> <y-m type="bool">-0.83</y-m> <z-m type="bool">0.15</z-m>
+<x-m>6.60</x-m> <y-m type="bool">-0.81</y-m> <z-m type="bool">0.40</z-m>
+<x-m>6.60</x-m> <y-m type="bool">-0.80</y-m> <z-m type="bool">0.63</z-m>
+<x-m>6.60</x-m> <y-m type="bool">-0.79</y-m> <z-m type="bool">0.88</z-m>
+
+2)
+<x-m>6.60</x-m> <y-m type="bool">0.88</y-m> <z-m type="bool">-0.83</z-m>
+<x-m>6.60</x-m> <y-m type="bool">0.87</y-m> <z-m type="bool">-0.56</z-m>
+<x-m>6.60</x-m> <y-m type="bool">0.86</y-m> <z-m type="bool">-0.34</z-m>
+<x-m>6.60</x-m> <y-m type="bool">0.84</y-m> <z-m type="bool">-0.09</z-m>
+<x-m>6.60</x-m> <y-m type="bool">0.83</y-m> <z-m type="bool">0.15</z-m>
+<x-m>6.60</x-m> <y-m type="bool">0.81</y-m> <z-m type="bool">0.40</z-m>
+<x-m>6.60</x-m> <y-m type="bool">0.80</y-m> <z-m type="bool">0.63</z-m>
+<x-m>6.60</x-m> <y-m type="bool">0.79</y-m> <z-m type="bool">0.88</z-m>
+
+3)
+<x-m>8.89</x-m> <y-m type="bool">-0.88</y-m> <z-m type="bool">-0.83</z-m>
+<x-m>8.89</x-m> <y-m type="bool">-0.87</y-m> <z-m type="bool">-0.56</z-m>
+<x-m>8.89</x-m> <y-m type="bool">-0.86</y-m> <z-m type="bool">-0.34</z-m>
+<x-m>8.89</x-m> <y-m type="bool">-0.84</y-m> <z-m type="bool">-0.09</z-m>
+<x-m>8.89</x-m> <y-m type="bool">-0.83</y-m> <z-m type="bool">0.15</z-m>
+<x-m>8.89</x-m> <y-m type="bool">-0.81</y-m> <z-m type="bool">0.40</z-m>
+<x-m>8.89</x-m> <y-m type="bool">-0.80</y-m> <z-m type="bool">0.63</z-m>
+<x-m>8.89</x-m> <y-m type="bool">-0.79</y-m> <z-m type="bool">0.88</z-m>
+
+4)
+<x-m>8.89</x-m> <y-m type="bool">0.88</y-m> <z-m type="bool">-0.83</z-m>
+<x-m>8.89</x-m> <y-m type="bool">0.87</y-m> <z-m type="bool">-0.56</z-m>
+<x-m>8.89</x-m> <y-m type="bool">0.86</y-m> <z-m type="bool">-0.34</z-m>
+<x-m>8.89</x-m> <y-m type="bool">0.84</y-m> <z-m type="bool">-0.09</z-m>
+<x-m>8.89</x-m> <y-m type="bool">0.83</y-m> <z-m type="bool">0.15</z-m>
+<x-m>8.89</x-m> <y-m type="bool">0.81</y-m> <z-m type="bool">0.40</z-m>
+<x-m>8.89</x-m> <y-m type="bool">0.80</y-m> <z-m type="bool">0.63</z-m>
+<x-m>8.89</x-m> <y-m type="bool">0.79</y-m> <z-m type="bool">0.88</z-m>
+
+5)
+<x-m>12.76</x-m> <y-m type="bool">-0.88</y-m> <z-m type="bool">-0.83</z-m>
+<x-m>12.76</x-m> <y-m type="bool">-0.87</y-m> <z-m type="bool">-0.56</z-m>
+<x-m>12.76</x-m> <y-m type="bool">-0.86</y-m> <z-m type="bool">-0.34</z-m>
+<x-m>12.76</x-m> <y-m type="bool">-0.84</y-m> <z-m type="bool">-0.09</z-m>
+<x-m>12.76</x-m> <y-m type="bool">-0.83</y-m> <z-m type="bool">0.15</z-m>
+<x-m>12.76</x-m> <y-m type="bool">-0.81</y-m> <z-m type="bool">0.40</z-m>
+<x-m>12.76</x-m> <y-m type="bool">-0.80</y-m> <z-m type="bool">0.63</z-m>
+<x-m>12.76</x-m> <y-m type="bool">-0.79</y-m> <z-m type="bool">0.88</z-m>
+
+6)
+<x-m>12.76</x-m> <y-m type="bool">0.88</y-m> <z-m type="bool">-0.83</z-m>
+<x-m>12.76</x-m> <y-m type="bool">0.87</y-m> <z-m type="bool">-0.56</z-m>
+<x-m>12.76</x-m> <y-m type="bool">0.86</y-m> <z-m type="bool">-0.34</z-m>
+<x-m>12.76</x-m> <y-m type="bool">0.84</y-m> <z-m type="bool">-0.09</z-m>
+<x-m>12.76</x-m> <y-m type="bool">0.83</y-m> <z-m type="bool">0.15</z-m>
+<x-m>12.76</x-m> <y-m type="bool">0.81</y-m> <z-m type="bool">0.40</z-m>
+<x-m>12.76</x-m> <y-m type="bool">0.80</y-m> <z-m type="bool">0.63</z-m>
+<x-m>12.76</x-m> <y-m type="bool">0.79</y-m> <z-m type="bool">0.88</z-m>
+
+7)
+<x-m>15.06</x-m> <y-m type="bool">-0.88</y-m> <z-m type="bool">-0.83</z-m>
+<x-m>15.06</x-m> <y-m type="bool">-0.87</y-m> <z-m type="bool">-0.56</z-m>
+<x-m>15.06</x-m> <y-m type="bool">-0.86</y-m> <z-m type="bool">-0.34</z-m>
+<x-m>15.06</x-m> <y-m type="bool">-0.84</y-m> <z-m type="bool">-0.09</z-m>
+<x-m>15.06</x-m> <y-m type="bool">-0.83</y-m> <z-m type="bool">0.15</z-m>
+<x-m>15.06</x-m> <y-m type="bool">-0.81</y-m> <z-m type="bool">0.40</z-m>
+<x-m>15.06</x-m> <y-m type="bool">-0.80</y-m> <z-m type="bool">0.63</z-m>
+<x-m>15.06</x-m> <y-m type="bool">-0.79</y-m> <z-m type="bool">0.88</z-m>
+
+8)
+<x-m>15.06</x-m> <y-m type="bool">0.88</y-m> <z-m type="bool">-0.83</z-m>
+<x-m>15.06</x-m> <y-m type="bool">0.87</y-m> <z-m type="bool">-0.56</z-m>
+<x-m>15.06</x-m> <y-m type="bool">0.86</y-m> <z-m type="bool">-0.34</z-m>
+<x-m>15.06</x-m> <y-m type="bool">0.84</y-m> <z-m type="bool">-0.09</z-m>
+<x-m>15.06</x-m> <y-m type="bool">0.83</y-m> <z-m type="bool">0.15</z-m>
+<x-m>15.06</x-m> <y-m type="bool">0.81</y-m> <z-m type="bool">0.40</z-m>
+<x-m>15.06</x-m> <y-m type="bool">0.80</y-m> <z-m type="bool">0.63</z-m>
+<x-m>15.06</x-m> <y-m type="bool">0.79</y-m> <z-m type="bool">0.88</z-m>
+-->
+
+<PropertyList>
+
+<current-loadout type="int" archive="y">0</current-loadout>
+<interleave-sec type="double" archive="y">0</interleave-sec>
+
+<loadout>
+	<name archive="y">None</name>
+	<interleave-sec type="double" archive="y">0</interleave-sec>
+</loadout>
+
+<loadout n="1">
+	<name archive="y">8 M-17 500 lb. magnesium incendiary cluster bombs</name>
+	<interleave-sec type="double" archive="y">4</interleave-sec>
+	<bomb n="0">
+		<!--M17.001-->
+		<weight type="int">500</weight>
+		<dropped type="bool">false</dropped>
+		<rack>8</rack>
+	</bomb>
+	<bomb n="1">
+		<!--M17.002-->
+		<weight type="int">500</weight>
+		<dropped type="bool">false</dropped>
+		<rack>1</rack>
+	</bomb>
+	<bomb n="2">
+		<!--M17.003-->
+		<weight type="int">500</weight>
+		<dropped type="bool">false</dropped>
+		<rack>6</rack>
+	</bomb>
+	<bomb n="3">
+		<!--M17.004-->
+		<weight type="int">500</weight>
+		<dropped type="bool">false</dropped>
+		<rack>3</rack>
+	</bomb>
+	<bomb n="4">
+		<!--M17.005-->
+		<weight type="int">500</weight>
+		<dropped type="bool">false</dropped>
+		<rack>8</rack>
+	</bomb>
+	<bomb n="5">
+		<!--M17.006-->
+		<weight type="int">500</weight>
+		<dropped type="bool">false</dropped>
+		<rack>1</rack>
+	</bomb>
+	<bomb n="6">
+		<!--M17.007-->
+		<weight type="int">500</weight>
+		<dropped type="bool">false</dropped>
+		<rack>6</rack>
+	</bomb>
+	<bomb n="7">
+		<!--M17.008-->
+		<weight type="int">500</weight>
+		<dropped type="bool">false</dropped>
+		<rack>3</rack>
+	</bomb>
+</loadout>
+
+<loadout n="2">
+	<name archive="y">48 M-47A2 220 lb. jelled oil incendiary cluster bombs</name>
+	<interleave-sec type="double" archive="y">0.2</interleave-sec>
+	<bomb n="0">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>8</rack>
+	</bomb>
+	<bomb n="1">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>1</rack>
+	</bomb>
+	<bomb n="2">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>7</rack>
+	</bomb>
+	<bomb n="3">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>2</rack>
+	</bomb>
+	<bomb n="4">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>6</rack>
+	</bomb>
+	<bomb n="5">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>3</rack>
+	</bomb>
+	<bomb n="6">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>5</rack>
+	</bomb>
+	<bomb n="7">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>4</rack>
+	</bomb>
+	<bomb n="8">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>8</rack>
+	</bomb>
+	<bomb n="9">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>1</rack>
+	</bomb>
+	<bomb n="10">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>7</rack>
+	</bomb>
+	<bomb n="11">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>2</rack>
+	</bomb>
+	<bomb n="12">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>6</rack>
+	</bomb>
+	<bomb n="13">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>3</rack>
+	</bomb>
+	<bomb n="14">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>5</rack>
+	</bomb>
+	<bomb n="15">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>4</rack>
+	</bomb>
+	<bomb n="16">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>8</rack>
+	</bomb>
+	<bomb n="17">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>1</rack>
+	</bomb>
+	<bomb n="18">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>7</rack>
+	</bomb>
+	<bomb n="19">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>2</rack>
+	</bomb>
+	<bomb n="20">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>6</rack>
+	</bomb>
+	<bomb n="21">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>3</rack>
+	</bomb>
+	<bomb n="22">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>5</rack>
+	</bomb>
+	<bomb n="23">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>4</rack>
+	</bomb>
+	<bomb n="24">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>8</rack>
+	</bomb>
+	<bomb n="25">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>1</rack>
+	</bomb>
+	<bomb n="26">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>7</rack>
+	</bomb>
+	<bomb n="27">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>2</rack>
+	</bomb>
+	<bomb n="28">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>6</rack>
+	</bomb>
+	<bomb n="29">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>3</rack>
+	</bomb>
+	<bomb n="30">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>5</rack>
+	</bomb>
+	<bomb n="31">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>4</rack>
+	</bomb>
+	<bomb n="32">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>8</rack>
+	</bomb>
+	<bomb n="33">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>1</rack>
+	</bomb>
+	<bomb n="34">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>7</rack>
+	</bomb>
+	<bomb n="35">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>2</rack>
+	</bomb>
+	<bomb n="36">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>6</rack>
+	</bomb>
+	<bomb n="37">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>3</rack>
+	</bomb>
+	<bomb n="38">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>5</rack>
+	</bomb>
+	<bomb n="39">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>4</rack>
+	</bomb>
+	<bomb n="40">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>8</rack>
+	</bomb>
+	<bomb n="41">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>1</rack>
+	</bomb>
+	<bomb n="42">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>7</rack>
+	</bomb>
+	<bomb n="43">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>2</rack>
+	</bomb>
+	<bomb n="44">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>6</rack>
+	</bomb>
+	<bomb n="45">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>3</rack>
+	</bomb>
+	<bomb n="46">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>5</rack>
+	</bomb>
+	<bomb n="47">
+		<weight type="double">220</weight>
+		<dropped type="bool">false</dropped>
+		<rack>4</rack>
+	</bomb>
+</loadout>
+
+</PropertyList>

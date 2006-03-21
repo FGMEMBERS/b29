@@ -8,6 +8,8 @@ Common definitions
  <sim include="help.xml">
   <description>Boeing B-29 Superfortress</description>
 
+  <weapons include="b29-weapons.xml"/>
+
   <model>
    <path>Aircraft/b29/Models/b29-model.xml</path>
    <doors>
@@ -19,6 +21,11 @@ Common definitions
    </doors>
   </model>
 
+  <submodels>
+    <servicable type="bool">true</servicable>
+    <path>Aircraft/b29/b29-submodels.xml</path>
+  </submodels>
+
   <virtual-cockpit archive="y">true</virtual-cockpit>
   <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
 
@@ -28,20 +35,26 @@ Common definitions
 
   <chase-distance-m type="double" archive="y">-90.0</chase-distance-m>
 
+  <current-view>
+    <field-of-view-min>5</field-of-view-min>
+    <field-of-view-max>35</field-of-view-max>
+    <target-x-offset-m alias="/sim/view[0]/config/x-offset-m"/>
+    <target-y-offset-m alias="/sim/view[0]/config/y-offset-m"/>
+    <target-z-offset-min-m alias="/sim/view[0]/config/z-offset-m"/>
+    <target-z-offset-max-m archive="y">10</target-z-offset-max-m>
+  </current-view>
+
   <view n="0">
    <internal archive="y">true</internal>
    <config>
     <x-offset-m archive="y" type="double">-0.67</x-offset-m>
     <y-offset-m archive="y" type="double">0.9</y-offset-m>
-    <!-- changes for difference between the origin and the CG -->
-    <!-- <z-offset-m archive="y" type="double">2.3</z-offset-m> -->
     <z-offset-m archive="y" type="double">2.3</z-offset-m>
     <pitch-offset-deg archive="y">-10.0</pitch-offset-deg>
    </config>
   </view>
 
   <sound>
-   <audible>true</audible>
    <path>Aircraft/b29/b29-sound.xml</path>
   </sound>
  </sim>
@@ -65,6 +78,11 @@ Common definitions
     <boost>0.8</boost>
    </engine>
   </engines>
+  <armament>
+   <bombs>
+    <pickle type="bool">false</pickle>
+   </bombs>
+  </armament>
  </controls>
 
  <instrumentation>
@@ -113,6 +131,21 @@ Common definitions
    </key>
   </keyboard>
  </input>
+
+ <yasim>
+   <weights>
+		<bomb-bay>
+	    <rack n="0" type="double">0</rack>
+	    <rack n="1" type="double">0</rack>
+	    <rack n="2" type="double">0</rack>
+	    <rack n="3" type="double">0</rack>
+	    <rack n="4" type="double">0</rack>
+	    <rack n="5" type="double">0</rack>
+	    <rack n="6" type="double">0</rack>
+	    <rack n="7" type="double">0</rack>
+     </bomb-bay>
+   </weights>
+ </yasim>
 
  <nasal>
   <b29>
