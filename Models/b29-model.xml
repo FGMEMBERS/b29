@@ -1790,7 +1790,7 @@ MELCHIOR
   <object-name>PropDisc1f</object-name>
   <condition>
    <greater-than>
-    <property>/engines/engine[0]/rpm</property>
+    <property>engines/engine[0]/rpm</property>
     <value>500</value>
    </greater-than>
   </condition>
@@ -1801,7 +1801,7 @@ MELCHIOR
   <object-name>PropDisc1b</object-name>
   <condition>
    <greater-than>
-    <property>/engines/engine[0]/rpm</property>
+    <property>engines/engine[0]/rpm</property>
     <value>500</value>
    </greater-than>
   </condition>
@@ -1890,7 +1890,7 @@ MELCHIOR
   <object-name>PropDisc2f</object-name>
   <condition>
    <greater-than>
-    <property>/engines/engine[1]/rpm</property>
+    <property>engines/engine[1]/rpm</property>
     <value>500</value>
    </greater-than>
   </condition>
@@ -1901,7 +1901,7 @@ MELCHIOR
   <object-name>PropDisc2b</object-name>
   <condition>
    <greater-than>
-    <property>/engines/engine[1]/rpm</property>
+    <property>engines/engine[1]/rpm</property>
     <value>500</value>
    </greater-than>
   </condition>
@@ -1990,7 +1990,7 @@ MELCHIOR
   <object-name>PropDisc3f</object-name>
   <condition>
    <greater-than>
-    <property>/engines/engine[2]/rpm</property>
+    <property>engines/engine[2]/rpm</property>
     <value>500</value>
    </greater-than>
   </condition>
@@ -2001,7 +2001,7 @@ MELCHIOR
   <object-name>PropDisc3b</object-name>
   <condition>
    <greater-than>
-    <property>/engines/engine[2]/rpm</property>
+    <property>engines/engine[2]/rpm</property>
     <value>500</value>
    </greater-than>
   </condition>
@@ -2090,7 +2090,7 @@ MELCHIOR
   <object-name>PropDisc4f</object-name>
   <condition>
    <greater-than>
-    <property>/engines/engine[3]/rpm</property>
+    <property>engines/engine[3]/rpm</property>
     <value>500</value>
    </greater-than>
   </condition>
@@ -2101,7 +2101,7 @@ MELCHIOR
   <object-name>PropDisc4b</object-name>
   <condition>
    <greater-than>
-    <property>/engines/engine[3]/rpm</property>
+    <property>engines/engine[3]/rpm</property>
     <value>500</value>
    </greater-than>
   </condition>
