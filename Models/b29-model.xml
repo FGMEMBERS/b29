@@ -4889,5 +4889,17 @@ MELCHIOR
  <!-- Be careful when adding objects with other animations here
       LOD and noshadow stuff is probably OK. -->
 
+	<effect>
+		<inherits-from>Effects/reflect</inherits-from>
+		<object-name>Aluminium</object-name>
+	</effect>
+
+	<effect>
+		<inherits-from>Effects/reflect</inherits-from>
+		<object-name>RudderFin</object-name>
+		<object-name>Windows</object-name>
+		<object-name>Blisters</object-name>
+	</effect>
+
 
 </PropertyList>
