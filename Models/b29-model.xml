@@ -4890,16 +4890,36 @@ MELCHIOR
       LOD and noshadow stuff is probably OK. -->
 
 	<effect>
-		<inherits-from>Effects/reflect</inherits-from>
+		<inherits-from>Aircraft/b29/Models/Effects/b29reflect</inherits-from>
 		<object-name>Aluminium</object-name>
+		<object-name>RudderFin</object-name>
 	</effect>
 
 	<effect>
 		<inherits-from>Effects/reflect</inherits-from>
-		<object-name>RudderFin</object-name>
 		<object-name>Windows</object-name>
 		<object-name>Blisters</object-name>
 	</effect>
+
+	<!--<model>
+		<path>Aircraft/b29/Models/Effects/tiptrail-tail-stbd.xml</path>
+		<name>tiptrail-s</name>
+		<offsets>
+			<x-m>14.6624</x-m>
+			<y-m>4.183720</y-m>
+			<z-m>-0.3637730</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<path>Aircraft/b29/Models/Effects/tiptrail-tail-stbd.xml</path>
+		<name>tiptrail-p</name>
+		<offsets>
+			<x-m>14.6624</x-m>
+			<y-m>-4.183720</y-m>
+			<z-m>-0.3637730</z-m>
+		</offsets>
+	</model>-->
 
 
 </PropertyList>
