@@ -1,24 +1,25 @@
 AC3Db
-MATERIAL "matt" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.3 0.3 0.3  shi 32  trans 0
+MATERIAL "matt" rgb 1 1 1  amb 0.0001 0.0001 0.0001  emis 0 0 0  spec 0.3 0.3 0.3  shi 32  trans 0
 MATERIAL "CabShinyUndercoat" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.754365 0.754289 0.754289  shi 128  trans 0
 MATERIAL "RealBlack" rgb 0 0 0  amb 0 0 0  emis 0 0 0  spec 0 0 0  shi 32  trans 0
 MATERIAL "CabSatinUndercoat.002" rgb 1 0.9999 0.9999  amb 1 1 1  emis 0 0 0  spec 0.333955 0.333921 0.333921  shi 110  trans 0
-MATERIAL "WhiteLight" rgb 0.913445 0.913354 0.913354  amb 0.913445 0.913354 0.913354 emis 0 0 0  spec 1 1 1  shi 32  trans 0
-MATERIAL "OpaqueGlass" rgb 0.09893 0.173127 0  amb 0.09893 0.173127 0  emis 0 0 0  spec 1 1 1  shi 32  trans 0
+MATERIAL "WhiteLight" rgb 0.913445 0.913354 0.913354  amb 0 0 0  emis 0 0 0  spec 1 1 1  shi 32  trans 0
+MATERIAL "OpaqueGlass" rgb 0.09893 0.173127 0  amb 0 0 0  emis 0 0 0  spec 1 1 1  shi 32  trans 0
 MATERIAL "CabMattUndercoat" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.0001 0.0001 0.0001  shi 32  trans 0
-MATERIAL "ClearGlass" rgb 1 0.851 0.851  amb 1 0.851 0.851  emis 0 0 0  spec 0.97527 0.975172 0.975172  shi 128  trans 0.58
+MATERIAL "ClearGlass" rgb 1 0.851 0.851  amb 0 0 0  emis 0 0 0  spec 0.97527 0.975172 0.975172  shi 128  trans 0.58
 MATERIAL "Chrome" rgb 0.6 0.599872 0.599872  amb 0.0001 0.0001 0.0001  emis 0 0 0  spec 1 0.9999 0.9999  shi 32  trans 0
-MATERIAL "GunMetal" rgb 0.234958 0.222592 0.210226  amb 0.234958 0.222592 0.210226  emis 0 0 0  spec 0.282759 0.319857 0.307491  shi 32  trans 0
-MATERIAL "GreenLight" rgb 0.0625 0.5 0.0625  amb 0.0625 0.5 0.0625  emis 0 0 0  spec 1 0.9999 0.9999  shi 32  trans 0
-MATERIAL "RedLight" rgb 0.5 0.0625 0.0625  amb 0.5 0.0625 0.0625  emis 0 0 0  spec 1 0.9999 0.9999  shi 32  trans 0
-MATERIAL "CabChrome" rgb 0.500739 0.500632 0.500632  amb 0.500739 0.500632 0.500632  emis 0 0 0  spec 1 0.9999 0.9999  shi 32  trans 0
-MATERIAL "AmberLight" rgb 0.814525 0.517132 0.200076  amb 0.814525 0.517132 0.200076  emis 0 0 0  spec 1 0.999952 0.9999  shi 32  trans 0
-MATERIAL "fixtures" rgb 0.248076 0.248076 0.2481  amb 0.248076 0.248076 0.2481  emis 0 0 0  spec 0.515033 0.543363 0.57959  shi 32  trans 0
+MATERIAL "GunMetal" rgb 0.234958 0.222592 0.210226  amb 0 0 0  emis 0 0 0  spec 0.282759 0.319857 0.307491  shi 32  trans 0
+MATERIAL "GreenLight" rgb 0.0625 0.5 0.0625  amb 0.00812 0 0  emis 0 0 0  spec 1 0.9999 0.9999  shi 32  trans 0
+MATERIAL "RedLight" rgb 0.5 0.0625 0.0625  amb 0.00812 0 0  emis 0 0 0  spec 1 0.9999 0.9999  shi 32  trans 0
+MATERIAL "CabChrome" rgb 0.500739 0.500632 0.500632  amb 0.0001 0.0001 0.0001  emis 0 0 0  spec 1 0.9999 0.9999  shi 32  trans 0
+MATERIAL "AmberLight" rgb 0.814525 0.517132 0.200076  amb 1 0.444575 0  emis 0 0 0  spec 1 0.999952 0.9999  shi 32  trans 0
+MATERIAL "fixtures" rgb 0.248076 0.248076 0.2481  amb 0.0001 0.0001 0.0001  emis 0 0 0  spec 0.515033 0.543363 0.57959  shi 32  trans 0
 MATERIAL "CabMattUndercoat.001" rgb 1 0.9999 0.9999  amb 1 1 1  emis 0 0 0  spec 0.0001 0.0001 0.0001  shi 32  trans 0
 MATERIAL "RedLightOn" rgb 0.8 0.1 0.1  amb 1 0 0  emis 0 0 0  spec 1 0.9999 0.9999  shi 32  trans 0
-MATERIAL "TintedGlass" rgb 0.863 1 0.835  amb 0.863 1 0.835  emis 0 0 0  spec 0.97527 0.975172 0.975172  shi 128  trans 0.557
+MATERIAL "TintedGlass" rgb 0.863 1 0.835  amb 0 0 0  emis 0 0 0  spec 0.97527 0.975172 0.975172  shi 128  trans 0.557
+MATERIAL "ac3dmat13" rgb 0.663 0.663 0.663  amb 0.663 0.663 0.663  emis 0 0 0  spec 0.804 0.804 0.804  shi 10  trans 0.663
 OBJECT world
-kids 118
+kids 119
 OBJECT poly
 name "AstrodomeHole"
 crease 45.000000
@@ -190066,4 +190067,24 @@ refs 3
 4 0 0
 28 0 0
 29 0 0
+kids 0
+OBJECT poly
+name "Antenna-Wire"
+loc 15.7837 2.92458 0
+crease 45.000000
+numvert 5
+-6.1418 -0.764158 0.580196
+-4.2232 -0.807574 0.537552
+-2.2796 -0.748168 0.494908
+3.9192 1.07389 0.247356
+10.118 3.2421 -0.000196
+numsurf 1
+SURF 0x32
+mat 18
+refs 5
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+4 0 0
 kids 0
