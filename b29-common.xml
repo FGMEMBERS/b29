@@ -5,152 +5,172 @@ Common definitions
 -->
 
 <PropertyList>
- <sim include="help.xml">
-  <description>Boeing B-29 Superfortress</description>
+	<sim include="help.xml">
+		<!--<description>Boeing B-29 Superfortress</description>-->
 
-  <weapons include="b29-weapons.xml"/>
+		<weapons include="b29-weapons.xml"/>
 
-  <model>
-   <path>Aircraft/b29/Models/b29-model.xml</path>
-   <doors>
-    <bombbay/>
-    <tail/>
-    <pilotwin/>
-    <copilotwin/>
-    <hatch/>
-   </doors>
-  </model>
+		<model>
+			<path>Aircraft/b29/Models/b29-model.xml</path>
+			<doors>
+				<bombbay/>
+				<tail/>
+				<pilotwin/>
+				<copilotwin/>
+				<hatch/>
+			</doors>
+		</model>
 
-  <submodels>
-    <servicable type="bool">true</servicable>
-    <path>Aircraft/b29/b29-submodels.xml</path>
-  </submodels>
+		<!--<ai>
+			<scenario n="100">wingman_b29_1_demo</scenario>
+			<scenario n="101">wingman_b29_demo</scenario>
+			--><!--<scenario n="102">nimitz_demo</scenario>--><!--
+		</ai>-->
 
-  <virtual-cockpit archive="y">true</virtual-cockpit>
-  <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
+		<submodels>
+			<servicable type="bool">true</servicable>
+			<path>Aircraft/b29/b29-submodels.xml</path>
+		</submodels>
 
-  <panel>
-   <visibility>false</visibility>
-  </panel>
+		<virtual-cockpit archive="y">true</virtual-cockpit>
+		<allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
 
-  <chase-distance-m type="double" archive="y">-90.0</chase-distance-m>
+		<panel>
+			<visibility>false</visibility>
+		</panel>
 
-  <current-view>
-    <field-of-view-min>5</field-of-view-min>
-    <field-of-view-max>35</field-of-view-max>
-    <target-x-offset-m alias="/sim/view[0]/config/x-offset-m"/>
-    <target-y-offset-m alias="/sim/view[0]/config/y-offset-m"/>
-    <target-z-offset-min-m alias="/sim/view[0]/config/z-offset-m"/>
-    <target-z-offset-max-m archive="y">10</target-z-offset-max-m>
-  </current-view>
+		<chase-distance-m type="double"
+											archive="y">-90.0</chase-distance-m>
 
-  <view n="0">
-   <internal archive="y">true</internal>
-   <config>
-    <x-offset-m archive="y" type="double">-0.67</x-offset-m>
-    <y-offset-m archive="y" type="double">0.9</y-offset-m>
-    <z-offset-m archive="y" type="double">2.3</z-offset-m>
-    <pitch-offset-deg archive="y">-10.0</pitch-offset-deg>
-   </config>
-  </view>
+		<current-view>
+			<field-of-view-min>5</field-of-view-min>
+			<field-of-view-max>35</field-of-view-max>
+			<target-x-offset-m alias="/sim/view[0]/config/x-offset-m"/>
+			<target-y-offset-m alias="/sim/view[0]/config/y-offset-m"/>
+			<target-z-offset-min-m alias="/sim/view[0]/config/z-offset-m"/>
+			<target-z-offset-max-m archive="y">10</target-z-offset-max-m>
+		</current-view>
 
-  <sound>
-   <path>Aircraft/b29/b29-sound.xml</path>
-  </sound>
- </sim>
+		<view n="0">
+			<internal archive="y">true</internal>
+			<config>
+				<x-offset-m archive="y"
+										type="double">-0.67</x-offset-m>
+				<y-offset-m archive="y"
+										type="double">0.9</y-offset-m>
+				<z-offset-m archive="y"
+										type="double">2.3</z-offset-m>
+				<pitch-offset-deg archive="y">-10.0</pitch-offset-deg>
+			</config>
+		</view>
 
- <controls>
-  <gear>
-   <nosewheel-caster type="bool" archive="y">true</nosewheel-caster>
-   <antiskid type="bool" archive="y">false</antiskid>
-  </gear>
-  <engines>
-   <engine n="0">
-    <boost>0.8</boost>
-   </engine>
-   <engine n="1">
-    <boost>0.8</boost>
-   </engine>
-   <engine n="2">
-    <boost>0.8</boost>
-   </engine>
-   <engine n="3">
-    <boost>0.8</boost>
-   </engine>
-  </engines>
-  <armament>
-   <bombs>
-    <pickle type="bool">false</pickle>
-   </bombs>
-  </armament>
- </controls>
+		<sound>
+			<path>Aircraft/b29/b29-sound.xml</path>
+		</sound>
+	</sim>
 
- <instrumentation>
-  <pdi>
-   <direction-norm>0</direction-norm>
-  </pdi>
-  <magnetic-compass>
-   <bug-heading-deg>0</bug-heading-deg>
-  </magnetic-compass>
- </instrumentation>
+	<controls>
+		<gear>
+			<nosewheel-caster type="bool"
+												archive="y">true</nosewheel-caster>
+			<antiskid type="bool"
+								archive="y">false</antiskid>
+		</gear>
+		<engines>
+			<engine n="0">
+				<boost>0.8</boost>
+			</engine>
+			<engine n="1">
+				<boost>0.8</boost>
+			</engine>
+			<engine n="2">
+				<boost>0.8</boost>
+			</engine>
+			<engine n="3">
+				<boost>0.8</boost>
+			</engine>
+		</engines>
+		<armament>
+			<bombs>
+				<pickle type="bool">false</pickle>
+			</bombs>
+		</armament>
+	</controls>
 
- <systems>
-  <electrical>
-   <!--path>b29-electrical.xml</path-->
-  </electrical>
-  <autopilot>
-   <path>b29-autopilot.xml</path>
-  </autopilot>
- </systems> 
+	<instrumentation>
+		<pdi>
+			<direction-norm>0</direction-norm>
+		</pdi>
+		<magnetic-compass>
+			<bug-heading-deg>0</bug-heading-deg>
+		</magnetic-compass>
+	</instrumentation>
 
- <input>
-  <keyboard>
-   <key n="4">
-    <name>Ctrl-D</name>
-    <desc>Open/close bomb bay doors</desc>
-    <binding>
-     <command>nasal</command>
-     <script>b29.bombbay.toggle()</script>
-    </binding>
-   </key>
-   <key n="6">
-    <name>Ctrl-F</name>
-    <desc>Open/close cabin doors and windows</desc>
-    <binding>
-     <command>nasal</command>
-     <script>b29.togglecabindoors()</script>
-    </binding>
-   </key>
-   <key n="106">
-    <name>j</name>
-    <desc>Jump to next seat</desc>
-    <binding>
-     <command>nasal</command>
-     <script>b29.nextPosition()</script>
-    </binding>
-   </key>
-  </keyboard>
- </input>
+	<systems>
+		<electrical>
+			<!--path>b29-electrical.xml</path-->
+		</electrical>
+		<autopilot>
+			<path>b29-autopilot.xml</path>
+		</autopilot>
+	</systems>
 
- <yasim>
-   <weights>
-		<bomb-bay>
-	    <rack n="0" type="double">0</rack>
-	    <rack n="1" type="double">0</rack>
-	    <rack n="2" type="double">0</rack>
-	    <rack n="3" type="double">0</rack>
-	    <rack n="4" type="double">0</rack>
-	    <rack n="5" type="double">0</rack>
-	    <rack n="6" type="double">0</rack>
-	    <rack n="7" type="double">0</rack>
-     </bomb-bay>
-   </weights>
- </yasim>
+	<input>
+		<keyboard>
+			<key n="4">
+				<name>Ctrl-D</name>
+				<desc>Open/close bomb bay doors</desc>
+				<binding>
+					<command>nasal</command>
+					<script>b29.bombbay.toggle()</script>
+				</binding>
+			</key>
+			<key n="6">
+				<name>Ctrl-F</name>
+				<desc>Open/close cabin doors and windows</desc>
+				<binding>
+					<command>nasal</command>
+					<script>b29.togglecabindoors()</script>
+				</binding>
+			</key>
+			<key n="106">
+				<name>j</name>
+				<desc>Jump to next seat</desc>
+				<binding>
+					<command>nasal</command>
+					<script>b29.nextPosition()</script>
+				</binding>
+			</key>
+		</keyboard>
+	</input>
 
- <nasal>
-  <b29>
-   <file>Aircraft/b29/b29.nas</file>
-  </b29>
- </nasal>
+	<yasim>
+		<weights>
+			<bomb-bay>
+				<rack n="0"
+							type="double">0</rack>
+				<rack n="1"
+							type="double">0</rack>
+				<rack n="2"
+							type="double">0</rack>
+				<rack n="3"
+							type="double">0</rack>
+				<rack n="4"
+							type="double">0</rack>
+				<rack n="5"
+							type="double">0</rack>
+				<rack n="6"
+							type="double">0</rack>
+				<rack n="7"
+							type="double">0</rack>
+			</bomb-bay>
+		</weights>
+	</yasim>
+
+	<nasal>
+		<b29>
+			<file>Aircraft/b29/b29.nas</file>
+		</b29>
+	</nasal>
 
 </PropertyList>

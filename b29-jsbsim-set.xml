@@ -7,21 +7,23 @@ jbabcock@atlantech.net
 -->
 
 <PropertyList include="b29-common.xml">
- <sim>
-  <flight-model>jsb</flight-model>
-  <aero>b29</aero>
- </sim>
- <!-- The model is made for YASim, emulate gear compression (sort of) -->
- <gear>
-  <gear n="0">
-   <compression-norm>0.6</compression-norm>
-  </gear>
-  <gear n="1">
-   <compression-norm>0.5</compression-norm>
-  </gear>
-  <gear n="2">
-   <compression-norm>0.5</compression-norm>
-  </gear>
- </gear>
+	<sim>
+		<description>Boeing B-29 Superfortress - JSBSim</description>
+		<author>Joshua Babcock</author>
+		<flight-model>jsb</flight-model>
+		<aero>b29</aero>
+	</sim>
+	<!-- The model is made for YASim, emulate gear compression (sort of) -->
+	<gear>
+		<gear n="0">
+			<compression-norm>0.6</compression-norm>
+		</gear>
+		<gear n="1">
+			<compression-norm>0.5</compression-norm>
+		</gear>
+		<gear n="2">
+			<compression-norm>0.5</compression-norm>
+		</gear>
+	</gear>
 </PropertyList>
 

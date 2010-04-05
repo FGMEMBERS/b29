@@ -7,9 +7,10 @@ jbabcock@atlantech.net
 -->
 
 <PropertyList include="b29-common.xml">
- <sim>
-  <flight-model>yasim</flight-model>
-  <aero>b29-yasim</aero>
- </sim>
+	<sim>
+		<description>Boeing B-29 Superfortress - YASim</description>-->
+		<flight-model>yasim</flight-model>
+		<aero>b29-yasim</aero>
+	</sim>
 </PropertyList>
 
