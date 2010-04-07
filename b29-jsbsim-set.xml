@@ -10,6 +10,7 @@ jbabcock@atlantech.net
 	<sim>
 		<description>Boeing B-29 Superfortress - JSBSim</description>
 		<author>Joshua Babcock</author>
+		<status>early-production</status>
 		<flight-model>jsb</flight-model>
 		<aero>b29</aero>
 	</sim>

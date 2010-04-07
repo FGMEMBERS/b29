@@ -6,7 +6,7 @@ Common definitions
 
 <PropertyList>
 	<sim include="help.xml">
-		<!--<description>Boeing B-29 Superfortress</description>-->
+		<description type="string">Boeing B-29 Superfortress</description>
 
 		<weapons include="b29-weapons.xml"/>
 
@@ -21,15 +21,22 @@ Common definitions
 			</doors>
 		</model>
 
+		<startup>
+			<splash-texture>Aircraft/b29/splash.png</splash-texture>
+		</startup>
+
+
 		<!--<ai>
 			<scenario n="100">wingman_b29_1_demo</scenario>
 			<scenario n="101">wingman_b29_demo</scenario>
-			--><!--<scenario n="102">nimitz_demo</scenario>--><!--
+			-->
+		<!--<scenario n="102">nimitz_demo</scenario>-->
+		<!--
 		</ai>-->
 
 		<submodels>
 			<servicable type="bool">true</servicable>
-			<path>Aircraft/b29/b29-submodels.xml</path>
+			<path type="string">Aircraft/b29/b29-submodels.xml</path>
 		</submodels>
 
 		<virtual-cockpit archive="y">true</virtual-cockpit>
@@ -67,6 +74,87 @@ Common definitions
 		<sound>
 			<path>Aircraft/b29/b29-sound.xml</path>
 		</sound>
+
+		<weapons n="0">
+			<current-loadout archive="y"
+											 type="int">0</current-loadout>
+		</weapons>
+
+		<menubar>
+			<default>
+				<menu n="10">
+					<label>B-29</label>
+					<enabled type="bool">true</enabled>
+					<item>
+						<label>Bomb Loadout 1</label>
+						<binding>
+							<command>property-assign</command>
+							<property type="string">/sim/weapons/current-loadout[0]</property>
+							<value type="int">1</value>
+						</binding>
+					</item>
+					<item>
+						<label>Bomb Loadout 2</label>
+						<binding>
+							<command>property-assign</command>
+							<property type="string">/sim/weapons/current-loadout[0]</property>
+							<value type="int">2</value>
+						</binding>
+					</item>
+				</menu>
+			</default>
+		</menubar>
+
+		<hurricane>
+			<show-pilot archive="y"
+									type="bool">true</show-pilot>
+		</hurricane>
+
+
+		<multiplay>
+			<generic>
+				<string n="0"
+								alias="/sim/submodels/path"/>
+				<int n="0"
+						 alias="/engines/engine[0]/running"/>
+				<int n="1"
+						 alias="/gear/gear[0]/tyre-smoke"/>
+				<int n="2"
+						 alias="/gear/gear[1]/tyre-smoke"/>
+				<int n="3"
+						 alias="/gear/gear[2]/tyre-smoke"/>
+				<int n="4"
+						 alias="/controls/lighting/nav-lights"/>
+				<int n="5"
+						 alias="/controls/armament/trigger"/>
+				<int n="6"
+						 alias="/controls/lighting/landing-light"/>
+				<float n="0"
+							 alias="/gear/gear[0]/sprayspeed-ms"/>
+				<float n="1"
+							 alias="/gear/gear[1]/sprayspeed-ms"/>
+				<float n="2"
+							 alias="/gear/gear[2]/sprayspeed-ms"/>
+				<float n="3"
+							 alias="/gear/gear[0]/spray-density"/>
+				<float n="4"
+							 alias="/gear/gear[1]/spray-density"/>
+				<float n="5"
+							 alias="/gear/gear[2]/spray-density"/>
+				<float n="6"
+							 alias="/position/altitude-agl-ft"/>
+				<float n="7"
+							 alias="/gear/gear/caster-angle-deg"/>
+				<float n="8"
+							 alias="/controls/engines/engine[0]/throttle"/>
+				<float n="9"
+							 alias="/gear/canopy/position-norm"/>
+				<float n="10"
+							 alias="/controls/flight/door-position-norm"/>
+				<float n="11"
+							 alias="/sim/time/hobbs/engine[0]"/>
+			</generic>
+		</multiplay>
 	</sim>
 
 	<controls>
