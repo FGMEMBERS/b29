@@ -99,12 +99,13 @@ This is a list of bomb shackle coords in the b29 for use in the animations:
 <interleave-sec type="double" archive="y">0</interleave-sec>
 
 <loadout>
-	<name archive="y">None</name>
+	<name archive="y"
+			type="string">None</name>
 	<interleave-sec type="double" archive="y">0</interleave-sec>
 </loadout>
 
 <loadout n="1">
-	<name archive="y">8 M-17 500 lb. magnesium incendiary cluster bombs</name>
+	<name archive="y" type="string">8 M-17 500 lb. magnesium incendiary cluster bombs</name>
 	<interleave-sec type="double" archive="y">4</interleave-sec>
 	<bomb n="0">
 		<!--M17.001-->
@@ -157,7 +158,8 @@ This is a list of bomb shackle coords in the b29 for use in the animations:
 </loadout>
 
 <loadout n="2">
-	<name archive="y">48 M-47A2 220 lb. jelled oil incendiary cluster bombs</name>
+	<name archive="y"
+			type="string">48 M-47A2 220 lb. jelled oil incendiary cluster bombs</name>
 	<interleave-sec type="double" archive="y">0.2</interleave-sec>
 	<bomb n="0">
 		<weight type="double">220</weight>

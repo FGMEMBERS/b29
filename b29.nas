@@ -124,7 +124,7 @@ landLightCheck = func {
 
 matlist = { # MATERIALS
 #                       diffuse             ambient            emission           specular          shi trans
-        "lens":         [0.3, 0.3, 0.3,     0.6, 0.6, 0.6,     0.0, 0.0, 0.0,     0.0, 0.0, 0.0,    90, 0],
+        "lens":         [0.3, 0.3, 0.3,     0.3, 0.3, 0.3,     0.0, 0.0, 0.0,     0.0, 0.0, 0.0,    90, 0],
         "redlight":     [0.0, 0.0, 0.0,     0.0, 0.0, 0.0,     1.0, 0.0, 0.0,     0.0, 0.0, 0.0,    0,  0],
         "greenlight":   [0.0, 0.0, 0.0,     0.0, 0.0, 0.0,     0.0, 1.0, 0.0,     0.0, 0.0, 0.0,    0,  0],
 };
@@ -402,7 +402,7 @@ moveGear = func {
 loadBombs = func {
 	# Find out which bomb configuration we are now using and get some important nodes.
 	loadoutIndex =  getprop('/sim/weapons/current-loadout');
-	printlog('info', 'Loadout ', loadoutIndex, ' selected');
+	print('info', 'Loadout ', loadoutIndex, ' selected');
 	loadout =  props.globals.getNode('/sim/weapons/loadout[' ~ loadoutIndex ~ ']');
 	weights = props.globals.getNode('/yasim/weights/bomb-bay');
 
@@ -424,12 +424,13 @@ loadBombs = func {
 		weight = bomb.getNode('weight');
 		bombRack = weights.getChild('rack', rackIndex);
 		bombRack.setDoubleValue(bombRack.getValue() + weight.getValue());
-		printlog('info', 'Rack ', rackIndex, ' now: ', (bombRack.getValue()));
+		print('info', 'Rack ', rackIndex, ' now: ', (bombRack.getValue()));
 	}
 
 }
 
 dropBombs = func {
+
 	dropBomb = func (bomb, weights) {
 		var dropped = bomb.getNode('dropped');
 		if (! dropped.getValue()) {
@@ -438,17 +439,19 @@ dropBombs = func {
 			var bombRack = weights.getChild('rack', rackIndex);
 			bombRack.setDoubleValue(bombRack.getValue() - weight.getValue());
 			dropped.setBoolValue(1);
-			printlog('info', 'Dropping bomb ', bomb.getIndex());
+			print('info', 'Dropping bomb ', bomb.getIndex());
 		} else {
-			printlog('warn', 'Dropping unloaded bomb ', bomb.getIndex(), ' failed');
+			print('warn', 'Dropping unloaded bomb ', bomb.getIndex(), ' failed');
 		}
 	}
 
-	# Check if we even need to do anything
-	if (! getprop('/controls/armament/bombs/pickle')) {
+    # Check if we even need to do anything
+	if (!getprop('/controls/armament/bombs/pickle')) {
 		return;
 	}
-	setprop('/controls/armament/bombs/pickle', 0);
+
+    # Done - set control back to off 
+    # setprop('/controls/armament/bombs/pickle', 0);
 
 	var loadoutIndex =  getprop('/sim/weapons/current-loadout');
 	var loadout =  props.globals.getNode('/sim/weapons/loadout[' ~ loadoutIndex ~ ']');
@@ -457,8 +460,8 @@ dropBombs = func {
 
 	var time = 0;
 	foreach (var bomb; loadout.getChildren('bomb')) {
-		printlog('info', 'Scheduling bomb ', bomb.getIndex(), ' for drop in ', time);
-		settimer(func { dropBomb(bomb, weights) }, time);
+		print('info', 'Scheduling bomb ', bomb.getIndex(), ' for drop in ', time);
+		settimer(func { dropBomb(bomb, weights) }, interleave);
 		time += interleave;
 	}
 }

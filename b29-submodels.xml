@@ -9,13 +9,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>4.12</eda>
 		<cd>0.02</cd>
 		<weight>500</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-1.8368</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -30,13 +30,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>4.12</eda>
 		<cd>0.02</cd>
 		<weight>500</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-1.8368</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -51,13 +51,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>4.12</eda>
 		<cd>0.02</cd>
 		<weight>500</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-1.8368</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -72,13 +72,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>4.12</eda>
 		<cd>0.02</cd>
 		<weight>500</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-1.8368</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -93,13 +93,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>4.12</eda>
 		<cd>0.02</cd>
 		<weight>500</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>-1.8368</y-offset>
 		<z-offset>0.492</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -114,13 +114,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>4.12</eda>
 		<cd>0.02</cd>
 		<weight>500</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>-1.8368</y-offset>
 		<z-offset>0.492</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -135,13 +135,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>4.12</eda>
 		<cd>0.02</cd>
 		<weight>500</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>-1.8368</y-offset>
 		<z-offset>0.492</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -156,13 +156,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>4.12</eda>
 		<cd>0.02</cd>
 		<weight>500</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>-1.8368</y-offset>
 		<z-offset>0.492</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -177,13 +177,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-1.8368</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -198,13 +198,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-1.8368</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -219,13 +219,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-1.8368</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -240,13 +240,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-1.8368</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -261,13 +261,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-1.8368</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -282,13 +282,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-1.8368</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -303,13 +303,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-1.8368</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -324,13 +324,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-1.8368</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -345,13 +345,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-1.1152</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -366,13 +366,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-1.1152</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -387,13 +387,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-1.1152</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -408,13 +408,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-1.1152</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -429,13 +429,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-1.1152</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -450,13 +450,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-1.1152</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -471,13 +471,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-1.1152</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -492,13 +492,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-1.1152</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -513,13 +513,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-0.2952</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -534,13 +534,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-0.2952</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -555,13 +555,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-0.2952</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -576,13 +576,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-0.2952</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -597,13 +597,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-0.2952</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -618,13 +618,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-0.2952</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -639,13 +639,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>-0.2952</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -660,13 +660,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>-0.2952</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -681,13 +681,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>0.492</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -702,13 +702,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>0.492</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -723,13 +723,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>0.492</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -744,13 +744,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>0.492</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -765,13 +765,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>0.492</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -786,13 +786,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>0.492</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -807,13 +807,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>0.492</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -828,13 +828,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>0.492</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -849,13 +849,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>1.312</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -870,13 +870,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>1.312</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -891,13 +891,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>1.312</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -912,13 +912,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>1.312</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -933,13 +933,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>1.312</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -954,13 +954,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>1.312</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -975,13 +975,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>1.312</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -996,13 +996,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>1.312</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -1017,13 +1017,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>2.0664</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -1038,13 +1038,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>2.0664</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -1059,13 +1059,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>49.3968</x-offset>
+		<x-offset>-49.3968</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>2.0664</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -1080,13 +1080,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>21.648</x-offset>
+		<x-offset>-21.648</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>2.0664</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -1101,13 +1101,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>2.0664</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -1122,13 +1122,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>2.0664</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -1143,13 +1143,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>41.8528</x-offset>
+		<x-offset>-41.8528</x-offset>
 		<y-offset>-1.968</y-offset>
 		<z-offset>2.0664</z-offset>
 		<pitch-offset>0</pitch-offset>
@@ -1164,13 +1164,13 @@
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
-		<wind>true</wind>
+		<wind>false</wind>
 		<aero-stabilised>true</aero-stabilised>
 		<eda>2.06</eda>
 		<cd>0.02</cd>
 		<weight>220</weight>
 		<buoyancy>0</buoyancy>
-		<x-offset>29.1592</x-offset>
+		<x-offset>-29.1592</x-offset>
 		<y-offset>1.968</y-offset>
 		<z-offset>2.0664</z-offset>
 		<pitch-offset>0</pitch-offset>

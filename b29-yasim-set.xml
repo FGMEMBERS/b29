@@ -8,7 +8,9 @@ jbabcock@atlantech.net
 
 <PropertyList include="b29-common.xml">
 	<sim>
-		<description>Boeing B-29 Superfortress - YASim</description>-->
+		<description>Boeing B-29 Superfortress - YASim</description>
+		<author>Joshua Babcock, Vivian Meazza (FDM)</author>
+		<status>early-production</status>
 		<flight-model>yasim</flight-model>
 		<aero>b29-yasim</aero>
 	</sim>
