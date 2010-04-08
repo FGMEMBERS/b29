@@ -9,51 +9,47 @@ Common definitions
 	<!-- *************** set properties **********************-->
 	<controls>
 		<armament>
-			<trigger type="bool">0</trigger>
+			<bombs>
+				<pickle type="bool">false</pickle>
+			</bombs>
 		</armament>
 		<engines>
+			<wastegate type="double">1</wastegate>
 			<engine n="0">
+				<boost>0.8</boost>
 				<cowl-flaps-norm>0</cowl-flaps-norm>
 				<intercooler-norm>0</intercooler-norm>
 				<throttle>0</throttle>
 			</engine>
 			<engine n="1">
+				<boost>0.8</boost>
 				<cowl-flaps-norm>0</cowl-flaps-norm>
 				<intercooler-norm>0</intercooler-norm>
 				<throttle>0</throttle>
 			</engine>
 			<engine n="2">
+				<boost>0.8</boost>
 				<cowl-flaps-norm>0</cowl-flaps-norm>
 				<intercooler-norm>0</intercooler-norm>
 				<throttle>0</throttle>
 			</engine>
 			<engine n="3">
+				<boost>0.8</boost>
 				<cowl-flaps-norm>0</cowl-flaps-norm>
 				<intercooler-norm>0</intercooler-norm>
 				<throttle>0</throttle>
 			</engine>
 		</engines>
 		<gear>
+			<nosewheel-caster type="bool"
+												archive="y">true</nosewheel-caster>
+			<antiskid type="bool"
+								archive="y">false</antiskid>
 			<brake-parking>1</brake-parking>
-			<tailwheel-lock>true</tailwheel-lock>
-			<launchbar>
-				<acceleration-norm type="float">0.4</acceleration-norm>
-			</launchbar>
-			<lashings type ="bool">false</lashings>
 		</gear>
-		<flight>
-			<flaps-alternate-extension type="double">1</flaps-alternate-extension>
-			<speedbrake-lever type="bool">false</speedbrake-lever>
-			<flaps-lever type="double">0</flaps-lever>
-		</flight>
 		<lighting>
 			<nav-lights type="bool">false</nav-lights>
 		</lighting>
-		<armament>
-			<station n="0">
-				<jettison-all type="bool">false</jettison-all>
-			</station>
-		</armament>
 	</controls>
 
 	<gear>
@@ -73,13 +69,19 @@ Common definitions
 			<sprayspeed-ms type="double">0</sprayspeed-ms>
 			<spray-density type="double">0</spray-density>
 		</gear>
-		<tailhook>
-			<position-norm type="double">0</position-norm>
-		</tailhook>
 	</gear>
 
 	<engines>
 		<engine n="0">
+			<running type="bool">0</running>
+		</engine>
+		<engine n="1">
+			<running type="bool">0</running>
+		</engine>
+		<engine n="2">
+			<running type="bool">0</running>
+		</engine>
+		<engine n="3">
 			<running type="bool">0</running>
 		</engine>
 	</engines>
@@ -87,7 +89,6 @@ Common definitions
 	<position>
 		<altitude-agl-ft type="double">0</altitude-agl-ft>
 	</position>
-
 
 	<sim include="help.xml">
 		<description type="string">Boeing B-29 Superfortress</description>
@@ -194,7 +195,6 @@ Common definitions
 									type="bool">true</show-pilot>
 		</hurricane>
 
-
 		<multiplay>
 			<generic>
 				<string n="0"
@@ -253,41 +253,12 @@ Common definitions
 							 alias="/controls/engines/engine[2]/intercooler-norm"/>
 				<float n="19"
 							 alias="/controls/engines/engine[3]/intercooler-norm"/>
-
-
-				controls/engines/engine[2]/intercooler-norm
 			</generic>
 		</multiplay>
 
 	</sim>
 
-	<controls>
-		<gear>
-			<nosewheel-caster type="bool"
-												archive="y">true</nosewheel-caster>
-			<antiskid type="bool"
-								archive="y">false</antiskid>
-		</gear>
-		<engines>
-			<engine n="0">
-				<boost>0.8</boost>
-			</engine>
-			<engine n="1">
-				<boost>0.8</boost>
-			</engine>
-			<engine n="2">
-				<boost>0.8</boost>
-			</engine>
-			<engine n="3">
-				<boost>0.8</boost>
-			</engine>
-		</engines>
-		<armament>
-			<bombs>
-				<pickle type="bool">false</pickle>
-			</bombs>
-		</armament>
-	</controls>
+
 
 	<instrumentation>
 		<pdi>

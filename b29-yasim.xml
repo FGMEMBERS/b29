@@ -182,13 +182,13 @@ The reference datum for measurements is the nose.
 					 lift="1.4"
 					 drag="1.4"/>
 		<control-input axis="/controls/flight/elevator"
-									 control="FLAP0"
-									 transition-time="2"/>
+									 control="FLAP0" />
 		<control-input axis="/controls/flight/elevator-trim"
 									 control="FLAP0"/>
 		<control-output control="FLAP0"
-										prop="/surface-positions/elevator-pos-norm"
-										transition-time="2"/>
+										prop="/surface-positions/elevator-pos-norm"/>
+		<control-speed control="FLAP0"
+									 transition-time="2.0"/>
 	</hstab>
 
 	<vstab x="-25.23"
@@ -215,8 +215,9 @@ The reference datum for measurements is the nose.
 									 control="FLAP0"
 									 invert="true"/>
 		<control-output control="FLAP0"
-										prop="/surface-positions/rudder-pos-norm"
-										transition-time="2"/>
+										prop="/surface-positions/rudder-pos-norm"/>
+		<control-speed control="FLAP0"
+									 transition-time="2.0"/>
 	</vstab>
 
 	<!-- #1 engine -->
@@ -258,7 +259,8 @@ The reference datum for measurements is the nose.
 										 control="MIXTURE"/>
 			<control-input axis="/controls/engines/engine[0]/boost"
 										 control="BOOST"/>
-			<!--control-input axis="/controls/engines/wastegate" control="WASTEGATE"/-->
+			<!-- 			<control-input axis="/controls/engines/wastegate"
+										 control="WASTEGATE"/> -->
 		</piston-engine>
 	</propeller>
 	<!-- #2 engine -->
@@ -300,7 +302,8 @@ The reference datum for measurements is the nose.
 										 control="MIXTURE"/>
 			<control-input axis="/controls/engines/engine[1]/boost"
 										 control="BOOST"/>
-			<!--control-input axis="/controls/engines/wastegate" control="WASTEGATE"/-->
+			<!-- 			<control-input axis="/controls/engines/wastegate"
+										 control="WASTEGATE"/> -->
 		</piston-engine>
 	</propeller>
 
@@ -343,7 +346,8 @@ The reference datum for measurements is the nose.
 										 control="MIXTURE"/>
 			<control-input axis="/controls/engines/engine[2]/boost"
 										 control="BOOST"/>
-			<!--control-input axis="/controls/engines/wastegate" control="WASTEGATE"/-->
+			<!-- 			<control-input axis="/controls/engines/wastegate"
+										 control="WASTEGATE"/> -->
 		</piston-engine>
 	</propeller>
 
@@ -386,7 +390,8 @@ The reference datum for measurements is the nose.
 										 control="MIXTURE"/>
 			<control-input axis="/controls/engines/engine[3]/boost"
 										 control="BOOST"/>
-			<!--control-input axis="/controls/engines/wastegate" control="WASTEGATE"/-->
+			<!-- 			<control-input axis="/controls/engines/wastegate"
+										 control="WASTEGATE"/> -->
 		</piston-engine>
 	</propeller>
 
