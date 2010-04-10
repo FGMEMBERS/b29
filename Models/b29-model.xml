@@ -4905,7 +4905,6 @@ MELCHIOR
 	<effect>
 		<inherits-from>Effects/reflect</inherits-from>
 		<name>CabinDetailChrome</name>
-		<!-- for some reason, fg is looking in Istruments for this file ... -->
 		<object-name>PilotAshTray</object-name>
 		<object-name>CoPilotAshTray</object-name>
 		<object-name>ActionSwitch</object-name>
@@ -4929,9 +4928,9 @@ MELCHIOR
 	</animation>
 
 
-	<!--<model>
-		<path>Aircraft/b29/Models/Effects/tiptrail-tail-stbd.xml</path>
-		<name>tiptrail-s</name>
+	<model>
+		<path>Aircraft/b29/Models/Effects/contrail.xml</path>
+		<name>contrail-si</name>
 		<offsets>
 			<x-m>14.6624</x-m>
 			<y-m>4.183720</y-m>
@@ -4940,14 +4939,33 @@ MELCHIOR
 	</model>
 
 	<model>
-		<path>Aircraft/b29/Models/Effects/tiptrail-tail-stbd.xml</path>
-		<name>tiptrail-p</name>
+		<path>Aircraft/b29/Models/Effects/contrail.xml</path>
+		<name>contrail-pi</name>
 		<offsets>
 			<x-m>14.6624</x-m>
 			<y-m>-4.183720</y-m>
 			<z-m>-0.3637730</z-m>
 		</offsets>
-	</model>-->
+	</model>
 
+	<model>
+		<path>Aircraft/b29/Models/Effects/contrail.xml</path>
+		<name>contrail-so</name>
+		<offsets>
+			<x-m>13.0334</x-m>
+			<y-m>9.12665</y-m>
+			<z-m>0.147253</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<path>Aircraft/b29/Models/Effects/contrail.xml</path>
+		<name>contrail-po</name>
+		<offsets>
+			<x-m>13.0334</x-m>
+			<y-m>-9.12665</y-m>
+			<z-m>0.147253</z-m>
+		</offsets>
+	</model>
 
 </PropertyList>
