@@ -63,7 +63,7 @@
       </depth>
       <render-bin>
         <bin-number>9</bin-number>
-        <bin-name>CLOUDS_BIN</bin-name>
+        <bin-name>DepthSortedBin</bin-name>
       </render-bin>
       <texture-unit>
         <unit>0</unit>
