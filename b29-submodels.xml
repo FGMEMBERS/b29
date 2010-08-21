@@ -5,7 +5,7 @@
 	<!--<submodel>
 		<name>M-17.001-submodel</name>
 		<model>Aircraft/b29/Models/m-17.ac</model>
-		<trigger>sim/weapons/loadout[1]/bomb[0]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[1]/bomb[0]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -26,7 +26,7 @@
 	<submodel>
 		<name>M-17.002-submodel</name>
 		<model>Aircraft/b29/Models/m-17.ac</model>
-		<trigger>sim/weapons/loadout[1]/bomb[1]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[1]/bomb[1]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -47,7 +47,7 @@
 	<submodel>
 		<name>M-17.003-submodel</name>
 		<model>Aircraft/b29/Models/m-17.ac</model>
-		<trigger>sim/weapons/loadout[1]/bomb[2]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[1]/bomb[2]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -68,7 +68,7 @@
 	<submodel>
 		<name>M-17.004-submodel</name>
 		<model>Aircraft/b29/Models/m-17.ac</model>
-		<trigger>sim/weapons/loadout[1]/bomb[3]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[1]/bomb[3]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -89,7 +89,7 @@
 	<submodel>
 		<name>M-17.005-submodel</name>
 		<model>Aircraft/b29/Models/m-17.ac</model>
-		<trigger>sim/weapons/loadout[1]/bomb[4]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[1]/bomb[4]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -110,7 +110,7 @@
 	<submodel>
 		<name>M-17.006-submodel</name>
 		<model>Aircraft/b29/Models/m-17.ac</model>
-		<trigger>sim/weapons/loadout[1]/bomb[5]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[1]/bomb[5]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -131,7 +131,7 @@
 	<submodel>
 		<name>M-17.007-submodel</name>
 		<model>Aircraft/b29/Models/m-17.ac</model>
-		<trigger>sim/weapons/loadout[1]/bomb[6]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[1]/bomb[6]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -152,7 +152,7 @@
 	<submodel>
 		<name>M-17.008-submodel</name>
 		<model>Aircraft/b29/Models/m-17.ac</model>
-		<trigger>sim/weapons/loadout[1]/bomb[7]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[1]/bomb[7]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -173,7 +173,7 @@
 	<submodel>
 		<name>M47A2.001-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[0]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[0]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -194,7 +194,7 @@
 	<submodel>
 		<name>M47A2.002-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[1]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[1]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -215,7 +215,7 @@
 	<submodel>
 		<name>M47A2.003-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[2]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[2]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -236,7 +236,7 @@
 	<submodel>
 		<name>M47A2.004-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[3]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[3]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -257,7 +257,7 @@
 	<submodel>
 		<name>M47A2.005-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[4]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[4]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -278,7 +278,7 @@
 	<submodel>
 		<name>M47A2.006-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[5]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[5]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -299,7 +299,7 @@
 	<submodel>
 		<name>M47A2.007-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[6]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[6]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -320,7 +320,7 @@
 	<submodel>
 		<name>M47A2.008-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[7]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[7]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -341,7 +341,7 @@
 	<submodel>
 		<name>M47A2.009-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[8]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[8]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -362,7 +362,7 @@
 	<submodel>
 		<name>M47A2.010-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[9]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[9]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -383,7 +383,7 @@
 	<submodel>
 		<name>M47A2.011-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[10]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[10]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -404,7 +404,7 @@
 	<submodel>
 		<name>M47A2.012-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[11]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[11]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -425,7 +425,7 @@
 	<submodel>
 		<name>M47A2.013-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[12]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[12]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -446,7 +446,7 @@
 	<submodel>
 		<name>M47A2.014-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[13]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[13]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -467,7 +467,7 @@
 	<submodel>
 		<name>M47A2.015-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[14]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[14]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -488,7 +488,7 @@
 	<submodel>
 		<name>M47A2.016-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[15]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[15]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -509,7 +509,7 @@
 	<submodel>
 		<name>M47A2.017-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[16]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[16]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -530,7 +530,7 @@
 	<submodel>
 		<name>M47A2.018-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[17]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[17]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -551,7 +551,7 @@
 	<submodel>
 		<name>M47A2.019-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[18]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[18]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -572,7 +572,7 @@
 	<submodel>
 		<name>M47A2.020-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[19]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[19]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -593,7 +593,7 @@
 	<submodel>
 		<name>M47A2.021-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[20]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[20]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -614,7 +614,7 @@
 	<submodel>
 		<name>M47A2.022-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[21]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[21]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -635,7 +635,7 @@
 	<submodel>
 		<name>M47A2.023-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[22]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[22]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -656,7 +656,7 @@
 	<submodel>
 		<name>M47A2.024-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[23]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[23]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -677,7 +677,7 @@
 	<submodel>
 		<name>M47A2.025-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[24]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[24]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -698,7 +698,7 @@
 	<submodel>
 		<name>M47A2.026-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[25]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[25]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -719,7 +719,7 @@
 	<submodel>
 		<name>M47A2.027-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[26]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[26]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -740,7 +740,7 @@
 	<submodel>
 		<name>M47A2.028-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[27]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[27]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -761,7 +761,7 @@
 	<submodel>
 		<name>M47A2.029-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[28]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[28]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -782,7 +782,7 @@
 	<submodel>
 		<name>M47A2.030-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[29]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[29]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -803,7 +803,7 @@
 	<submodel>
 		<name>M47A2.031-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[30]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[30]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -824,7 +824,7 @@
 	<submodel>
 		<name>M47A2.032-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[31]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[31]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -845,7 +845,7 @@
 	<submodel>
 		<name>M47A2.033-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[32]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[32]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -866,7 +866,7 @@
 	<submodel>
 		<name>M47A2.034-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[33]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[33]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -887,7 +887,7 @@
 	<submodel>
 		<name>M47A2.035-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[34]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[34]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -908,7 +908,7 @@
 	<submodel>
 		<name>M47A2.036-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[35]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[35]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -929,7 +929,7 @@
 	<submodel>
 		<name>M47A2.037-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[36]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[36]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -950,7 +950,7 @@
 	<submodel>
 		<name>M47A2.038-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[37]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[37]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -971,7 +971,7 @@
 	<submodel>
 		<name>M47A2.039-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[38]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[38]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -992,7 +992,7 @@
 	<submodel>
 		<name>M47A2.040-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[39]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[39]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -1013,7 +1013,7 @@
 	<submodel>
 		<name>M47A2.041-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[40]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[40]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -1034,7 +1034,7 @@
 	<submodel>
 		<name>M47A2.042-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[41]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[41]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -1055,7 +1055,7 @@
 	<submodel>
 		<name>M47A2.043-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[42]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[42]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -1076,7 +1076,7 @@
 	<submodel>
 		<name>M47A2.044-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[43]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[43]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -1097,7 +1097,7 @@
 	<submodel>
 		<name>M47A2.045-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[44]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[44]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -1118,7 +1118,7 @@
 	<submodel>
 		<name>M47A2.046-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[45]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[45]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -1139,7 +1139,7 @@
 	<submodel>
 		<name>M47A2.047-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[46]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[46]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -1160,7 +1160,7 @@
 	<submodel>
 		<name>M47A2.048-submodel</name>
 		<model>Aircraft/b29/Models/m-47a2.ac</model>
-		<trigger>sim/weapons/loadout[2]/bomb[47]/dropped</trigger>
+		<trigger>/sim/weapons/loadout[2]/bomb[47]/dropped</trigger>
 		<repeat>false</repeat>
 		<count>1</count>
 		<speed>0</speed>
@@ -1181,8 +1181,7 @@
   <submodel>
     <name>contrail-dummy</name>
     <model>Aircraft/b29/Models/Effects/contrail_dummy.xml</model>
-    <trigger>environment/contrail</trigger>
-    <!--<trigger>controls/armament/trigger</trigger>-->
+    <trigger>/environment/contrail</trigger>
     <speed>-100</speed>
     <repeat>true</repeat>
     <delay>1.50</delay>
