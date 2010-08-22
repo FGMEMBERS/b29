@@ -110,15 +110,6 @@ Common definitions
 			<splash-texture>Aircraft/b29/splash.png</splash-texture>
 		</startup>
 
-
-		<!--<ai>
-			<scenario n="100">wingman_b29_1_demo</scenario>
-			<scenario n="101">wingman_b29_demo</scenario>
-			-->
-		<!--<scenario n="102">nimitz_demo</scenario>-->
-		<!--
-		</ai>-->
-
 		<submodels>
 			<servicable type="bool">true</servicable>
 			<path type="string">Aircraft/b29/b29-submodels.xml</path>
