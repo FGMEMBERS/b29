@@ -399,10 +399,13 @@ moveGear = func {
 #
 ########
 
+    var bombindex = -1;
+    var maxindex = 0;
+
 loadBombs = func {
 	# Find out which bomb configuration we are now using and get some important nodes.
-	loadoutIndex =  getprop('/sim/weapons/current-loadout');
-	print('info', 'Loadout ', loadoutIndex, ' selected');
+	loadoutIndex = getprop('/sim/weapons/current-loadout');
+	print('info ', 'Loadout ', loadoutIndex, ' selected');
 	loadout =  props.globals.getNode('/sim/weapons/loadout[' ~ loadoutIndex ~ ']');
 	weights = props.globals.getNode('/yasim/weights/bomb-bay');
 
@@ -417,53 +420,103 @@ loadBombs = func {
 	# Set all the bomb triggers, and assign the proper weights for YASim.
 	foreach (bomb; loadout.getChildren('bomb')) {
 		# Triggers
-		dropped =  bomb.getNode('dropped');
+		dropped = bomb.getNode('dropped');
 		dropped.setBoolValue(0);
 		# Weights
 		rackIndex = (bomb.getNode('rack').getValue() - 1);
 		weight = bomb.getNode('weight');
 		bombRack = weights.getChild('rack', rackIndex);
 		bombRack.setDoubleValue(bombRack.getValue() + weight.getValue());
-		print('info', 'Rack ', rackIndex, ' now: ', (bombRack.getValue()));
+		print('info ', 'Rack ', rackIndex, ' now: ', (bombRack.getValue()));
 	}
 
+    if (loadoutIndex != 0){
+        bombindex = -1;
+        maxindex = bomb.getIndex();
+        print ("min index", bombindex, "max index ", maxindex);
+    }
 }
 
-dropBombs = func {
+dropBombs = func (){
 
-	dropBomb = func (bomb, weights) {
-		var dropped = bomb.getNode('dropped');
-		if (! dropped.getValue()) {
-			var weight = bomb.getNode('weight');
-			var rackIndex = (bomb.getNode('rack').getValue() - 1);
-			var bombRack = weights.getChild('rack', rackIndex);
-			bombRack.setDoubleValue(bombRack.getValue() - weight.getValue());
-			dropped.setBoolValue(1);
-			print('info', 'Dropping bomb ', bomb.getIndex());
-		} else {
-			print('warn', 'Dropping unloaded bomb ', bomb.getIndex(), ' failed');
-		}
-	}
+#    Check if we still need to do anything
+        if (!getprop('/controls/armament/release-all') or 
+            !getprop('/sim/model/doors/bombbay/position-norm')) {
+            bombindex = 0;
+            print('alert ', 'release stopped');
+            return;
+        }
 
-    # Check if we even need to do anything
-	if (!getprop('/controls/armament/bombs/pickle')) {
-		return;
-	}
+    print('info ', ' Dropping bombs ');
 
-    # Done - set control back to off 
-    # setprop('/controls/armament/bombs/pickle', 0);
+    dropBomb = func (bomb, weights) {
+        var dropped = bomb.getNode('dropped');
+        print ("Index: ", bomb.getIndex());
+        if (! dropped.getValue()) {
+            var weight = bomb.getNode('weight');
+            var rackIndex = (bomb.getNode('rack').getValue() - 1);
+            var bombRack = weights.getChild('rack', rackIndex);
+            bombRack.setDoubleValue(bombRack.getValue() - weight.getValue());
+            dropped.setBoolValue(1);
+            print('info ', 'Dropping bomb ', bomb.getIndex());
+        } else {
+            print('warn ', 'Dropping unloaded bomb ', bomb.getIndex(), ' failed');
+        }
+    }
 
-	var loadoutIndex =  getprop('/sim/weapons/current-loadout');
-	var loadout =  props.globals.getNode('/sim/weapons/loadout[' ~ loadoutIndex ~ ']');
-	var weights = props.globals.getNode('/yasim/weights/bomb-bay');
-	var interleave = getprop('/sim/weapons/interleave-sec');
+    var loadoutIndex =  getprop('/sim/weapons/current-loadout');
+    var loadout =  props.globals.getNode('/sim/weapons/loadout[' ~ loadoutIndex ~ ']');
+    var weights = props.globals.getNode('/yasim/weights/bomb-bay');
+    var interleave = getprop('/sim/weapons/interleave-sec');
 
-	var time = 0;
-	foreach (var bomb; loadout.getChildren('bomb')) {
-		print('info', 'Scheduling bomb ', bomb.getIndex(), ' for drop in ', time);
-		settimer(func { dropBomb(bomb, weights) }, interleave);
-		time += interleave;
-	}
+    var selectBomb = func(){
+
+        foreach (var bomb; loadout.getChildren('bomb')) {
+
+            if ( bombindex == bomb.getIndex() ){
+                print('info ', ' Selecting bomb ', bomb.getIndex());
+                dropBomb(bomb, weights);
+#            break;
+            }
+
+        }
+
+    }
+
+    bombindex += 1; 
+    print('info ', 'Seqencing bombs ', bombindex, " interleave ", interleave );
+
+    if (bombindex <= maxindex){
+        print('info ', 'Seqenced bomb ', bombindex);
+        selectBomb(bombindex);
+        settimer(dropBombs, interleave);
+    }else{
+        # Done - set control back to off 
+        setprop('/controls/armament/release-all', 0);
+    }
+
+
+}# end dropBombs
+
+
+
+
+
+print("impacts init ...");
+var impact_node = props.globals.getNode("sim/ai/aircraft/impact/M47", 1);
+
+var impacts = func(n) {
+	var impact = impact_node.getValue();
+	var node = props.globals.getNode(n.getValue(), 1);
+	print ("impact ", impact, " lon " , node.getNode("impact/longitude-deg").getValue(),);
+	geo.put_model("/Aircraft/b29/Models/wildfire.xml",
+		node.getNode("impact/latitude-deg").getValue(),
+		node.getNode("impact/longitude-deg").getValue(),
+		node.getNode("impact/elevation-m").getValue()+ 0.25,
+		node.getNode("impact/heading-deg").getValue(),
+		0,
+		0
+		);
 }
 
 ########
@@ -612,8 +665,9 @@ adjustViewTarget = func {
     settimer(gearInit, 0);
 
     ### Bombs
+    setlistener("/sim/ai/aircraft/impact/M47", impacts);
     setlistener("/sim/weapons/current-loadout", loadBombs);
-    setlistener("/controls/armament/bombs/pickle", dropBombs);
+    setlistener("/controls/armament/release-all", dropBombs);
     settimer(loadBombs, 0);
 
     ### View
