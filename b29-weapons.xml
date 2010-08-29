@@ -159,245 +159,245 @@ This is a list of bomb shackle coords in the b29 for use in the animations:
 
 <loadout n="2">
 	<name archive="y"
-			type="string">48 M-47A2 220 lb. jelled oil incendiary cluster bombs</name>
-	<interleave-sec type="double" archive="y">0.2</interleave-sec>
+			type="string">48 M-47A2 85 lb. jelled oil incendiary bombs</name>
+	<interleave-sec type="double" archive="y">0.30</interleave-sec>
 	<bomb n="0">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>8</rack>
 	</bomb>
 	<bomb n="1">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>1</rack>
 	</bomb>
 	<bomb n="2">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>7</rack>
 	</bomb>
 	<bomb n="3">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>2</rack>
 	</bomb>
 	<bomb n="4">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>6</rack>
 	</bomb>
 	<bomb n="5">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>3</rack>
 	</bomb>
 	<bomb n="6">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>5</rack>
 	</bomb>
 	<bomb n="7">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>4</rack>
 	</bomb>
 	<bomb n="8">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>8</rack>
 	</bomb>
 	<bomb n="9">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>1</rack>
 	</bomb>
 	<bomb n="10">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>7</rack>
 	</bomb>
 	<bomb n="11">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>2</rack>
 	</bomb>
 	<bomb n="12">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>6</rack>
 	</bomb>
 	<bomb n="13">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>3</rack>
 	</bomb>
 	<bomb n="14">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>5</rack>
 	</bomb>
 	<bomb n="15">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>4</rack>
 	</bomb>
 	<bomb n="16">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>8</rack>
 	</bomb>
 	<bomb n="17">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>1</rack>
 	</bomb>
 	<bomb n="18">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>7</rack>
 	</bomb>
 	<bomb n="19">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>2</rack>
 	</bomb>
 	<bomb n="20">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>6</rack>
 	</bomb>
 	<bomb n="21">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>3</rack>
 	</bomb>
 	<bomb n="22">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>5</rack>
 	</bomb>
 	<bomb n="23">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>4</rack>
 	</bomb>
 	<bomb n="24">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>8</rack>
 	</bomb>
 	<bomb n="25">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>1</rack>
 	</bomb>
 	<bomb n="26">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>7</rack>
 	</bomb>
 	<bomb n="27">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>2</rack>
 	</bomb>
 	<bomb n="28">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>6</rack>
 	</bomb>
 	<bomb n="29">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>3</rack>
 	</bomb>
 	<bomb n="30">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>5</rack>
 	</bomb>
 	<bomb n="31">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>4</rack>
 	</bomb>
 	<bomb n="32">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>8</rack>
 	</bomb>
 	<bomb n="33">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>1</rack>
 	</bomb>
 	<bomb n="34">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>7</rack>
 	</bomb>
 	<bomb n="35">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>2</rack>
 	</bomb>
 	<bomb n="36">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>6</rack>
 	</bomb>
 	<bomb n="37">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>3</rack>
 	</bomb>
 	<bomb n="38">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>5</rack>
 	</bomb>
 	<bomb n="39">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>4</rack>
 	</bomb>
 	<bomb n="40">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>8</rack>
 	</bomb>
 	<bomb n="41">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>1</rack>
 	</bomb>
 	<bomb n="42">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>7</rack>
 	</bomb>
 	<bomb n="43">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>2</rack>
 	</bomb>
 	<bomb n="44">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>6</rack>
 	</bomb>
 	<bomb n="45">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>3</rack>
 	</bomb>
 	<bomb n="46">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>5</rack>
 	</bomb>
 	<bomb n="47">
-		<weight type="double">220</weight>
+		<weight type="double">85</weight>
 		<dropped type="bool">false</dropped>
 		<rack>4</rack>
 	</bomb>

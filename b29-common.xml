@@ -9,9 +9,7 @@ Common definitions
 	<!-- *************** set properties **********************-->
 	<controls>
 		<armament>
-			<bombs>
-				<pickle type="bool">false</pickle>
-			</bombs>
+				<release-all type="bool">false</release-all>
 		</armament>
 		<engines>
 			<wastegate type="double">1</wastegate>
@@ -153,7 +151,7 @@ Common definitions
 
 		<weapons n="0">
 			<current-loadout archive="y"
-											 type="int">0</current-loadout>
+											 type="int">1</current-loadout>
 		</weapons>
 
 		<menubar>
@@ -285,6 +283,15 @@ Common definitions
 				<binding>
 					<command>nasal</command>
 					<script>b29.togglecabindoors()</script>
+				</binding>
+			</key>
+			<key n="2">
+				<name>Ctrl-B</name>
+				<desc>Release all stores.</desc>
+				<binding>
+					<command>property-assign</command>
+					<property>controls/armament/release-all</property>
+					<value type="bool">1</value>
 				</binding>
 			</key>
 			<key n="106">
