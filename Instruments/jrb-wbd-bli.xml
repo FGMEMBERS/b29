@@ -14,7 +14,7 @@
   <name>VertTransform</name>
   <type>rotate</type>
   <object-name>VertNeedle</object-name>
-  <property>instrumentation/nav[0]/heading-needle-deflection</property>
+  <property>/instrumentation/nav[0]/heading-needle-deflection</property>
   <factor>2</factor>
   <min>-20</min>
   <max>20</max>
@@ -34,7 +34,7 @@
   <name>HorizTransform</name>
   <type>rotate</type>
   <object-name>HorizNeedle</object-name>
-  <property>instrumentation/nav[0]/gs-needle-deflection</property>
+  <property>/instrumentation/nav[0]/gs-needle-deflection</property>
   <factor>2</factor>
   <min-deg>-20</min-deg>
   <max-deg>20</max-deg>

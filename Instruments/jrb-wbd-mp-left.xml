@@ -33,7 +33,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Needle2</object-name>
-  <property>engines/engine[1]/mp-inhg</property>
+  <property>/engines/engine[1]/mp-inhg</property>
   <interpolation>
    <entry>
     <ind>10</ind>

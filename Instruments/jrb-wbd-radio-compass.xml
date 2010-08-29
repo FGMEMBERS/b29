@@ -12,7 +12,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Needle</object-name>
-  <property>instrumentation/adf/indicated-bearing-deg</property>
+  <property>/instrumentation/adf/indicated-bearing-deg</property>
   <axis>
    <x>-1</x>
   </axis>

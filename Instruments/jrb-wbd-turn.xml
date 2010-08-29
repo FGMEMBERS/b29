@@ -12,7 +12,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Ball</object-name>
-  <property>instrumentation/slip-skid-ball/indicated-slip-skid</property>
+  <property>/instrumentation/slip-skid-ball/indicated-slip-skid</property>
   <interpolation>
    <entry>
     <ind>-1.1</ind>
@@ -39,9 +39,9 @@
   <type>rotate</type>
   <object-name>Needle1</object-name>
   <!--
-  <property>instrumentation/turn-indicator/indicated-turn-rate</property>
+  <property>/instrumentation/turn-indicator/indicated-turn-rate</property>
   -->
-  <property>orientation/yaw-rate-degps</property>
+  <property>/orientation/yaw-rate-degps</property>
   <min>-1.1</min>
   <max>1.1</max>
   <factor>8.0</factor>

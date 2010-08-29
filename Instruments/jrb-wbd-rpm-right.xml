@@ -33,7 +33,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Needle2</object-name>
-  <property>engines/engine[3]/rpm</property>
+  <property>/engines/engine[3]/rpm</property>
   <interpolation>
    <entry>
     <ind>400</ind>

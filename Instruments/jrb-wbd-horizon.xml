@@ -12,7 +12,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Horizon</object-name>
-  <property>instrumentation/attitude-indicator/indicated-pitch-deg</property>
+  <property>/instrumentation/attitude-indicator/indicated-pitch-deg</property>
   <min-deg>-30</min-deg>
   <max-deg>30</max-deg>
   <factor>0.5</factor>
@@ -29,7 +29,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Horizon</object-name>
-  <property>instrumentation/attitude-indicator/indicated-roll-deg</property>
+  <property>/instrumentation/attitude-indicator/indicated-roll-deg</property>
   <center>
    <x-m>0</x-m>
    <y-m>0</y-m>
@@ -45,7 +45,7 @@
   <type>rotate</type>
   <object-name>Pin</object-name>
   <object-name>Background</object-name>
-  <property>instrumentation/attitude-indicator/indicated-roll-deg</property>
+  <property>/instrumentation/attitude-indicator/indicated-roll-deg</property>
   <center>
    <x-m>0</x-m>
    <y-m>0</y-m>
@@ -59,7 +59,7 @@
  <animation>
   <type>rotate</type>
   <object-name>CageKnob</object-name>
-  <property>instrumentation/attitude-indicator/caged</property>
+  <property>/instrumentation/attitude-indicator/caged</property>
   <factor>90</factor>
   <center>
    <x-m>0</x-m>
@@ -74,7 +74,7 @@
  <animation>
   <type>rotate</type>
   <object-name>CageFlag</object-name>
-  <property>instrumentation/attitude-indicator/caged</property>
+  <property>/instrumentation/attitude-indicator/caged</property>
   <factor>60</factor>
   <center>
    <x-m>0</x-m>
@@ -89,7 +89,7 @@
  <animation>
   <type>translate</type>
   <object-name>Wings</object-name>
-  <property>instrumentation/attitude-indicator/horizon-offset-deg</property>
+  <property>/instrumentation/attitude-indicator/horizon-offset-deg</property>
   <factor>0.0007</factor>
   <min-m>-0.015</min-m>
   <max-m>0.015</max-m>
