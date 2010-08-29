@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+B-29 Superfortress for FlightGear 0.9.3
+
+Copyright 2003 Joshua Babcock
+jbabcock@atlantech.net
+
+Copyright 2010 Vivian Meazza
+vivian.meazza@atlineone.net
+-->
+
+<PropertyList include="b29-wingman.xml">
+
+	<sim>
+		<description>Boeing B-29 Superfortress - 3 Ship Formation</description>
+		<author>Joshua Babcock, Vivian Meazza</author>
+		<status>early-production</status>
+		<flight-model>yasim</flight-model>
+		<aero>b29-yasim</aero>
+	</sim>
+
+</PropertyList>
+
