@@ -12,7 +12,7 @@ vivian.meazza@atlineone.net
 <PropertyList include="b29-wingman.xml">
 
 	<sim>
-		<description>Boeing B-29 Superfortress - 3 Ship Formation</description>
+		<description>Boeing B-29 Superfortress - 4 Ship Formation</description>
 		<author>Joshua Babcock, Vivian Meazza</author>
 		<status>early-production</status>
 		<flight-model>yasim</flight-model>
