@@ -89,7 +89,7 @@ Common definitions
 	</position>
 
 	<sim include="help.xml">
-		<description type="string">Boeing B-29 Superfortress </description>
+		<description type="string">Boeing B-29 Superfortress</description>
 
 		<weapons include="b29-weapons.xml"/>
 
