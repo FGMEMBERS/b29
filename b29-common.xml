@@ -9,7 +9,7 @@ Common definitions
 	<!-- *************** set properties **********************-->
 	<controls>
 		<armament>
-				<release-all type="bool">false</release-all>
+			<release-all type="bool">false</release-all>
 		</armament>
 		<engines>
 			<wastegate type="double">1</wastegate>
@@ -37,6 +37,7 @@ Common definitions
 				<intercooler-norm>0</intercooler-norm>
 				<throttle>0</throttle>
 			</engine>
+
 		</engines>
 		<gear>
 			<nosewheel-caster type="bool"
@@ -179,11 +180,6 @@ Common definitions
 			</default>
 		</menubar>
 
-		<hurricane>
-			<show-pilot archive="y"
-									type="bool">true</show-pilot>
-		</hurricane>
-
 		<multiplay>
 			<generic>
 				<string n="0"
@@ -202,6 +198,8 @@ Common definitions
 						 alias="/controls/armament/trigger"/>
 				<int n="6"
 						 alias="/controls/lighting/landing-light"/>
+				<int n="7"
+						 alias="/sim/weapons/current-loadout"/>
 				<float n="0"
 							 alias="/gear/gear[0]/sprayspeed-ms"/>
 				<float n="1"
@@ -221,7 +219,7 @@ Common definitions
 				<float n="8"
 							 alias="/controls/engines/engine[0]/throttle"/>
 				<float n="9"
-							 alias="/gear/canopy/position-norm"/>
+							 alias="/sim/model/doors/bombbay/position-norm"/>
 				<float n="10"
 							 alias="/controls/flight/door-position-norm"/>
 				<float n="11"
@@ -246,7 +244,6 @@ Common definitions
 		</multiplay>
 
 	</sim>
-
 
 
 	<instrumentation>
