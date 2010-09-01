@@ -17,13 +17,13 @@
 
 		<condition>
 			<and>
-				<property>/environment/contrail</property>
+				<property>environment/contrail</property>
 				<greater-than>
-					<property>/velocities/airspeed-kt</property>
+					<property>velocities/airspeed-kt</property>
 					<value>100</value>
 				</greater-than>
 			</and>
-		</condition>-->
+		</condition>
 
 		<attach>world</attach>
 
