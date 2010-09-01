@@ -691,4 +691,3 @@ adjustViewTarget = func {
     var contrail_Node = props.globals.initNode("environment/contrail", 1, "BOOL");
     var contrail_temp_Node = props.globals.initNode("environment/contrail-temperature-degc", 1, "DOUBLE");
     updateContrail();
-
