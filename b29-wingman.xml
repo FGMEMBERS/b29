@@ -110,6 +110,8 @@ Common definitions
 
 		<ai>
 			<scenario n="100">wingman_b29_demo</scenario>
+			<!--<scenario n="101">wingman_b29_2_demo</scenario>
+			<scenario n="102">wingman_b29_3_demo</scenario>-->
 		</ai>
 
 		<submodels>
@@ -284,7 +286,7 @@ Common definitions
 				<float n="8"
 							 alias="/controls/engines/engine[0]/throttle"/>
 				<float n="9"
-							 alias="/gear/canopy/position-norm"/>
+							 alias="/sim/model/doors/bombbay/position-norm"/>
 				<float n="10"
 							 alias="/controls/flight/door-position-norm"/>
 				<float n="11"
