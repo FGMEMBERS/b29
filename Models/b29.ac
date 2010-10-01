@@ -3,10 +3,10 @@ MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  sh
 MATERIAL "matt" rgb 1 1 1  amb 0 0 0  emis 0 0 0  spec 0.3 0.3 0.3  shi 32  trans 0
 MATERIAL "CabShinyUndercoat" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.754365 0.754289 0.754289  shi 128  trans 0
 MATERIAL "RealBlack" rgb 0 0 0  amb 0 0 0  emis 0 0 0  spec 0 0 0  shi 32  trans 0
-MATERIAL "CabSatinUndercoat.002" rgb 1 0.9999 0.9999  amb 1 1 1  emis 0 0 0  spec 0.333955 0.333921 0.333921  shi 110  trans 0
+MATERIAL "CabSatinUndercoat.002" rgb 1 0.9999 0.9999  amb 1 1 1  emis 0 0 0  spec 0.333 0.333 0.333  shi 110  trans 0
 MATERIAL "WhiteLight" rgb 0.913445 0.913354 0.913354  amb 0 0 0  emis 0 0 0  spec 1 1 1  shi 32  trans 0
 MATERIAL "OpaqueGlass" rgb 0.09893 0.173127 0  amb 0 0 0  emis 0 0 0  spec 1 1 1  shi 32  trans 0
-MATERIAL "CabMattUndercoat" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.0001 0.0001 0.0001  shi 32  trans 0
+MATERIAL "CabMattUndercoat" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0 0 0  shi 32  trans 0
 MATERIAL "ClearGlass" rgb 1 0.851 0.851  amb 0 0 0  emis 0 0 0  spec 0.97527 0.975172 0.975172  shi 128  trans 0.58
 MATERIAL "Chrome" rgb 0.6 0.599872 0.599872  amb 0.0001 0.0001 0.0001  emis 0 0 0  spec 1 0.9999 0.9999  shi 32  trans 0
 MATERIAL "GunMetal" rgb 0.234958 0.222592 0.210226  amb 0 0 0  emis 0 0 0  spec 0.282759 0.319857 0.307491  shi 32  trans 0
