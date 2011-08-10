@@ -5,7 +5,7 @@
 	<particlesystem>
 		<name>contrail</name>
 		<type>normal</type>
-		<texture>smoke.png</texture>
+		<texture>smoke.dds</texture>
 		<emissive>false</emissive>
 		<lighting>true</lighting>
 
@@ -106,7 +106,7 @@
 				<value>10.0</value>
 			</life-sec>
 			<mass-kg>0.01</mass-kg>
-			<radius-m>0.1</radius-m>
+			<radius-m>0.15</radius-m>
 		</particle>
 
 		<program>
