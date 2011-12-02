@@ -5097,8 +5097,10 @@ MELCHIOR
 	<!-- ========== Effects ========= -->
 
 	<effect>
-		<inherits-from>Aircraft/b29/Models/Effects/b29reflect</inherits-from>
+		<inherits-from>Effects/b29reflect-uber</inherits-from>
+		<!--<inherits-from>/Effects/model-combined.eff</inherits-from>-->
 		<object-name>Aluminium</object-name>
+		<object-name>ExteriorDetail</object-name>
 		<object-name>RudderFin</object-name>
 	</effect>
 
