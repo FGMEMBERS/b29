@@ -5102,10 +5102,14 @@ MELCHIOR
 		<object-name>Aluminium</object-name>
 		<object-name>ExteriorDetail</object-name>
 		<object-name>RudderFin</object-name>
+		<object-name>Spinner1</object-name>
+		<object-name>Spinner2</object-name>
+		<object-name>Spinner3</object-name>
+		<object-name>Spinner4</object-name>
 	</effect>
 
 	<effect>
-		<inherits-from>Effects/reflect</inherits-from>
+		<inherits-from>Effects/b29glass-uber</inherits-from>
 		<object-name>Windows</object-name>
 		<object-name>Blisters</object-name>
 	</effect>

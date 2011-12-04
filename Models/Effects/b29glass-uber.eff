@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PropertyList>
+	<name>seahawkglass-uber</name>
+	<inherits-from>/Effects/model-combined</inherits-from>
+
+	<parameters>
+		<!-- Reflection -->
+		<reflection_enabled type="int">1</reflection_enabled>
+		<reflect_map_enabled type="int">0</reflect_map_enabled>
+		<reflection_dynamic type="int">1</reflection_dynamic>
+
+		<reflection_fresnel type="float">0.1</reflection_fresnel>
+		<reflection_rainbow type="float">0.1</reflection_rainbow>
+		<reflection_noise type="float">0.1</reflection_noise>
+		<reflection_correction type="float">0.9</reflection_correction>
+		<ambient_correction type="float">0.1</ambient_correction>
+
+		<!-- 		quality slider -->
+		<shader_quality type="int">2</shader_quality>
+		<!--<use>/sim/rendering/shaders/model/quality</use>
+		</shader_quality>-->
+		<vertex-program-two-side type="bool">false</vertex-program-two-side>
+		<!--<cull-face>back</cull-face>
+		<rendering-hint>transparent</rendering-hint>-->
+		<transparent>true</transparent>
+		<render-bin>
+			<bin-number>10</bin-number>
+			<bin-name>DepthSortedBin</bin-name>
+		</render-bin>
+	</parameters>
+
+</PropertyList>
