@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PropertyList>
-	<name>seahawkglass-uber</name>
+	<name>b29glass-uber</name>
 	<inherits-from>/Effects/model-combined</inherits-from>
 
 	<parameters>
