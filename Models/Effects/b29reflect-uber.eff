@@ -4,52 +4,19 @@
 	<inherits-from>/Effects/model-combined</inherits-from>
 	
 	<parameters>
-			<!-- 		Diffuse Texture --><!--
-		<texture n ="0">
-			<type>white</type>
-		</texture>
-		--><!-- Normal Map --><!--
-		<normalmap_enabled type="int">0</normalmap_enabled>
-		<normalmap_dds type="int">0</normalmap_dds>
-		<texture n="2">
-			<image>Aircraft/Generic/Effects/null_bumpspec.png</image>
-			<filter>linear-mipmap-linear</filter>
-			<wrap-s>clamp</wrap-s>
-			<wrap-t>clamp</wrap-t>
-			<internal-format>normalized</internal-format>
-		</texture>
-		--><!-- Light Map --><!--
-		<lightmap_enabled type="int">0</lightmap_enabled>
-		<lightmap_multi type="int">0</lightmap_multi>
-		<lightmap_factor type="float" n="0">1.0</lightmap_factor>
-		<lightmap_color type="vec3d" n="0"> 1.0 1.0 1.0 </lightmap_color>
-		<lightmap_factor type="float" n="1">1.0</lightmap_factor>
-		<lightmap_color type="vec3d" n="1"> 1.0 1.0 1.0 </lightmap_color>
-		<lightmap_factor type="float" n="2">1.0</lightmap_factor>
-		<lightmap_color type="vec3d" n="2"> 1.0 1.0 1.0 </lightmap_color>
-		<lightmap_factor type="float" n="3">1.0</lightmap_factor>
-		<lightmap_color type="vec3d" n="3"> 1.0 1.0 1.0 </lightmap_color>
-		<texture n="3">
-			<image>Aircraft/Generic/Effects/greymap.png</image>
-			<filter>linear-mipmap-linear</filter>
-			<wrap-s>clamp</wrap-s>
-			<wrap-t>clamp</wrap-t>
-			<internal-format>normalized</internal-format>
-		</texture>-->
 		<!-- Reflection -->
-		<reflection_enabled type="int">1</reflection_enabled>
-		<reflection_correction type="float">0.3</reflection_correction>
-		<reflect_map_enabled type="int">0</reflect_map_enabled>
-		<reflection_dynamic type="int">1</reflection_dynamic>
-		<reflection_fresnel type="float">0.1</reflection_fresnel>
-		<reflection_rainbow type="float">0.05</reflection_rainbow>
-		<reflection_noise type="float">0.05</reflection_noise>
-
-		<ambient_correction type="float">0.3</ambient_correction>
+		<reflection-enabled type="int">1</reflection-enabled>
+		<reflection-correction type="float">0.3</reflection-correction>
+		<reflect-map-enabled type="int">0</reflect-map-enabled>
+		<reflection-dynamic type="int">1</reflection-dynamic>
+		<reflection-fresnel type="float">0.1</reflection-fresnel>
+		<reflection-rainbow type="float">0.05</reflection-rainbow>
+		<reflection-noise type="float">0.05</reflection-noise>
+		<ambient-correction type="float">0.3</ambient-correction>
 		<!-- 		quality slider -->
-		<shader_quality type="int">2</shader_quality>
+		<shader-quality type="int">2</shader-quality>
 		<!--<use>/sim/rendering/shaders/model/quality</use>
-		</shader_quality>-->
+		</shader-quality>-->
 		<vertex-program-two-side type="bool">false</vertex-program-two-side>
 		<cull-face>back</cull-face>
 	</parameters>

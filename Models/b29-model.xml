@@ -5180,4 +5180,128 @@ MELCHIOR
 		</offsets>
 	</model>
 
+	<model>
+		<path>Aircraft/b29/Models/Effects/exhaust.xml</path>
+		<name>backfire1</name>
+		<offsets>
+			<x-m>9.40012</x-m>
+			<y-m>-10.133</y-m>
+			<z-m>-0.169144</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<path>Aircraft/b29/Models/Effects/exhaust.xml</path>
+		<name>backfire1a</name>
+		<offsets>
+			<x-m>9.40012</x-m>
+			<y-m>-8.13469</y-m>
+			<z-m>-0.1691447</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<path>Aircraft/b29/Models/Effects/exhaust.xml</path>
+		<name>backfire2</name>
+		<offsets>
+			<x-m>8.9433</x-m>
+			<y-m>-5.1649</y-m>
+			<z-m>-0.586884</z-m>
+		</offsets>
+		<overlay>
+			<particlesystem>
+			<condition>
+				<property>engines/engine[1]/smoke</property>
+			</condition>
+			</particlesystem>
+		</overlay>
+	</model>
+	
+	<model>
+		<path>Aircraft/b29/Models/Effects/exhaust.xml</path>
+		<name>backfire2a</name>
+		<offsets>
+			<x-m>8.9433</x-m>
+			<y-m>-3.16658</y-m>
+			<z-m>-0.586884</z-m>
+		</offsets>
+		<overlay>
+			<particlesystem>
+				<condition>
+					<property>engines/engine[1]/smoke</property>
+				</condition>
+			</particlesystem>
+		</overlay>
+	</model>
+
+	<model>
+		<path>Aircraft/b29/Models/Effects/exhaust.xml</path>
+		<name>backfire3</name>
+		<offsets>
+			<x-m>9.40012</x-m>
+			<y-m>10.133</y-m>
+			<z-m>-0.169144</z-m>
+		</offsets>
+			<overlay>
+			<particlesystem>
+				<condition>
+					<property>engines/engine[2]/smoke</property>
+				</condition>
+			</particlesystem>
+		</overlay>
+	</model>
+
+	<model>
+		<path>Aircraft/b29/Models/Effects/exhaust.xml</path>
+		<name>backfire3a</name>
+		<offsets>
+			<x-m>9.40012</x-m>
+			<y-m>8.13469</y-m>
+			<z-m>-0.1691447</z-m>
+		</offsets>
+		<overlay>
+			<particlesystem>
+				<condition>
+					<property>engines/engine[2]/smoke</property>
+				</condition>
+			</particlesystem>
+		</overlay>
+	</model>
+
+	<model>
+		<path>Aircraft/b29/Models/Effects/exhaust.xml</path>
+		<name>backfire4</name>
+		<offsets>
+			<x-m>8.9433</x-m>
+			<y-m>5.1649</y-m>
+			<z-m>-0.586884</z-m>
+		</offsets>
+		<overlay>
+			<particlesystem>
+				<condition>
+					<property>engines/engine[3]/smoke</property>
+				</condition>
+			</particlesystem>
+		</overlay>
+	</model>
+
+	<model>
+		<path>Aircraft/b29/Models/Effects/exhaust.xml</path>
+		<name>backfire4a</name>
+		<offsets>
+			<x-m>8.9433</x-m>
+			<y-m>3.16658</y-m>
+			<z-m>-0.586884</z-m>
+		</offsets>
+		<overlay>
+			<particlesystem>
+				<condition>
+					<property>engines/engine[3]/smoke</property>
+				</condition>
+			</particlesystem>
+		</overlay>
+	</model>
+
+
+
 </PropertyList>
