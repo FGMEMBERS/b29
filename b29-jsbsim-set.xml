@@ -1,30 +1,21 @@
 <?xml version="1.0"?>
 <!--
-B-29 Superfortress for FlightGear 0.9.3
+B-29 Superfortress for FlightGear 2.4
 
 Copyright 2003 Joshua Babcock
 jbabcock@atlantech.net
+Copyright 2011 Ronald Jensen
+wino@jentronics.com
 -->
 
 <PropertyList include="b29-common.xml">
 	<sim>
 		<description>Boeing B-29 Superfortress - JSBSim</description>
 		<author>Joshua Babcock</author>
-		<status>early-production</status>
+		<status>alpha</status>
 		<flight-model>jsb</flight-model>
 		<aero>b29</aero>
 	</sim>
-	<!-- The model is made for YASim, emulate gear compression (sort of) -->
-	<gear>
-		<gear n="0">
-			<compression-norm>0.6</compression-norm>
-		</gear>
-		<gear n="1">
-			<compression-norm>0.5</compression-norm>
-		</gear>
-		<gear n="2">
-			<compression-norm>0.5</compression-norm>
-		</gear>
-	</gear>
+
 </PropertyList>
 
