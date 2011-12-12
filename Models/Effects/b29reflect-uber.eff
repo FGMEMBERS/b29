@@ -2,7 +2,7 @@
 <PropertyList>
 	<name>b29reflect-uber</name>
 	<inherits-from>/Effects/model-combined</inherits-from>
-	
+
 	<parameters>
 		<!-- Reflection -->
 		<reflection-enabled type="int">1</reflection-enabled>
@@ -13,12 +13,6 @@
 		<reflection-rainbow type="float">0.05</reflection-rainbow>
 		<reflection-noise type="float">0.05</reflection-noise>
 		<ambient-correction type="float">0.3</ambient-correction>
-		<!-- 		quality slider -->
-		<shader-quality type="int">2</shader-quality>
-		<!--<use>/sim/rendering/shaders/model/quality</use>
-		</shader-quality>-->
-		<vertex-program-two-side type="bool">false</vertex-program-two-side>
-		<cull-face>back</cull-face>
 	</parameters>
 
 </PropertyList>

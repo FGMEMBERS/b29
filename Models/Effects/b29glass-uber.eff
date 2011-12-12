@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PropertyList>
-	<name>seahawkglass-uber</name>
+	<name>b29glass-uber</name>
 	<inherits-from>/Effects/model-combined</inherits-from>
 
 	<parameters>
@@ -15,13 +15,7 @@
 		<reflection-correction type="float">0.9</reflection-correction>
 		<ambient-correction type="float">0.1</ambient-correction>
 
-		<!-- 		quality slider -->
-		<shader-quality type="int">2</shader-quality>
-		<!--<use>/sim/rendering/shaders/model/quality</use>
-		</shader-quality>-->
-		<vertex-program-two-side type="bool">false</vertex-program-two-side>
-		<!--<cull-face>back</cull-face>
-		<rendering-hint>transparent</rendering-hint>-->
+		<rendering-hint>transparent</rendering-hint>
 		<transparent>true</transparent>
 		<render-bin>
 			<bin-number>10</bin-number>
