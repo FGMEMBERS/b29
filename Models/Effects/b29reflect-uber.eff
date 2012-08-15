@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PropertyList>
 	<name>b29reflect-uber</name>
-	<inherits-from>/Effects/model-combined</inherits-from>
-
+	<!--<inherits-from>/Effects/model-combined</inherits-from>-->
+	<inherits-from>/Effects/model-combined-deferred</inherits-from>
+	
 	<parameters>
 		<!-- Reflection -->
 		<reflection-enabled type="int">1</reflection-enabled>

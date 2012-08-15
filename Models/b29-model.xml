@@ -5114,9 +5114,21 @@ MELCHIOR
 		<object-name>Blisters</object-name>
 	</effect>
 
+	<!--<effect>
+		<inherits-from>Effects/b29glass-uber</inherits-from>
+		<object-name>PropDisc2b</object-name>
+		<object-name>PropDisc3b</object-name>
+		<object-name>PropDisc1f</object-name>
+		<object-name>PropDisc4f</object-name>
+		<object-name>PropDisc1b</object-name>
+		<object-name>PropDisc2f</object-name>
+		<object-name>PropDisc3f</object-name>
+		<object-name>PropDisc4b</object-name>
+	</effect>-->
+	
 	<!-- Chrome -->
 	<effect>
-		<inherits-from>Effects/reflect</inherits-from>
+		<inherits-from>Effects/reflect-uber</inherits-from>
 		<name>CabinDetailChrome</name>
 		<object-name>PilotAshTray</object-name>
 		<object-name>CoPilotAshTray</object-name>
@@ -5210,13 +5222,13 @@ MELCHIOR
 		</offsets>
 		<overlay>
 			<particlesystem>
-			<condition>
-				<property>engines/engine[1]/smoke</property>
-			</condition>
+				<condition>
+					<property>engines/engine[1]/smoke</property>
+				</condition>
 			</particlesystem>
 		</overlay>
 	</model>
-	
+
 	<model>
 		<path>Aircraft/b29/Models/Effects/exhaust.xml</path>
 		<name>backfire2a</name>
@@ -5242,7 +5254,7 @@ MELCHIOR
 			<y-m>10.133</y-m>
 			<z-m>-0.169144</z-m>
 		</offsets>
-			<overlay>
+		<overlay>
 			<particlesystem>
 				<condition>
 					<property>engines/engine[2]/smoke</property>
@@ -5302,6 +5314,21 @@ MELCHIOR
 		</overlay>
 	</model>
 
+	<!-- transparencies -->
 
+	<effect>
+		<inherits-from>Effects/model-transparent</inherits-from>
+		<object-name>Dirt-Inner</object-name>
+		<object-name>Dirt-Outer</object-name>
+		<object-name>Antenna-Wire</object-name>
+		<object-name>PropDisc2b</object-name>
+		<object-name>PropDisc3b</object-name>
+		<object-name>PropDisc1f</object-name>
+		<object-name>PropDisc4f</object-name>
+		<object-name>PropDisc1b</object-name>
+		<object-name>PropDisc2f</object-name>
+		<object-name>PropDisc3f</object-name>
+		<object-name>PropDisc4b</object-name>
+	</effect>
 
 </PropertyList>
