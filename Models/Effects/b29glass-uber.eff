@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PropertyList>
 	<name>b29glass-uber</name>
-	<inherits-from>/Effects/model-combined</inherits-from>
+	<inherits-from>/Effects/model-combined-transparent</inherits-from>
 
 	<parameters>
 		<!-- Reflection -->
