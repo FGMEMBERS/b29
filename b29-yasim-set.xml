@@ -12,6 +12,12 @@ jbabcock@atlantech.net
 		<description>Boeing B-29 Superfortress - YASim</description>
 		<author>Joshua Babcock, Vivian Meazza</author>
 		<status>early-production</status>
+		<rating>
+			<FDM type="int">3</FDM>
+			<systems type="int">2</systems>
+			<cockpit type="int">5</cockpit>
+			<model type="int">4</model>
+		</rating>
 		<flight-model>yasim</flight-model>
 		<aero>b29-yasim</aero>
 	</sim>
