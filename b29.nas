@@ -1,3 +1,10 @@
+#############################
+#
+#does what it says on the tin
+#
+#############################
+var clamp = func(v, min, max) { v < min ? min : v > max ? max : v }
+
 ########
 #
 # This function watches altitude and conks out the putt=putt when it gets too high.
@@ -585,6 +592,31 @@ dropBombs = func (){
         settimer(updateContrail,30)
         }
 
+########
+#
+# Simulation of hydraulic system for differnetial ailerons
+# 
+########
+
+	var	aileron_input = props.globals.getNode("controls/flight/aileron",1);
+	var aileron_actuator_left = props.globals.getNode("/systems/hydraulic/outputs/aileron",1); 
+	var aileron_actuator_right = props.globals.getNode("/systems/hydraulic/outputs/aileron[1]",1);
+
+Ailerons =  func{
+	
+	var x = aileron_input.getValue();
+
+	var y = -0.25 * x * x + 0.75 * x;
+	aileron_actuator_left.setValue( clamp(y, -1.0, 0.5 ));
+
+	y = 0.25 * x * x + 0.75 * x;
+	aileron_actuator_right.setValue( clamp(y, -0.5, 1.0 ));
+
+	settimer(Ailerons, 0);
+
+	} #  end function
+
+Ailerons();
 
 ########
 #

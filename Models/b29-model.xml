@@ -1680,7 +1680,7 @@ MELCHIOR
 		<type>rotate</type>
 		<object-name>RightAileron</object-name>
 		<property>surface-positions/right-aileron-pos-norm</property>
-		<factor>-36</factor>
+		<factor>36</factor>
 		<axis>
 			<x1-m>13.35</x1-m>
 			<y1-m>21.12</y1-m>
@@ -4200,7 +4200,7 @@ MELCHIOR
 		<type>material</type>
 		<object-name>LeftNavLight</object-name>
 		<emission>
-			<red>0.5</red>
+			<red>1.0</red>
 			<green>0</green>
 			<blue>0</blue>
 			<factor-prop>controls/lighting/wingtip-nav-lights</factor-prop>
@@ -4212,7 +4212,7 @@ MELCHIOR
 		<object-name>RightNavLight</object-name>
 		<emission>
 			<red>0</red>
-			<green>0.5</green>
+			<green>1.0</green>
 			<blue>0.1</blue>
 			<factor-prop>controls/lighting/wingtip-nav-lights</factor-prop>
 		</emission>
@@ -5112,7 +5112,9 @@ MELCHIOR
 		<inherits-from>Effects/b29glass-uber</inherits-from>
 		<object-name>Windows</object-name>
 		<object-name>Blisters</object-name>
-	</effect>
+    <object-name>LeftNavLightCover</object-name>
+    <object-name>RightNavLightCover</object-name>
+</effect>     
 
 	<!--<effect>
 		<inherits-from>Effects/b29glass-uber</inherits-from>
