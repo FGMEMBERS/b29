@@ -242,9 +242,17 @@ Common definitions
 							 alias="/controls/engines/engine[3]/intercooler-norm"/>
 			</generic>
 		</multiplay>
-
+    
+	<systems>
+		<electrical>
+			<!--path>b29-electrical.xml</path-->
+		</electrical>
+		<!--<autopilot>
+			<path>b29-autopilot.xml</path>
+		</autopilot>-->
+	</systems>
+    
 	</sim>
-
 
 	<instrumentation>
 		<pdi>
@@ -255,14 +263,6 @@ Common definitions
 		</magnetic-compass>
 	</instrumentation>
 
-	<systems>
-		<electrical>
-			<!--path>b29-electrical.xml</path-->
-		</electrical>
-		<autopilot>
-			<path>b29-autopilot.xml</path>
-		</autopilot>
-	</systems>
 
 	<input>
 		<keyboard>

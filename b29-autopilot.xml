@@ -4,7 +4,7 @@
 
 	<pid-controller>
 		<name>Altitude hold</name>
-		<debug>true</debug>
+		<debug>false</debug>
 		<enable>
 			<prop>/autopilot/locks/altitude</prop>
 			<value>altitude-hold</value>

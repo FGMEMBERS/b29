@@ -5127,14 +5127,14 @@ MELCHIOR
 	</effect>-->
 	
 	<!-- Chrome -->
-	<effect>
+	<!--<effect>
 		<inherits-from>Effects/reflect-uber</inherits-from>
 		<name>CabinDetailChrome</name>
 		<object-name>PilotAshTray</object-name>
 		<object-name>CoPilotAshTray</object-name>
 		<object-name>ActionSwitch</object-name>
 		<object-name>EngHandle</object-name>
-	</effect>
+	</effect>-->
 
 	<!-- ========== Dirt textures ========= -->
 
