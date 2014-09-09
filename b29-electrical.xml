@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<!--
+B-29 Superfortress for FlightGear
+Electrical definitions
+-->
+
+<PropertyList>
+
+ <!--  *** Sources ***  -->
+
+ <!-- Generators require at least 700 rpm to function -->
+ <!-- Don't know how to model this number -->
+
+ <supplier>
+  <name>Generator 1</name>
+  <kind>alternator</kind>
+  <prop>/systems/electrical/suppliers/alternator[0]</prop>
+  <rpm-source>/engines/engine[0]/rpm</rpm-source>
+  <volts>28.5</volts>
+  <amps>300</amps>
+ </supplier>
+
+ <supplier>
+  <name>Generator 2</name>
+  <kind>alternator</kind>
+  <prop>/systems/electrical/suppliers/alternator[1]</prop>
+  <rpm-source>/engines/engine[0]/rpm</rpm-source>
+  <volts>28.5</volts>
+  <amps>300</amps>
+ </supplier>
+
+ <supplier>
+  <name>Generator 3</name>
+  <kind>alternator</kind>
+  <prop>/systems/electrical/suppliers/alternator[2]</prop>
+  <rpm-source>/engines/engine[1]/rpm</rpm-source>
+  <volts>28.5</volts>
+  <amps>300</amps>
+ </supplier>
+
+ <supplier>
+  <name>Generator 4</name>
+  <kind>alternator</kind>
+  <prop>/systems/electrical/suppliers/alternator[3]</prop>
+  <rpm-source>/engines/engine[2]/rpm</rpm-source>
+  <volts>28.5</volts>
+  <amps>300</amps>
+ </supplier>
+
+ <supplier>
+  <name>Generator 5</name>
+  <kind>alternator</kind>
+  <prop>/systems/electrical/suppliers/alternator[4]</prop>
+  <rpm-source>/engines/engine[3]/rpm</rpm-source>
+  <volts>28.5</volts>
+  <amps>300</amps>
+ </supplier>
+
+ <supplier>
+  <name>Generator 6</name>
+  <kind>alternator</kind>
+  <prop>/systems/electrical/suppliers/alternator[5]</prop>
+  <rpm-source>/engines/engine[3]/rpm</rpm-source>
+  <volts>28.5</volts>
+  <amps>300</amps>
+ </supplier>
+
+ <supplier>
+  <name>putt-putt</name>
+  <kind>external</kind>
+  <prop>/controls/electric/APU-generator</prop>
+  <volts>28.5</volts>
+  <amps>160</amps> <!-- WAG -->
+ </supplier>
+
+ <supplier>
+  <name>Batteries</name>
+  <type>battery</type>
+  <prop>/systems/electrical/suppliers/battery</prop>
+  <volts>28.5</volts>
+  <amps>40</amps> <!-- WAG -->
+ </supplier>
+
+ <!--  *** Busses ***  -->
+
+ <!-- Main Bus -->
+ <bus>
+  <name>Main Bus</name>
+  <!-- Unswitched Drains -->
+  <prop>/systems/electrical/outputs/avionics-fan</prop>
+  <prop>/systems/electrical/outputs/vsi</prop>
+  <prop>/systems/electrical/outputs/audio-panel[0]</prop>
+  <prop>/systems/electrical/outputs/autopilot</prop>
+  <prop>/systems/electrical/outputs/attitude-indicator</prop>
+  <prop>/systems/electrical/outputs/heading-indicator</prop> <!-- turn indicator -->
+  <prop>/systems/electrical/outputs/pdi</prop>
+  <prop>/systems/electrical/outputs/radio-compass</prop>
+  <prop>/systems/electrical/outputs/flux-gate-compass</prop>
+  <prop>/systems/electrical/outputs/</prop>
+  <!-- Indicator lights here -->
+  <prop></prop>
+  <prop></prop>
+  <prop></prop>
+  <prop></prop>
+  <prop></prop>
+  <prop></prop>
+  <prop></prop>
+  <prop></prop>
+  <prop>/systems/flaps/power</prop>
+  <output>/gear/gear[0]/power</output>
+  <output>/gear/gear[1]/power</output>
+  <output>/gear/gear[2]/power</output>
+  <output>/gear/gear[3]/power</output>
+ </bus>
+ <connector>
+  <name>Generator 1 Conn</name>
+  <input>Generator 1</input>
+  <switch>/controls/switches/gen1</switch>
+  <output>Main Bus</output>
+ </connector>
+ <connector>
+  <name>Generator 2 Conn</name>
+  <input>Generator 2</input>
+  <switch>/controls/switches/gen2</switch>
+  <output>Main Bus</output>
+ </connector>
+ <connector>
+  <name>Generator 3 Conn</name>
+  <input>Generator 3</input>
+  <switch>/controls/switches/gen3</switch>
+  <output>Main Bus</output>
+ </connector>
+ <connector>
+  <name>Generator 4 Conn</name>
+  <input>Generator 4</input>
+  <switch>/controls/switches/gen4</switch>
+  <output>Main Bus</output>
+ </connector>
+ <connector>
+  <name>Generator 5 Conn</name>
+  <input>Generator 5</input>
+  <switch>/controls/switches/gen5</switch>
+  <output>Main Bus</output>
+ </connector>
+ <connector>
+  <name>Generator 6 Conn</name>
+  <input>Generator 6</input>
+  <switch>/controls/switches/gen6</switch>
+  <output>Main Bus</output>
+ </connector>
+ <connector>
+  <name>putt-putt Conn</name>
+  <input>putt-putt</input>
+  <switch>/controls/switches/puttputt</switch>
+  <output>Main Bus</output>
+ </connector>
+ <connector>
+  <name>Battery Conn</name>
+  <input>Battery</input>
+  <switch>/controls/switches/battery</switch>
+  <output>Main Bus</output>
+ </connector>
+
+ <!-- Emergency Landing Gear Power -->
+ <bus>
+  <name>Landing Transfer Bus</name>
+  <prop>/gear/gear[0]/power</prop>
+  <prop>/gear/gear[1]/power</prop>
+  <prop>/gear/gear[2]/power</prop>
+ </bus>
+ <connector>
+  <name>Landing Transfer Conn</name>
+  <input>Main Bus</input>
+  <switch>/controls/switches/landing-transfer</switch>
+  <initial-state>off</initial-state>
+ </connector>
+
+ <!--  *** Individually Switched Drains ***  -->
+
+</PropertyList> 

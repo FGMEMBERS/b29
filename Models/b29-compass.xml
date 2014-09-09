@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+ <path>b29-compass.ac</path>
+
+ <animation>
+  <type>material</type>
+  <object-name>Compass</object-name>
+  <emission>
+    <factor-prop>/controls/lighting/instruments-norm</factor-prop>
+    <red>0.5</red>
+    <green>0.25</green>
+    <blue>0.25</blue>
+  </emission>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Compass</object-name>
+  <property>/instrumentation/heading-indicator/indicated-heading-deg</property>
+  <center>
+   <x-m>-0.02</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+</PropertyList>
+
+

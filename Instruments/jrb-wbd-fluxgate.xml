@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+ <path>jrb-wbd-fluxgate.ac</path>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>3</max-m>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Needle</object-name>
+  <property>/orientation/heading-magnetic-deg</property>
+  <center>
+   <x-m>-0.03</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Bug</object-name>
+  <property>/instrumentation/magnetic-compass/bug-heading-deg</property>
+  <center>
+   <x-m>-0.03</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+  </axis>
+ </animation>
+
+</PropertyList>
+
+

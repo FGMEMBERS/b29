@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+B-29 Superfortress for FlightGear 2.4
+
+Copyright 2003 Joshua Babcock
+jbabcock@atlantech.net
+Copyright 2011 Ronald Jensen
+wino@jentronics.com
+-->
+
+<PropertyList include="b29-common.xml">
+	<sim>
+		<description>Boeing B-29 Superfortress - JSBSim</description>
+		<author>Joshua Babcock</author>
+		<status>alpha</status>
+		<flight-model>jsb</flight-model>
+		<aero>b29</aero>
+	</sim>
+
+</PropertyList>
+

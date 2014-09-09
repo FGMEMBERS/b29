@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+ <path>jrb-wbd-flaps.ac</path>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>3</max-m>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Needle1</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <interpolation>
+   <entry> <ind>0</ind> <dep>0</dep> </entry>
+   <entry> <ind>1</ind> <dep>90</dep> </entry>
+  </interpolation>
+  <center>
+   <y-m>-.02</y-m>
+  </center>
+  <axis>
+   <x>-1</x>
+  </axis>
+ </animation>
+
+</PropertyList>
