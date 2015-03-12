@@ -749,11 +749,11 @@ kids 0
 OBJECT group
 name "Compass"
 loc 0.00138022 0.0133238 -0.000455506
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 kids 16
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep -0.25 0.25
 texoff 0.25 -0.25
 numvert 4
@@ -777,7 +777,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep -0.25 0.25
 texoff -0.5 -0.25
 numvert 4
@@ -801,7 +801,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep -0.25 0.25
 texoff 0.75 0.75
 numvert 4
@@ -825,7 +825,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep -0.25 0.25
 texoff 0 -0.25
 numvert 4
@@ -849,7 +849,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep -0.25 0.25
 texoff 0.25 -0.5
 numvert 4
@@ -873,7 +873,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep -0.25 0.25
 texoff 0.5 -0.5
 numvert 4
@@ -897,7 +897,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep 0.25 0.25
 texoff 0.5 -0.5
 numvert 4
@@ -921,7 +921,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep 0.25 0.25
 texoff 0.75 -0.5
 numvert 4
@@ -945,7 +945,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep 0.25 0.25
 texoff 0 0.25
 numvert 4
@@ -969,7 +969,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep 0.25 0.25
 texoff 0.25 0.25
 numvert 4
@@ -993,7 +993,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep 0.25 0.25
 texoff 0.5 0.25
 numvert 4
@@ -1017,7 +1017,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep 0.25 0.25
 texoff 0.75 0.25
 numvert 4
@@ -1041,7 +1041,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep 0.25 0.25
 numvert 4
 -0.0117751 0.0111088 0.0242082
@@ -1064,7 +1064,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep 0.25 0.25
 texoff 0.25 0
 numvert 4
@@ -1088,7 +1088,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep -0.25 0.25
 texoff 0.75 0
 numvert 4
@@ -1112,7 +1112,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00133942 0 0
-texture "b29-magcompass.rgb"
+texture "b29-magcompass.png"
 texrep -0.25 0.25
 numvert 4
 0.00253949 0.0111088 0.0100046

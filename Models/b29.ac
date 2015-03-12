@@ -100,7 +100,7 @@ name "BombBayAssy"
 kids 7
 OBJECT poly
 name "BombBay"
-texture "b29-bay-wall.rgb"
+texture "b29-bay-wall.png"
 crease 45.000000
 numvert 119
 16.0124 -0.845025 0.956446
@@ -680,7 +680,7 @@ refs 4
 kids 0
 OBJECT poly
 name "BombBayCaps"
-texture "b29-bay-cap.rgb"
+texture "b29-bay-cap.png"
 crease 45.000000
 numvert 56
 5.77933 -1.41344 0.37893
@@ -949,7 +949,7 @@ refs 3
 kids 0
 OBJECT poly
 name "BombRacks"
-texture "b29-bomb-rack.rgb"
+texture "b29-bomb-rack.png"
 crease 45.000000
 numvert 156
 12.6128 1.06512 0.845495
@@ -1724,7 +1724,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CommunicationTube"
-texture "b29-tunnel.rgb"
+texture "b29-tunnel.png"
 crease 45.000000
 numvert 18
 16.0749 1.05265 0.300978
@@ -1805,7 +1805,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Girder"
-texture "b29-girder.rgb"
+texture "b29-girder.png"
 crease 45.000000
 numvert 12
 12.9918 -0.54039 0.995333
@@ -1852,7 +1852,7 @@ refs 4
 kids 0
 OBJECT poly
 name "O2Tanks"
-texture "b29-yellow-paint.rgb"
+texture "b29-yellow-paint.png"
 crease 45.000000
 numvert 150
 11.3117 -1.08907 0.656395
@@ -3164,7 +3164,7 @@ refs 3
 kids 0
 OBJECT poly
 name "WingSpar"
-texture "b29-wing-spar.rgb"
+texture "b29-wing-spar.png"
 crease 45.000000
 numvert 8
 10.3512 0.334175 1.72976
@@ -3203,7 +3203,7 @@ name "CabinInterior"
 kids 46
 OBJECT poly
 name "BombadierConsole"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 58
 0.96756 -0.341689 0.499844
@@ -3506,7 +3506,7 @@ refs 3
 kids 0
 OBJECT poly
 name "BombadierHeater"
-texture "b29-heater.rgb"
+texture "b29-heater.png"
 crease 45.000000
 numvert 8
 0.914929 -0.405034 0.083317
@@ -3556,7 +3556,7 @@ refs 4
 kids 0
 OBJECT poly
 name "BombadierPanel"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 20
 0.525883 0.326775 0.624273
@@ -3667,7 +3667,7 @@ refs 4
 kids 0
 OBJECT poly
 name "BombadierSeatCusi"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 16
 1.43403 -0.286091 -0.274509
@@ -3732,7 +3732,7 @@ refs 4
 kids 0
 OBJECT poly
 name "BombadierSeatCusion"
-texture "b29-upholstery.rgb"
+texture "b29-upholstery.png"
 crease 45.000000
 numvert 64
 1.44844 0.089235 -0.217253
@@ -4249,7 +4249,7 @@ refs 4
 kids 0
 OBJECT poly
 name "BotFrontInnerDome"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 111
 4.18918 -0.797342 -0.163735
@@ -5467,7 +5467,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Cabin"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 89.000000
 numvert 1096
 1.42124 1.20499 -2e-006
@@ -10994,7 +10994,7 @@ name "CabinDetail"
 kids 228
 OBJECT poly
 name "ADFControlBox"
-texture "b29-adf-control.rgb"
+texture "b29-adf-control.png"
 crease 80.000000
 numvert 315
 1.71339 0.36054 -1.10915
@@ -12422,7 +12422,7 @@ refs 4
 kids 0
 OBJECT poly
 name "ADFDial"
-texture "b29-adf-dial.rgb"
+texture "b29-adf-dial.png"
 crease 45.000000
 numvert 14
 1.72965 0.430279 -1.11333
@@ -12807,7 +12807,7 @@ refs 4
 kids 0
 OBJECT poly
 name "ADFTuner"
-texture "b29-aluminum-fixture.rgb"
+texture "b29-aluminum-fixture.png"
 crease 45.000000
 numvert 53
 1.67744 0.37337 -1.10335
@@ -14100,7 +14100,7 @@ refs 4
 kids 0
 OBJECT poly
 name "AutoPilotPanel"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 20
 2.2409 -0.026442 0.127518
@@ -14242,7 +14242,7 @@ refs 4
 kids 0
 OBJECT poly
 name "BombDoorLever"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 0.914844 -0.204343 0.407205
@@ -14823,7 +14823,7 @@ refs 3
 kids 0
 OBJECT poly
 name "BombReleaseLever"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 0.914844 -0.204343 0.476972
@@ -15036,7 +15036,7 @@ refs 3
 kids 0
 OBJECT poly
 name "BombadierStraps"
-texture "b29-belt.rgb"
+texture "b29-belt.png"
 crease 80.000000
 numvert 28
 1.47115 -0.067215 0.275357
@@ -16613,7 +16613,7 @@ refs 3
 kids 0
 OBJECT poly
 name "CPRadioFilter"
-texture "b29-white-control.rgb"
+texture "b29-white-control.png"
 crease 45.000000
 numvert 20
 2.05513 0.457388 -1.1199
@@ -16717,7 +16717,7 @@ refs 4
 kids 0
 OBJECT poly
 name "ChairRails"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 64
 1.85125 -0.312826 0.828737
@@ -17192,7 +17192,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotAilIndex"
-texture "b29-ail-trim-index.rgb"
+texture "b29-ail-trim-index.png"
 crease 45.000000
 numvert 4
 2.00264 0.13908 -1.10561
@@ -17239,7 +17239,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotAileronTrim"
-texture "b29-trim-wheel.rgb"
+texture "b29-trim-wheel.png"
 crease 45.000000
 numvert 50
 2.06886 0.075703 -1.06
@@ -18214,7 +18214,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotInterPhone"
-texture "b29-white-control.rgb"
+texture "b29-white-control.png"
 crease 45.000000
 numvert 41
 1.92096 0.375736 -1.11853
@@ -18418,7 +18418,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotJunkPanel"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 8
 1.85992 0.498207 -1.15588
@@ -18461,7 +18461,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotO2Guages"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 8
 2.12815 0.477518 -1.12956
@@ -18504,7 +18504,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotO2Regulator"
-texture "b29-o2-regulator.rgb"
+texture "b29-o2-regulator.png"
 crease 45.000000
 numvert 67
 2.14423 -0.340249 -1.25388
@@ -18879,7 +18879,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotRudderIndex"
-texture "b29-rudder-trim-index.rgb"
+texture "b29-rudder-trim-index.png"
 crease 45.000000
 numvert 4
 2.20062 0.016135 -1.13657
@@ -18926,7 +18926,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotRudderTrim"
-texture "b29-trim-wheel.rgb"
+texture "b29-trim-wheel.png"
 crease 45.000000
 numvert 50
 2.28918 0.002544 -1.09201
@@ -19191,7 +19191,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotSeatFrame"
-texture "b29-steel.rgb"
+texture "b29-steel.png"
 crease 45.000000
 numvert 406
 2.3073 -0.116857 -0.475952
@@ -21459,7 +21459,7 @@ refs 4
 kids 0
 OBJECT poly
 name "ControlLock"
-texture "b29-blue-lever.rgb"
+texture "b29-blue-lever.png"
 crease 45.000000
 numvert 48
 1.85886 -0.00939 0.266874
@@ -22319,7 +22319,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EBrakePlaque"
-texture "b29-brake-warning.rgb"
+texture "b29-brake-warning.png"
 crease 45.000000
 numvert 8
 1.91583 0.142354 0.094509
@@ -22348,7 +22348,7 @@ refs 4
 kids 0
 OBJECT poly
 name "ElevTrimIndex"
-texture "b29-elev-trim-index.rgb"
+texture "b29-elev-trim-index.png"
 crease 45.000000
 numvert 54
 1.66025 0.278883 -1.01242
@@ -22635,7 +22635,7 @@ refs 4
 kids 0
 OBJECT poly
 name "ElevTrimWheel"
-texture "b29-trim-wheel.rgb"
+texture "b29-trim-wheel.png"
 crease 45.000000
 numvert 74
 1.69767 0.270184 -0.978616
@@ -23184,7 +23184,7 @@ refs 3
 kids 0
 OBJECT poly
 name "EmergBomb"
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 crease 45.000000
 numvert 34
 2.39129 0.018404 1.21237
@@ -23417,7 +23417,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EmergBrakeGuard"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 16
 1.95884 0.013937 0.138099
@@ -23489,7 +23489,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EmergGear"
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 crease 45.000000
 numvert 34
 2.49081 0.018404 1.21237
@@ -23722,7 +23722,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EmergPressure"
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 crease 45.000000
 numvert 34
 2.2903 0.018404 1.21237
@@ -23955,7 +23955,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EmergRelease"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 7
 2.19412 -0.028123 1.2327
@@ -23990,7 +23990,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EmergencyBrake"
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 crease 45.000000
 numvert 60
 1.92336 0.110411 0.116999
@@ -24772,7 +24772,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngInterPhone"
-texture "b29-white-control.rgb"
+texture "b29-white-control.png"
 crease 45.000000
 numvert 41
 3.22098 0.292171 -1.25329
@@ -24976,7 +24976,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngJunkPanel"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 8
 2.81582 0.409316 -1.30008
@@ -25019,7 +25019,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngO2Guages"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 8
 2.84083 0.39105 -1.23613
@@ -25062,7 +25062,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngO2Regulator"
-texture "b29-o2-regulator.rgb"
+texture "b29-o2-regulator.png"
 crease 45.000000
 numvert 67
 3.0052 -0.435515 -1.28604
@@ -25437,7 +25437,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngRSw"
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 crease 45.000000
 numvert 59
 3.7562 0.19579 -0.628322
@@ -25727,7 +25727,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngRSw.001"
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 crease 45.000000
 numvert 59
 3.75086 0.19579 -0.58702
@@ -26017,7 +26017,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngRSw.002"
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 crease 45.000000
 numvert 59
 3.75086 0.19579 -0.54702
@@ -26307,7 +26307,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngRSw.003"
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 crease 45.000000
 numvert 59
 3.7562 0.19579 -0.508322
@@ -26597,7 +26597,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngRadioFilter"
-texture "b29-white-control.rgb"
+texture "b29-white-control.png"
 crease 45.000000
 numvert 20
 3.06142 0.372531 -1.23845
@@ -26701,7 +26701,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngSmSwPanel"
-texture "b29-eng-panel.rgb"
+texture "b29-eng-panel.png"
 crease 45.000000
 numvert 4
 3.63308 0.626661 -1.22721
@@ -26724,7 +26724,7 @@ refs 3
 kids 0
 OBJECT poly
 name "EngSwitchBox"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 8
 3.5507 0.958621 -0.883356
@@ -26767,7 +26767,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngThrottle1"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.23156 0.190442 -0.753641
@@ -26980,7 +26980,7 @@ refs 3
 kids 0
 OBJECT poly
 name "EngThrottle2"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.23156 0.190442 -0.787202
@@ -27193,7 +27193,7 @@ refs 3
 kids 0
 OBJECT poly
 name "EngThrottle3"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.23156 0.190442 -0.82006
@@ -27406,7 +27406,7 @@ refs 3
 kids 0
 OBJECT poly
 name "EngThrottle4"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.23156 0.190442 -0.854192
@@ -29509,7 +29509,7 @@ refs 3
 kids 0
 OBJECT poly
 name "FantasticLever1"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.56642 0.364385 -1.16965
@@ -29722,7 +29722,7 @@ refs 3
 kids 0
 OBJECT poly
 name "FantasticLever2"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.56642 0.364385 -1.13269
@@ -30221,7 +30221,7 @@ refs 4
 kids 0
 OBJECT poly
 name "FlapSwitchGuard"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 32
 2.09696 0.013715 0.133024
@@ -30344,7 +30344,7 @@ refs 4
 kids 0
 OBJECT poly
 name "FluorSw1"
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 crease 45.000000
 numvert 59
 2.31893 -0.022629 0.063225
@@ -30634,7 +30634,7 @@ refs 4
 kids 0
 OBJECT poly
 name "FluorSw2"
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 crease 45.000000
 numvert 59
 1.51772 0.298095 1.05643
@@ -30924,7 +30924,7 @@ refs 4
 kids 0
 OBJECT poly
 name "FluorSw3"
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 crease 45.000000
 numvert 59
 1.51772 0.298095 1.09847
@@ -31214,7 +31214,7 @@ refs 4
 kids 0
 OBJECT poly
 name "FuelTransfer1"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.27989 -0.082003 -1.2568
@@ -31427,7 +31427,7 @@ refs 3
 kids 0
 OBJECT poly
 name "FuelTransfer2"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.27989 -0.082003 -1.21984
@@ -34788,7 +34788,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Gunsight"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 332
 0.819224 0.554064 -0.47354
@@ -36696,7 +36696,7 @@ refs 4
 kids 0
 OBJECT poly
 name "GunsightArm"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 74
 0.849659 0.156947 -0.494839
@@ -37071,7 +37071,7 @@ refs 4
 kids 0
 OBJECT poly
 name "GunsightMount"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 20
 0.447761 0.311524 -0.36894
@@ -37217,7 +37217,7 @@ refs 4
 kids 0
 OBJECT poly
 name "HydraulicHinge"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 8
 2.55187 -0.290625 -0.421286
@@ -37267,7 +37267,7 @@ refs 4
 kids 0
 OBJECT poly
 name "HydraulicPump"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 63
 2.22011 -0.294295 -0.367683
@@ -37679,7 +37679,7 @@ refs 4
 kids 0
 OBJECT poly
 name "IFFBox"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 8
 1.19754 0.530992 0.553067
@@ -38452,7 +38452,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LGPlaque"
-texture "b29-gear-warning.rgb"
+texture "b29-gear-warning.png"
 crease 45.000000
 numvert 4
 2.00595 0.007172 0.044967
@@ -38475,7 +38475,7 @@ refs 3
 kids 0
 OBJECT poly
 name "LGSwitchGuard.001"
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 crease 45.000000
 numvert 30
 2.01812 0.020268 0.011964
@@ -38630,7 +38630,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LGSwitchHinge"
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 crease 45.000000
 numvert 10
 2.01601 0.006611 0.049351
@@ -39233,7 +39233,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LeftBrakeToggle"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 160
 1.42036 0.160296 -0.362575
@@ -40108,7 +40108,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LeftPedal"
-texture "b29-pedal.rgb"
+texture "b29-pedal.png"
 crease 45.000000
 numvert 16
 1.245 -0.067513 -0.568896
@@ -40215,7 +40215,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LeftPedalArm"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 248
 1.4557 -0.273029 0.723409
@@ -41276,7 +41276,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LocalizerSwitch"
-texture "b29-localizer.rgb"
+texture "b29-localizer.png"
 crease 45.000000
 numvert 12
 1.98056 0.354782 1.16013
@@ -41330,7 +41330,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LowerBlouse"
-texture "b29-upholstery.rgb"
+texture "b29-upholstery.png"
 crease 45.000000
 numvert 96
 1.69525 -0.335233 -0.616456
@@ -41881,7 +41881,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Mixture1"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.26948 0.17664 -0.550088
@@ -42094,7 +42094,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Mixture2"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.26948 0.17664 -0.58365
@@ -42307,7 +42307,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Mixture3"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.26948 0.17664 -0.616507
@@ -42520,7 +42520,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Mixture4"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.26948 0.17664 -0.650639
@@ -42733,7 +42733,7 @@ refs 3
 kids 0
 OBJECT poly
 name "MixtureLock"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.56642 0.311376 -0.494892
@@ -43314,7 +43314,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Norden"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 252
 0.334717 -0.099858 -0.074508
@@ -45153,7 +45153,7 @@ refs 3
 kids 0
 OBJECT poly
 name "NordenKnobs_1"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 71
 0.394397 -0.293252 -0.220619
@@ -45837,7 +45837,7 @@ refs 3
 kids 0
 OBJECT poly
 name "PBrake"
-texture "b29-p-brake.rgb"
+texture "b29-p-brake.png"
 crease 45.000000
 numvert 50
 1.46421 0.101354 0.308806
@@ -46098,7 +46098,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotAilIndex"
-texture "b29-ail-trim-index.rgb"
+texture "b29-ail-trim-index.png"
 crease 45.000000
 numvert 4
 2.00264 0.13908 1.01509
@@ -46145,7 +46145,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotAileronTrim"
-texture "b29-trim-wheel.rgb"
+texture "b29-trim-wheel.png"
 crease 45.000000
 numvert 50
 2.06886 0.075703 1.05999
@@ -47120,7 +47120,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotInterPhone"
-texture "b29-white-control.rgb"
+texture "b29-white-control.png"
 crease 45.000000
 numvert 41
 1.8991 0.37693 1.12773
@@ -47324,7 +47324,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotJunkPanel"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 8
 2.29003 0.512147 1.2206
@@ -47367,7 +47367,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotO2Guages"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 8
 2.27493 0.488366 1.15606
@@ -47410,7 +47410,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotO2Regulator"
-texture "b29-o2-regulator.rgb"
+texture "b29-o2-regulator.png"
 crease 45.000000
 numvert 67
 2.12342 -0.336934 1.25183
@@ -47785,7 +47785,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotRadioFilter"
-texture "b29-white-control.rgb"
+texture "b29-white-control.png"
 crease 45.000000
 numvert 20
 2.05683 0.461922 1.12875
@@ -47889,7 +47889,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotRudderIndex"
-texture "b29-rudder-trim-index.rgb"
+texture "b29-rudder-trim-index.png"
 crease 45.000000
 numvert 4
 2.20062 0.016135 1.04643
@@ -47936,7 +47936,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotRudderTrim"
-texture "b29-trim-wheel.rgb"
+texture "b29-trim-wheel.png"
 crease 45.000000
 numvert 50
 2.28918 0.002544 1.09167
@@ -48201,7 +48201,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotSeatFrame"
-texture "b29-steel.rgb"
+texture "b29-steel.png"
 crease 45.000000
 numvert 406
 2.3073 -0.116857 0.889817
@@ -51073,7 +51073,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Poles"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 56
 1.29264 0.499803 -0.346221
@@ -51430,7 +51430,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PropFeather1"
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 crease 45.000000
 numvert 36
 2.07323 -0.013154 0.28885
@@ -51783,7 +51783,7 @@ refs 3
 kids 0
 OBJECT poly
 name "PropFeather2"
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 crease 45.000000
 numvert 36
 2.07323 -0.013154 0.245879
@@ -52136,7 +52136,7 @@ refs 3
 kids 0
 OBJECT poly
 name "PropFeather3"
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 crease 45.000000
 numvert 36
 2.07323 -0.013154 0.203101
@@ -52489,7 +52489,7 @@ refs 3
 kids 0
 OBJECT poly
 name "PropFeather4"
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 crease 45.000000
 numvert 36
 2.07323 -0.013154 0.15963
@@ -54344,7 +54344,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Radio"
-texture "b29-radio.rgb"
+texture "b29-radio.png"
 crease 45.000000
 numvert 708
 1.97786 0.142023 1.1063
@@ -59000,7 +59000,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RadioDial1"
-texture "b29-radio-dial.rgb"
+texture "b29-radio-dial.png"
 crease 45.000000
 numvert 35
 1.90414 0.099577 1.133
@@ -59185,7 +59185,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RadioDial2"
-texture "b29-radio-dial.rgb"
+texture "b29-radio-dial.png"
 crease 45.000000
 numvert 35
 1.90414 0.099577 1.078
@@ -59370,7 +59370,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RadioDial3"
-texture "b29-radio-dial.rgb"
+texture "b29-radio-dial.png"
 crease 45.000000
 numvert 35
 1.90414 0.099577 1.023
@@ -59555,7 +59555,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RadioKnob1"
-texture "b29-radio.rgb"
+texture "b29-radio.png"
 crease 100.000000
 numvert 82
 1.98098 0.198621 1.11767
@@ -59955,7 +59955,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RadioKnob2"
-texture "b29-radio.rgb"
+texture "b29-radio.png"
 crease 100.000000
 numvert 82
 1.98002 0.199146 1.06345
@@ -60355,7 +60355,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RadioKnob3"
-texture "b29-radio.rgb"
+texture "b29-radio.png"
 crease 100.000000
 numvert 82
 1.98154 0.198314 1.01142
@@ -61041,7 +61041,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RightBrakeToggle"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 160
 1.42043 0.160293 0.340813
@@ -61916,7 +61916,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RightPedal"
-texture "b29-pedal.rgb"
+texture "b29-pedal.png"
 crease 45.000000
 numvert 16
 1.245 -0.067513 -0.948628
@@ -62023,7 +62023,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RightPedalArm"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 248
 1.4557 -0.273029 -0.761545
@@ -63084,7 +63084,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RpmSwitchPlates"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 16
 2.1742 -0.013532 0.200094
@@ -63149,7 +63149,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RudderCable"
-texture "b29-steel.rgb"
+texture "b29-steel.png"
 crease 45.000000
 numvert 48
 1.70425 -0.344033 -0.739267
@@ -63344,7 +63344,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RudderMount"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 54
 1.41559 0.159195 -0.302873
@@ -63615,7 +63615,7 @@ refs 4
 kids 0
 OBJECT poly
 name "TailGunsight"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 164
 28.805 1.79311 -0.114545
@@ -64669,7 +64669,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Throttle1"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 46
 1.85077 0.419873 1.11778
@@ -64939,7 +64939,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Throttle2"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 46
 1.85077 0.419873 1.08819
@@ -65209,7 +65209,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Throttle3"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 1.85077 0.419873 1.05967
@@ -65415,7 +65415,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Throttle4"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 46
 1.85077 0.419873 1.03242
@@ -65685,7 +65685,7 @@ refs 4
 kids 0
 OBJECT poly
 name "ThrottleLock"
-texture "b29-blue-lever.rgb"
+texture "b29-blue-lever.png"
 crease 45.000000
 numvert 32
 1.81619 0.289978 0.985351
@@ -65925,7 +65925,7 @@ refs 4
 kids 0
 OBJECT poly
 name "ThrottleLockHousing"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 29
 1.73821 0.154773 0.962265
@@ -66030,7 +66030,7 @@ refs 4
 kids 0
 OBJECT poly
 name "TurboDial"
-texture "b29-turbo-dial.rgb"
+texture "b29-turbo-dial.png"
 crease 45.000000
 numvert 95
 2.18343 0.000485 0.065639
@@ -66892,7 +66892,7 @@ refs 3
 kids 0
 OBJECT poly
 name "VacuumSelector"
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 crease 45.000000
 numvert 38
 3.3193 0.15851 -1.08738
@@ -67677,7 +67677,7 @@ refs 4
 kids 0
 OBJECT poly
 name "XferBezel"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 20
@@ -67775,7 +67775,7 @@ refs 4
 kids 0
 OBJECT poly
 name "XferBox"
-texture "b29-xfer.rgb"
+texture "b29-xfer.png"
 crease 45.000000
 numvert 8
 2.35349 -0.035705 1.09955
@@ -68654,7 +68654,7 @@ name "CoPilotYoke"
 kids 2
 OBJECT poly
 name "CoPilotYokeWheel"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 197
 1.59759 0.430622 -0.718274
@@ -70333,7 +70333,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotYokecap"
-texture "b29-yoke.rgb"
+texture "b29-yoke.png"
 crease 45.000000
 numvert 26
 1.69092 0.406902 -0.699942
@@ -70549,7 +70549,7 @@ name "PilotYoke"
 kids 2
 OBJECT poly
 name "PilotYokeWheel"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 197
 1.59759 0.430622 0.647822
@@ -72228,7 +72228,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotYokecap"
-texture "b29-yoke.rgb"
+texture "b29-yoke.png"
 crease 45.000000
 numvert 26
 1.69092 0.406902 0.666154
@@ -72441,7 +72441,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Stick"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 44
 1.5695 0.35668 -0.649075
@@ -72660,7 +72660,7 @@ refs 4
 kids 0
 OBJECT poly
 name "UpperBlouse"
-texture "b29-upholstery.rgb"
+texture "b29-upholstery.png"
 crease 45.000000
 numvert 88
 1.63658 -0.335751 -0.651678
@@ -73195,7 +73195,7 @@ refs 3
 kids 0
 OBJECT poly
 name "CoPilotArmRest"
-texture "b29-upholstery.rgb"
+texture "b29-upholstery.png"
 crease 45.000000
 numvert 48
 2.01487 0.203805 -0.417242
@@ -73598,7 +73598,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotArmor"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 8
 0.980014 0.1447 -0.971267
@@ -73648,7 +73648,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotCluster"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 16
 1.0607 0.498281 -0.609346
@@ -73713,7 +73713,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotConsole"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 30
 1.04611 0.500801 -0.399647
@@ -73833,7 +73833,7 @@ refs 3
 kids 0
 OBJECT poly
 name "CoPilotFrame"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 240
 1.37768 0.021233 -0.301558
@@ -74713,7 +74713,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotHeater"
-texture "b29-heater.rgb"
+texture "b29-heater.png"
 crease 45.000000
 numvert 8
 2.64562 1.08765 -0.53789
@@ -74763,7 +74763,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotPanel"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 24
 1.32422 0.500801 -0.626493
@@ -74927,7 +74927,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotSeat"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 80.000000
 numvert 160
 2.2994 0.076146 -0.445833
@@ -75601,7 +75601,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoPilotStand"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 66
 2.36074 -0.343924 -1.19375
@@ -75933,7 +75933,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CoarseNorden"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 104
 0.279971 -0.109771 -0.175638
@@ -76665,7 +76665,7 @@ refs 3
 kids 0
 OBJECT poly
 name "EngPanel"
-texture "b29-eng-panel.rgb"
+texture "b29-eng-panel.png"
 crease 45.000000
 numvert 7
 3.80415 0.183455 -0.439171
@@ -76709,7 +76709,7 @@ refs 3
 kids 0
 OBJECT poly
 name "EngineerConsole"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 60
 3.47702 0.157422 -0.437432
@@ -77056,7 +77056,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngineerHeater"
-texture "b29-heater.rgb"
+texture "b29-heater.png"
 crease 45.000000
 numvert 8
 4.01221 0.128553 -0.355437
@@ -77106,7 +77106,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngineerSeat"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 32
 2.78864 -0.206187 -0.610715
@@ -77222,7 +77222,7 @@ refs 4
 kids 0
 OBJECT poly
 name "EngineerSeatCusion"
-texture "b29-upholstery.rgb"
+texture "b29-upholstery.png"
 crease 45.000000
 numvert 68
 2.83433 -0.239656 -1.10771
@@ -77747,7 +77747,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Floor"
-texture "b29-floor.rgb"
+texture "b29-floor.png"
 crease 45.000000
 numvert 42
 3.73814 -0.34106 -0.49604
@@ -77964,7 +77964,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Grooves"
-texture "b29-groove.rgb"
+texture "b29-groove.png"
 crease 45.000000
 numvert 60
 1.97624 -0.054798 0.086105
@@ -78333,7 +78333,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Hatch"
-texture "b29-hatch.rgb"
+texture "b29-hatch.png"
 crease 45.000000
 numvert 201
 2.91893 -0.350752 -0.164247
@@ -79417,7 +79417,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LdgInspectionHatch"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 12
 2.00954 -0.314015 -0.1645
@@ -79471,7 +79471,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LeftWall"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 42
 2.6168 -0.364119 0.499997
@@ -79644,7 +79644,7 @@ refs 4
 kids 0
 OBJECT poly
 name "NordenMount"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 28
 0.606098 -0.590227 0.050396
@@ -79826,7 +79826,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Pedestal"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 94
 2.01748 0.004496 0.259869
@@ -80530,7 +80530,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PillotHeater"
-texture "b29-heater.rgb"
+texture "b29-heater.png"
 crease 45.000000
 numvert 8
 2.64562 1.08765 0.714373
@@ -80580,7 +80580,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotArmRest"
-texture "b29-upholstery.rgb"
+texture "b29-upholstery.png"
 crease 45.000000
 numvert 48
 2.01487 0.203805 0.948527
@@ -80983,7 +80983,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotArmor"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 8
 0.96786 0.1447 0.971267
@@ -81033,7 +81033,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotCluster"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 24
 1.26325 0.590768 0.916641
@@ -81120,7 +81120,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotConsole"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 30
 1.04611 0.500801 0.399643
@@ -81240,7 +81240,7 @@ refs 3
 kids 0
 OBJECT poly
 name "PilotFrame"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 237
 1.42959 0.132757 0.301809
@@ -82117,7 +82117,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotPanel"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 20
 1.32422 0.500801 0.826099
@@ -82251,7 +82251,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotSeat"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 80.000000
 numvert 160
 2.2994 0.076146 0.919936
@@ -82925,7 +82925,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotStand"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 25
 1.52661 0.228631 1.16393
@@ -83085,7 +83085,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RightWall"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 42
 2.73113 0.703051 -0.500003
@@ -83258,7 +83258,7 @@ refs 4
 kids 0
 OBJECT poly
 name "StingerSeat"
-texture "b29-upholstery.rgb"
+texture "b29-upholstery.png"
 crease 45.000000
 numvert 6
 27.8579 1.70714 0.150139
@@ -83285,7 +83285,7 @@ refs 4
 kids 0
 OBJECT poly
 name "TailCabin"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 103
 28.6962 0.458061 0.230373
@@ -83577,7 +83577,7 @@ refs 4
 kids 0
 OBJECT poly
 name "TailCabinLiner"
-texture "b29-quilt.rgb"
+texture "b29-quilt.png"
 crease 45.000000
 numvert 50
 28.7551 2.18382 -0.172905
@@ -84024,7 +84024,7 @@ refs 3
 kids 0
 OBJECT poly
 name "TopFrontInnerDome"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 111
 4.82902 1.34194 -0.163736
@@ -85242,7 +85242,7 @@ refs 3
 kids 0
 OBJECT poly
 name "hotspots-console"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 4
 1.98148 0.017743 0.34881
@@ -85260,7 +85260,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CabinLiner"
-texture "b29-quilt.rgb"
+texture "b29-quilt.png"
 crease 45.000000
 numvert 300
 2.72971 1.32051 0.000455
@@ -87490,7 +87490,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Engine1"
-texture "b29-engine-small.rgb"
+texture "b29-engine-small.png"
 crease 45.000000
 numvert 96
 7.04075 0.538746 9.15397
@@ -88013,7 +88013,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Engine2"
-texture "b29-engine-small.rgb"
+texture "b29-engine-small.png"
 crease 45.000000
 numvert 96
 6.48869 0.187099 4.18586
@@ -88536,7 +88536,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Engine3"
-texture "b29-engine-small.rgb"
+texture "b29-engine-small.png"
 crease 45.000000
 numvert 96
 6.48919 0.187206 -4.14555
@@ -89059,7 +89059,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Engine4"
-texture "b29-engine-small.rgb"
+texture "b29-engine-small.png"
 crease 45.000000
 numvert 96
 7.04111 0.539103 -9.11366
@@ -89582,7 +89582,7 @@ refs 4
 kids 0
 OBJECT poly
 name "FuselageInsig"
-texture "b29-mark-insignia.rgb"
+texture "b29-mark-insignia.png"
 crease 45.000000
 numvert 44
 20.4943 -0.49816 0.67176
@@ -90607,7 +90607,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LLWingInsig"
-texture "b29-mark-usaf.rgb"
+texture "b29-mark-usaf.png"
 crease 45.000000
 numvert 14
 12.7161 0.383767 12.0009
@@ -90675,7 +90675,7 @@ refs 3
 kids 0
 OBJECT poly
 name "LRWingInsig"
-texture "b29-mark-insignia.rgb"
+texture "b29-mark-insignia.png"
 crease 45.000000
 numvert 14
 12.7161 0.383767 -12.0001
@@ -90746,7 +90746,7 @@ name "Ladder"
 kids 2
 OBJECT poly
 name "Rails"
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 crease 45.000000
 numvert 32
 1.43426 -0.449539 -0.154628
@@ -90869,7 +90869,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Rungs"
-texture "b29-ladder.rgb"
+texture "b29-ladder.png"
 crease 45.000000
 numvert 8
 1.43426 -0.449539 -0.154628
@@ -90944,7 +90944,7 @@ name "LeftGearAssy"
 kids 2
 OBJECT poly
 name "LeftGearFork"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 52
@@ -91279,7 +91279,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LeftLowerSwingArm"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 8
@@ -91337,7 +91337,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LeftWheels"
-texture "b29-main-tire.rgb"
+texture "b29-main-tire.png"
 crease 45.000000
 numvert 1170
 11.64 -2.35967 3.93787
@@ -103698,7 +103698,7 @@ refs 3
 kids 0
 OBJECT poly
 name "LeftGearLink"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 24
@@ -103772,7 +103772,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LeftGearStrut"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 52
@@ -104021,7 +104021,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LeftInInStrutDoor"
-texture "b29-strut-door.rgb"
+texture "b29-strut-door.png"
 crease 45.000000
 subdiv 1
 numvert 12
@@ -104072,7 +104072,7 @@ refs 3
 kids 0
 OBJECT poly
 name "LeftInStrutDoor"
-texture "b29-strut-door.rgb"
+texture "b29-strut-door.png"
 crease 45.000000
 subdiv 1
 numvert 6
@@ -104098,7 +104098,7 @@ refs 3
 kids 0
 OBJECT poly
 name "LeftUpperSwingArm"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 8
@@ -104283,7 +104283,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LeftGearHydStrut"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 numvert 34
 9.83831 -0.776263 4.11603
@@ -105490,7 +105490,7 @@ name "M-17.001"
 kids 3
 OBJECT poly
 name "M17Bomb.001"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 123
 15.7558 -0.561137 -0.641137
@@ -106088,7 +106088,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fins.001"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 66
 15.9881 -0.674428 -0.532838
@@ -106441,7 +106441,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fuse.001"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 8
 15.7025 -0.741784 -0.488778
@@ -106494,7 +106494,7 @@ name "M-17.002"
 kids 3
 OBJECT poly
 name "M17Bomb.002"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 123
 7.29579 -0.558863 0.638863
@@ -107092,7 +107092,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fins.002"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 66
 7.52812 -0.667162 0.525572
@@ -107445,7 +107445,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fuse.002"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 8
 7.24251 -0.711221 0.458216
@@ -107498,7 +107498,7 @@ name "M-17.003"
 kids 3
 OBJECT poly
 name "M17Bomb.003"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 123
 13.4558 -0.561137 -0.641137
@@ -108096,7 +108096,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fins.003"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 66
 13.6881 -0.674428 -0.532838
@@ -108449,7 +108449,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fuse.003"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 8
 13.4025 -0.741784 -0.488778
@@ -108502,7 +108502,7 @@ name "M-17.004"
 kids 3
 OBJECT poly
 name "M17Bomb.004"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 123
 9.58579 -0.558863 0.638863
@@ -109100,7 +109100,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fins.004"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 66
 9.81813 -0.667162 0.525572
@@ -109453,7 +109453,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fuse.004"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 8
 9.53251 -0.711221 0.458216
@@ -109506,7 +109506,7 @@ name "M-17.005"
 kids 3
 OBJECT poly
 name "M17Bomb.005"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 123
 15.7558 0.148863 -0.601137
@@ -110104,7 +110104,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fins.005"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 66
 15.9881 0.035572 -0.492838
@@ -110457,7 +110457,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fuse.005"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 8
 15.7025 -0.031784 -0.448778
@@ -110510,7 +110510,7 @@ name "M-17.006"
 kids 3
 OBJECT poly
 name "M17Bomb.006"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 123
 7.29579 0.151137 0.598863
@@ -111108,7 +111108,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fins.006"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 66
 7.52812 0.042838 0.485572
@@ -111461,7 +111461,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fuse.006"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 8
 7.24251 -0.001221 0.418216
@@ -111514,7 +111514,7 @@ name "M-17.007"
 kids 3
 OBJECT poly
 name "M17Bomb.007"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 123
 13.4558 0.148863 -0.601137
@@ -112112,7 +112112,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fins.007"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 66
 13.6881 0.035572 -0.492838
@@ -112465,7 +112465,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fuse.007"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 8
 13.4025 -0.031784 -0.448778
@@ -112518,7 +112518,7 @@ name "M-17.008"
 kids 3
 OBJECT poly
 name "M17Bomb.008"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 123
 9.58579 0.151137 0.598863
@@ -113116,7 +113116,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fins.008"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 66
 9.81813 0.042838 0.485572
@@ -113469,7 +113469,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fuse.008"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 8
 9.53251 -0.001221 0.418216
@@ -113522,7 +113522,7 @@ name "M47A2.001"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.001"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 15.75 -0.533877 -0.76602
@@ -114215,7 +114215,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.001"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -114248,7 +114248,7 @@ name "M47A2.002"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.002"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 7.29004 -0.53398 0.766123
@@ -114941,7 +114941,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.002"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -114974,7 +114974,7 @@ name "M47A2.003"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.003"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 15.75 -0.53398 0.766123
@@ -115667,7 +115667,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.003"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -115700,7 +115700,7 @@ name "M47A2.004"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.004"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 7.29004 -0.533877 -0.76602
@@ -116393,7 +116393,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.004"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -116426,7 +116426,7 @@ name "M47A2.005"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.005"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 13.45 -0.533877 -0.76602
@@ -117119,7 +117119,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.005"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -117152,7 +117152,7 @@ name "M47A2.006"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.006"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 9.58004 -0.53398 0.766123
@@ -117845,7 +117845,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.006"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -117878,7 +117878,7 @@ name "M47A2.007"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.007"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 13.45 -0.53398 0.766123
@@ -118571,7 +118571,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.007"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -118604,7 +118604,7 @@ name "M47A2.008"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.008"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 9.58004 -0.533877 -0.76602
@@ -119297,7 +119297,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.008"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -119330,7 +119330,7 @@ name "M47A2.009"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.009"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 15.75 -0.263877 -0.75602
@@ -120023,7 +120023,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.009"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -120056,7 +120056,7 @@ name "M47A2.010"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.010"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 7.29004 -0.26398 0.756123
@@ -120749,7 +120749,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.010"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -120782,7 +120782,7 @@ name "M47A2.011"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.011"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 15.75 -0.26398 0.756123
@@ -121475,7 +121475,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.011"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -121508,7 +121508,7 @@ name "M47A2.012"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.012"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 7.29004 -0.263877 -0.75602
@@ -122201,7 +122201,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.012"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -122234,7 +122234,7 @@ name "M47A2.013"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.013"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 13.45 -0.263877 -0.75602
@@ -122927,7 +122927,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.013"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -122960,7 +122960,7 @@ name "M47A2.014"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.014"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 9.58004 -0.26398 0.756123
@@ -123653,7 +123653,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.014"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -123686,7 +123686,7 @@ name "M47A2.015"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.015"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 13.45 -0.26398 0.756123
@@ -124379,7 +124379,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.015"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -124412,7 +124412,7 @@ name "M47A2.016"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.016"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 9.58004 -0.263877 -0.75602
@@ -125105,7 +125105,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.016"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -125138,7 +125138,7 @@ name "M47A2.017"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.017"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 15.75 -0.043878 -0.74602
@@ -125831,7 +125831,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.017"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -125864,7 +125864,7 @@ name "M47A2.018"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.018"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 7.29004 -0.04398 0.746122
@@ -126557,7 +126557,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.018"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -126590,7 +126590,7 @@ name "M47A2.019"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.019"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 15.74 -0.04398 0.746122
@@ -127283,7 +127283,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.019"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -127316,7 +127316,7 @@ name "M47A2.020"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.020"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 7.29004 -0.043878 -0.74602
@@ -128009,7 +128009,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.020"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -128042,7 +128042,7 @@ name "M47A2.021"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.021"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 13.45 -0.043878 -0.74602
@@ -128735,7 +128735,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.021"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -128768,7 +128768,7 @@ name "M47A2.022"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.022"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 9.58004 -0.04398 0.746122
@@ -129461,7 +129461,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.022"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -129494,7 +129494,7 @@ name "M47A2.023"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.023"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 13.45 -0.04398 0.746122
@@ -130187,7 +130187,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.023"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -130220,7 +130220,7 @@ name "M47A2.024"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.024"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 9.58004 -0.043878 -0.74602
@@ -130913,7 +130913,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.024"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -130946,7 +130946,7 @@ name "M47A2.025"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.025"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 15.75 0.206122 -0.736021
@@ -131639,7 +131639,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.025"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -131672,7 +131672,7 @@ name "M47A2.026"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.026"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 7.29004 0.20602 0.736123
@@ -132365,7 +132365,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.026"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -132398,7 +132398,7 @@ name "M47A2.027"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.027"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 15.75 0.20602 0.736123
@@ -133091,7 +133091,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.027"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -133124,7 +133124,7 @@ name "M47A2.028"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.028"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 7.29004 0.206122 -0.736021
@@ -133817,7 +133817,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.028"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -133850,7 +133850,7 @@ name "M47A2.029"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.029"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 13.45 0.206122 -0.736021
@@ -134543,7 +134543,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.029"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -134576,7 +134576,7 @@ name "M47A2.030"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.030"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 9.58004 0.20602 0.736123
@@ -135269,7 +135269,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.030"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -135302,7 +135302,7 @@ name "M47A2.031"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.031"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 13.45 0.20602 0.736123
@@ -135995,7 +135995,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.031"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -136028,7 +136028,7 @@ name "M47A2.032"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.032"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 9.58004 0.206122 -0.736021
@@ -136721,7 +136721,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.032"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -136754,7 +136754,7 @@ name "M47A2.033"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.033"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 15.75 0.446123 -0.72602
@@ -137447,7 +137447,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.033"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -137480,7 +137480,7 @@ name "M47A2.034"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.034"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 7.29004 0.44602 0.726122
@@ -138173,7 +138173,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.034"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -138206,7 +138206,7 @@ name "M47A2.035"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.035"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 15.75 0.44602 0.726122
@@ -138899,7 +138899,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.035"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -138932,7 +138932,7 @@ name "M47A2.036"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.036"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 61.000000
 numvert 115
 7.29004 0.446123 -0.72602
@@ -139625,7 +139625,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.036"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -139658,7 +139658,7 @@ name "M47A2.037"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.037"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 13.45 0.446123 -0.72602
@@ -140351,7 +140351,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.037"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -140384,7 +140384,7 @@ name "M47A2.038"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.038"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 9.58004 0.44602 0.726122
@@ -141077,7 +141077,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.038"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -141110,7 +141110,7 @@ name "M47A2.039"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.039"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 13.45 0.44602 0.726122
@@ -141803,7 +141803,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.039"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -141836,7 +141836,7 @@ name "M47A2.040"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.040"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 9.58004 0.446123 -0.72602
@@ -142529,7 +142529,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.040"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -142562,7 +142562,7 @@ name "M47A2.041"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.041"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 15.75 0.696123 -0.716021
@@ -143255,7 +143255,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.041"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -143288,7 +143288,7 @@ name "M47A2.042"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.042"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 7.29004 0.69602 0.716123
@@ -143981,7 +143981,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.042"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -144014,7 +144014,7 @@ name "M47A2.043"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.043"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 15.75 0.69602 0.716123
@@ -144707,7 +144707,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.043"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -144740,7 +144740,7 @@ name "M47A2.044"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.044"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 7.29004 0.696123 -0.716021
@@ -145433,7 +145433,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.044"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -145466,7 +145466,7 @@ name "M47A2.045"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.045"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 13.45 0.696123 -0.716021
@@ -146159,7 +146159,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.045"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -146192,7 +146192,7 @@ name "M47A2.046"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.046"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 9.58004 0.69602 0.716123
@@ -146885,7 +146885,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.046"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -146918,7 +146918,7 @@ name "M47A2.047"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.047"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 13.45 0.69602 0.716123
@@ -147611,7 +147611,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.047"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -147644,7 +147644,7 @@ name "M47A2.048"
 kids 2
 OBJECT poly
 name "M47A2-Bomb.048"
-texture "m-17.rgb"
+texture "m-17.png"
 crease 45.000000
 numvert 115
 9.58004 0.696123 -0.716021
@@ -148337,7 +148337,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M47A2-Fuse.048"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -148367,7 +148367,7 @@ refs 4
 kids 0
 OBJECT poly
 name "NoseArt"
-texture "b29-noseart-lady.rgb"
+texture "b29-noseart-lady.png"
 crease 45.000000
 numvert 171
 3.87444 0.378927 1.44729
@@ -149660,7 +149660,7 @@ refs 4
 kids 0
 OBJECT poly
 name "NGHydStrut"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 26
@@ -149799,7 +149799,7 @@ refs 4
 kids 0
 OBJECT poly
 name "NGStrut"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 68
@@ -150148,7 +150148,7 @@ refs 4
 kids 0
 OBJECT poly
 name "NoseGearBay"
-texture "b29-nose-well.rgb"
+texture "b29-nose-well.png"
 crease 45.000000
 subdiv 1
 numvert 34
@@ -150369,7 +150369,7 @@ name "NoseGearRetract"
 kids 4
 OBJECT poly
 name "NGFork"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 34
@@ -150643,7 +150643,7 @@ name "NoseGearCompress"
 kids 4
 OBJECT poly
 name "LowerNoseSwingArm"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 14
@@ -150754,7 +150754,7 @@ refs 4
 kids 0
 OBJECT poly
 name "NoseGearDamper"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 100
@@ -151351,7 +151351,7 @@ name "NoseGearSteer"
 kids 2
 OBJECT poly
 name "NoseSteerStrut"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 18
@@ -151440,7 +151440,7 @@ refs 4
 kids 0
 OBJECT poly
 name "NoseWheels"
-texture "b29-front-tire.rgb"
+texture "b29-front-tire.png"
 crease 45.000000
 numvert 1102
 0.784092 -2.64173 -0.0890841
@@ -165293,7 +165293,7 @@ refs 3
 kids 0
 OBJECT poly
 name "NoseGearStrut"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 38
@@ -165514,7 +165514,7 @@ refs 4
 kids 0
 OBJECT poly
 name "UpperNoseSwingArm"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 1
 numvert 14
@@ -165625,7 +165625,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Number"
-texture "b29-mark-number.rgb"
+texture "b29-mark-number.png"
 crease 45.000000
 numvert 32
 22.4303 1.11621 -0.756578
@@ -167305,7 +167305,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Radome"
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 crease 45.000000
 numvert 45
 11.5477 -1.41407 0.142294
@@ -167769,7 +167769,7 @@ name "RightGearAssy"
 kids 2
 OBJECT poly
 name "RightGearFork"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 2
 numvert 52
@@ -168104,7 +168104,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RightLowerSwingArm"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 2
 numvert 8
@@ -168162,7 +168162,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RightWheels"
-texture "b29-main-tire.rgb"
+texture "b29-main-tire.png"
 crease 45.000000
 numvert 2258
 11.4066 -2.17929 -3.58984
@@ -191883,7 +191883,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RightGearLink"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 2
 numvert 24
@@ -191957,7 +191957,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RightGearStrut"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 2
 numvert 52
@@ -192206,7 +192206,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RightInInStrutDoor"
-texture "b29-strut-door.rgb"
+texture "b29-strut-door.png"
 crease 45.000000
 subdiv 2
 numvert 12
@@ -192257,7 +192257,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RightInStrutDoor"
-texture "b29-strut-door.rgb"
+texture "b29-strut-door.png"
 crease 45.000000
 subdiv 2
 numvert 6
@@ -192283,7 +192283,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RightUpperSwingArm"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 subdiv 2
 numvert 8
@@ -192468,7 +192468,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RightGearHydStrut"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 numvert 34
 9.83831 -0.776263 -4.21594
@@ -192914,7 +192914,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Spinner1"
-texture "b29-aluminum-fixture.rgb"
+texture "b29-aluminum-fixture.png"
 crease 45.000000
 numvert 30
 6.89952 0.644066 9.02008
@@ -193245,7 +193245,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Spinner2"
-texture "b29-aluminum-fixture.rgb"
+texture "b29-aluminum-fixture.png"
 crease 45.000000
 numvert 30
 6.34746 0.292419 4.05197
@@ -193576,7 +193576,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Spinner3"
-texture "b29-aluminum-fixture.rgb"
+texture "b29-aluminum-fixture.png"
 crease 45.000000
 numvert 30
 6.34796 0.292527 -4.27944
@@ -193907,7 +193907,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Spinner4"
-texture "b29-aluminum-fixture.rgb"
+texture "b29-aluminum-fixture.png"
 crease 45.000000
 numvert 30
 6.89988 0.644424 -9.24755
@@ -194296,7 +194296,7 @@ refs 3
 kids 0
 OBJECT poly
 name "ULWingInsig"
-texture "b29-mark-insignia.rgb"
+texture "b29-mark-insignia.png"
 crease 45.000000
 numvert 12
 11.0073 1.17144 16.0011
@@ -194355,7 +194355,7 @@ refs 4
 kids 0
 OBJECT poly
 name "URWingInsig"
-texture "b29-mark-usaf.rgb"
+texture "b29-mark-usaf.png"
 crease 45.000000
 numvert 12
 12.4248 0.95971 -12.0003
@@ -194414,7 +194414,7 @@ refs 3
 kids 0
 OBJECT poly
 name "VstabMark"
-texture "b29-mark-tail.rgb"
+texture "b29-mark-tail.png"
 crease 45.000000
 numvert 50
 25.2743 3.51374 -0.295323
@@ -195232,7 +195232,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Antenna1"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -195290,7 +195290,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Antenna2"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -195348,7 +195348,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Antenna3"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -195415,7 +195415,7 @@ numvert 4
 kids 0
 OBJECT poly
 name "Dipole"
-texture "b29-aluminum-fixture.rgb"
+texture "b29-aluminum-fixture.png"
 crease 45.000000
 numvert 70
 0.340054 1.0082 0.014796
@@ -195815,7 +195815,7 @@ kids 0
 OBJECT poly
 name "Exhaust1"
 loc 0.391749 0 0
-texture "b29-exhaust.rgb"
+texture "b29-exhaust.png"
 crease 45.000000
 numvert 48
 9.30969 0.124953 10.1543
@@ -196147,7 +196147,7 @@ kids 0
 OBJECT poly
 name "Exhaust2"
 loc 0.486987 -0.0660933 0
-texture "b29-exhaust.rgb"
+texture "b29-exhaust.png"
 crease 45.000000
 numvert 48
 8.75763 -0.226694 5.18621
@@ -196479,7 +196479,7 @@ kids 0
 OBJECT poly
 name "Exhaust3"
 loc 0.0453768 0 0
-texture "b29-exhaust.rgb"
+texture "b29-exhaust.png"
 crease 45.000000
 numvert 96
 9.19924 -0.287958 -3.1452
@@ -196971,7 +196971,7 @@ kids 0
 OBJECT poly
 name "Exhaust4"
 loc -0.049861 0 0
-texture "b29-exhaust.rgb"
+texture "b29-exhaust.png"
 crease 45.000000
 numvert 96
 9.7513 0.125311 -8.11331
@@ -197892,7 +197892,7 @@ refs 4
 kids 0
 OBJECT poly
 name "ForeDorsalTurret"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 36
@@ -198464,7 +198464,7 @@ refs 4
 kids 0
 OBJECT poly
 name "ForeVentTurret"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 36
@@ -198821,7 +198821,7 @@ name "Prop1"
 kids 4
 OBJECT poly
 name "Blade1a"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.71505 0.583039 9.30701
@@ -198956,7 +198956,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Blade1b"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.71505 0.676801 9.05445
@@ -199091,7 +199091,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Blade1c"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.71505 0.424238 8.96068
@@ -199226,7 +199226,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Blade1d"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.71505 0.330477 9.21324
@@ -199364,7 +199364,7 @@ name "Prop2"
 kids 4
 OBJECT poly
 name "Blade2a"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.163 0.230679 4.33856
@@ -199499,7 +199499,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Blade2b"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.163 0.324818 4.08706
@@ -199634,7 +199634,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Blade2c"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.163 0.073309 3.99292
@@ -199769,7 +199769,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Blade2d"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.163 -0.02083 4.24443
@@ -199907,7 +199907,7 @@ name "Prop3"
 kids 4
 OBJECT poly
 name "Blade3a"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.16301 0.230683 -3.99301
@@ -200042,7 +200042,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Blade3b"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.16301 0.325011 -4.244
@@ -200177,7 +200177,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Blade3c"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.16301 0.074021 -4.33833
@@ -200312,7 +200312,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Blade3d"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.16301 -0.020308 -4.08734
@@ -200450,7 +200450,7 @@ name "Prop4"
 kids 4
 OBJECT poly
 name "Blade4a"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.71508 0.58233 -8.96112
@@ -200585,7 +200585,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Blade4b"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.71508 0.676658 -9.21211
@@ -200720,7 +200720,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Blade4c"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.71508 0.425668 -9.30644
@@ -200855,7 +200855,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Blade4d"
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 crease 45.000000
 numvert 24
 6.71508 0.33134 -9.05545
@@ -201208,7 +201208,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RearDorsalTurret"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 36
@@ -201780,7 +201780,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RearVentTurret"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 36
@@ -202137,7 +202137,7 @@ name "TailGunSlew"
 kids 2
 OBJECT poly
 name "TailGunBall"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 147
@@ -203805,7 +203805,7 @@ refs 4
 kids 0
 OBJECT poly
 name "TailGunShield"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 44
@@ -204220,7 +204220,7 @@ name "TailSkidRetract"
 kids 2
 OBJECT poly
 name "TailSkid"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 20
@@ -204300,7 +204300,7 @@ refs 3
 kids 0
 OBJECT poly
 name "TailSkidStrut"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 numvert 10
 26.3836 0.773883 -0.03243
@@ -204352,7 +204352,7 @@ refs 4
 kids 0
 OBJECT poly
 name "TopFrontTurCollar"
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 crease 45.000000
 numvert 20
 4.79604 1.33489 0.152309
@@ -204452,7 +204452,7 @@ name "Rudder"
 kids 2
 OBJECT poly
 name "RudderFin"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 46
@@ -204798,7 +204798,7 @@ refs 3
 kids 0
 OBJECT poly
 name "RudderMark"
-texture "b29-mark-tail.rgb"
+texture "b29-mark-tail.png"
 crease 45.000000
 numvert 26
 26.9579 3.51374 0.095607
@@ -204978,7 +204978,7 @@ name "Aluminium"
 kids 87
 OBJECT poly
 name "LowerVent4"
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 crease 45.000000
 numvert 32
 11.099 -0.685571 -8.89933
@@ -205097,7 +205097,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LowerVent3"
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 crease 45.000000
 numvert 32
 9.21833 -1.30747 -3.92497
@@ -205216,7 +205216,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LowerVent2"
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 crease 45.000000
 numvert 32
 9.21833 -1.30747 3.92529
@@ -205335,7 +205335,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LowerVent1"
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 crease 45.000000
 numvert 32
 11.099 -0.685571 8.89955
@@ -205454,7 +205454,7 @@ refs 4
 kids 0
 OBJECT poly
 name "UpperVent1"
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 crease 45.000000
 numvert 32
 9.12436 1.38061 9.15108
@@ -205573,7 +205573,7 @@ refs 4
 kids 0
 OBJECT poly
 name "UpperVent2"
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 crease 45.000000
 numvert 32
 9.42351 0.941917 3.92504
@@ -205692,7 +205692,7 @@ refs 4
 kids 0
 OBJECT poly
 name "UpperVent3"
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 crease 45.000000
 numvert 32
 9.42351 0.94192 -3.92475
@@ -205811,7 +205811,7 @@ refs 4
 kids 0
 OBJECT poly
 name "UpperVent4"
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 crease 45.000000
 numvert 32
 9.12436 1.38061 -9.15086
@@ -205930,7 +205930,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap3f"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -205960,7 +205960,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cowl1"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 148
@@ -207065,7 +207065,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Cowl2"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 176
@@ -208166,7 +208166,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cowl3"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 176
@@ -209267,7 +209267,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cowl4"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 148
@@ -210362,7 +210362,7 @@ refs 3
 kids 0
 OBJECT poly
 name "CowlFlap1a"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210392,7 +210392,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap1b"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210422,7 +210422,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap1c"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210452,7 +210452,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap1d"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210482,7 +210482,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap1e"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210512,7 +210512,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap1f"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210542,7 +210542,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap1g"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210572,7 +210572,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap1h"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210602,7 +210602,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap1i"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210632,7 +210632,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap1j"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210662,7 +210662,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap1k"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210692,7 +210692,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap1l"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210722,7 +210722,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap2a"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210752,7 +210752,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap2b"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210782,7 +210782,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap2c"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210812,7 +210812,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap2d"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210842,7 +210842,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap2e"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210872,7 +210872,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap2f"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210902,7 +210902,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap2g"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210932,7 +210932,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap2h"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210962,7 +210962,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap2i"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -210992,7 +210992,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap2j"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211022,7 +211022,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap2k"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211052,7 +211052,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap2l"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211082,7 +211082,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap3a"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211112,7 +211112,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap3b"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211142,7 +211142,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap3c"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211172,7 +211172,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap3d"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211202,7 +211202,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap3e"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211232,7 +211232,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap3g"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211262,7 +211262,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap3h"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211292,7 +211292,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap3i"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211322,7 +211322,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap3j"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211352,7 +211352,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap3k"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211382,7 +211382,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap3l"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211412,7 +211412,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap4a"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211442,7 +211442,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap4b"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211472,7 +211472,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap4c"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211502,7 +211502,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap4d"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211532,7 +211532,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap4e"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211562,7 +211562,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap4f"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211592,7 +211592,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap4g"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211622,7 +211622,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap4h"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211652,7 +211652,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap4i"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211682,7 +211682,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap4j"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211712,7 +211712,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap4k"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211742,7 +211742,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CowlFlap4l"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -211772,7 +211772,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Elevator"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 52
@@ -212012,7 +212012,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Fuselage"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 672
@@ -216375,7 +216375,7 @@ refs 4
 kids 0
 OBJECT poly
 name "FuselagePanel"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 48
@@ -216700,7 +216700,7 @@ name "GearDoor1"
 kids 2
 OBJECT poly
 name "InGearDoor1"
-texture "b29-main-well.rgb"
+texture "b29-main-well.png"
 crease 45.000000
 numvert 21
 9.49682 -1.30371 4.40463
@@ -216788,7 +216788,7 @@ refs 3
 kids 0
 OBJECT poly
 name "OutGearDoor1"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 14
@@ -216866,7 +216866,7 @@ name "GearDoor2"
 kids 2
 OBJECT poly
 name "InGearDoor2"
-texture "b29-main-well.rgb"
+texture "b29-main-well.png"
 crease 45.000000
 numvert 21
 9.49683 -0.775733 3.36721
@@ -216954,7 +216954,7 @@ refs 4
 kids 0
 OBJECT poly
 name "OutGearDoor2"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 14
@@ -217032,7 +217032,7 @@ name "GearDoor3"
 kids 2
 OBJECT poly
 name "InGearDoor3"
-texture "b29-main-well.rgb"
+texture "b29-main-well.png"
 crease 45.000000
 numvert 21
 9.49683 -0.775733 -3.36721
@@ -217120,7 +217120,7 @@ refs 4
 kids 0
 OBJECT poly
 name "OutGearDoor3"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 14
@@ -217198,7 +217198,7 @@ name "GearDoor4"
 kids 2
 OBJECT poly
 name "InGearDoor4"
-texture "b29-main-well.rgb"
+texture "b29-main-well.png"
 crease 45.000000
 numvert 21
 9.49682 -1.30371 -4.40463
@@ -217286,7 +217286,7 @@ refs 3
 kids 0
 OBJECT poly
 name "OutGearDoor4"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 14
@@ -217361,7 +217361,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Hstab"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 113
@@ -218418,7 +218418,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Intake1"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 91.000000
 numvert 141
@@ -219437,7 +219437,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Intake2"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 61.000000
 numvert 141
@@ -220456,7 +220456,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Intake3"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 61.000000
 numvert 141
@@ -221475,7 +221475,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Intake4"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 61.000000
 numvert 141
@@ -222497,7 +222497,7 @@ name "LFBombDoor"
 kids 2
 OBJECT poly
 name "LFIBombDoor"
-texture "b29-bomb-door.rgb"
+texture "b29-bomb-door.png"
 crease 45.000000
 numvert 24
 5.77934 -1.41373 -0.006322
@@ -222587,7 +222587,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LFOBombDoor"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 8
@@ -222627,7 +222627,7 @@ name "LRBombDoor"
 kids 2
 OBJECT poly
 name "LRIBombDoor"
-texture "b29-bomb-door.rgb"
+texture "b29-bomb-door.png"
 crease 45.000000
 numvert 30
 16.0089 -1.19162 -0.006377
@@ -222744,7 +222744,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LROBombDoor"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 12
@@ -222806,7 +222806,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LeftAileron"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 26
@@ -222920,7 +222920,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LeftFlap"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 122
@@ -223566,7 +223566,7 @@ name "LeftNoseGearDoor"
 kids 2
 OBJECT poly
 name "LINoseGearDoor"
-texture "b29-nose-door.rgb"
+texture "b29-nose-door.png"
 crease 45.000000
 numvert 28
 3.19298 -1.42462 0.023742
@@ -223741,7 +223741,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LONoseGearDoor"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 14
@@ -223805,7 +223805,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LeftOutStrutDoor"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 6
@@ -223836,7 +223836,7 @@ name "RFBombDoor"
 kids 2
 OBJECT poly
 name "Fuselage.003"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 9
@@ -223874,7 +223874,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RFIBombDoor"
-texture "b29-bomb-door.rgb"
+texture "b29-bomb-door.png"
 crease 45.000000
 numvert 24
 5.77934 -1.41373 0.006322
@@ -223967,7 +223967,7 @@ name "RRBombDoor"
 kids 2
 OBJECT poly
 name "RRIBombDoor"
-texture "b29-bomb-door.rgb"
+texture "b29-bomb-door.png"
 crease 45.000000
 numvert 30
 16.0089 -1.19162 0.006377
@@ -224084,7 +224084,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RROBombDoor"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 12
@@ -224146,7 +224146,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RightAileron"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 26
@@ -224260,7 +224260,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RightFlap"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 122
@@ -224906,7 +224906,7 @@ name "RightNoseGearDoor"
 kids 2
 OBJECT poly
 name "RINoseGearDoor"
-texture "b29-nose-door.rgb"
+texture "b29-nose-door.png"
 crease 45.000000
 numvert 28
 3.193 -1.4235 -0.019671
@@ -225081,7 +225081,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RONoseGearDoor"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 14
@@ -225145,7 +225145,7 @@ refs 4
 kids 0
 OBJECT poly
 name "RightOutStrutDoor"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 6
@@ -225173,7 +225173,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Vstab"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 210
@@ -226644,7 +226644,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Wing"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 448
@@ -229438,7 +229438,7 @@ refs 4
 kids 0
 OBJECT poly
 name "WingPanel"
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 100 100
 crease 45.000000
 numvert 49
@@ -230938,7 +230938,7 @@ refs 5
 kids 0
 OBJECT poly
 name "PropDisc1b"
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 crease 45.000000
 numvert 9
 6.76362 0.503642 9.13385
@@ -231002,7 +231002,7 @@ refs 3
 kids 0
 OBJECT poly
 name "PropDisc1f"
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 crease 45.000000
 numvert 9
 6.76362 0.503642 9.13385
@@ -231066,7 +231066,7 @@ refs 3
 kids 0
 OBJECT poly
 name "PropDisc2b"
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 crease 45.000000
 numvert 9
 6.21155 0.151994 4.16574
@@ -231130,7 +231130,7 @@ refs 3
 kids 0
 OBJECT poly
 name "PropDisc2f"
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 crease 45.000000
 numvert 9
 6.21155 0.151994 4.16574
@@ -231194,7 +231194,7 @@ refs 3
 kids 0
 OBJECT poly
 name "PropDisc3b"
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 crease 45.000000
 numvert 9
 6.21206 0.152102 -4.16567
@@ -231258,7 +231258,7 @@ refs 3
 kids 0
 OBJECT poly
 name "PropDisc3f"
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 crease 45.000000
 numvert 9
 6.21206 0.152102 -4.16567
@@ -231322,7 +231322,7 @@ refs 3
 kids 0
 OBJECT poly
 name "PropDisc4b"
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 crease 45.000000
 numvert 9
 6.76397 0.503999 -9.13378
@@ -231386,7 +231386,7 @@ refs 3
 kids 0
 OBJECT poly
 name "PropDisc4f"
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 crease 45.000000
 numvert 9
 6.76397 0.503999 -9.13378

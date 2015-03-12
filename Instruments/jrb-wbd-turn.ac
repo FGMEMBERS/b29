@@ -9,7 +9,7 @@ OBJECT poly
 name "Back"
 data 9
 Plane.002
-texture "jrb-wbd-turn.rgb"
+texture "jrb-wbd-turn.png"
 texrep 1.0 1.0
 crease 30
 numvert 4
@@ -30,7 +30,7 @@ OBJECT poly
 name "Bezel"
 data 8
 Mesh.010
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1.0 1.0
 crease 30
 numvert 119
@@ -606,7 +606,7 @@ OBJECT poly
 name "Frame"
 data 8
 Mesh.003
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1.0 1.0
 crease 30
 numvert 72
@@ -872,7 +872,7 @@ OBJECT poly
 name "Needle1"
 data 8
 Mesh.005
-texture "jrb-wbd-turn.rgb"
+texture "jrb-wbd-turn.png"
 texrep 1.0 1.0
 crease 30
 numvert 5
@@ -905,7 +905,7 @@ OBJECT poly
 name "Ball"
 data 10
 Circle.001
-texture "jrb-wbd-turn.rgb"
+texture "jrb-wbd-turn.png"
 texrep 1.0 1.0
 crease 30
 numvert 9
@@ -972,7 +972,7 @@ OBJECT poly
 name "Face"
 data 8
 Mesh.007
-texture "jrb-wbd-turn.rgb"
+texture "jrb-wbd-turn.png"
 texrep 1.0 1.0
 crease 30
 numvert 17

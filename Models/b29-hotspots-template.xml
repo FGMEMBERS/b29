@@ -2,7 +2,7 @@
 <PropertyList>
 
   <name>_____ Hotspots</name>
-  <background>Aircraft/b29/Models/transparent.rgb</background>
+  <background>Aircraft/b29/Models/transparent.png</background>
   <w>1024</w>
   <h>1024</h>
   <y-offset>0</y-offset>
@@ -20,7 +20,7 @@
 	<layer>
 	  <name>background</name>
 	  <texture>
-	    <path>Aircraft/b29/Models/hotspot.rgb</path>
+	    <path>Aircraft/b29/Models/hotspot.png</path>
 	    <x1>0.0</x1>
 	    <y1>0.0</y1>
 	    <x2>1.0</x2>

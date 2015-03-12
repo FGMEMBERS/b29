@@ -8,7 +8,7 @@ OBJECT poly
 name "Bezel"
 data 8
 Mesh.010
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 102
@@ -486,7 +486,7 @@ OBJECT poly
 name "Face"
 data 8
 Mesh.011
-texture "jrb-wbd-flaps.rgb"
+texture "jrb-wbd-flaps.png"
 texrep 1 1
 crease 30
 numvert 17
@@ -609,7 +609,7 @@ OBJECT poly
 name "Frame"
 data 8
 Mesh.006
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 72
@@ -859,7 +859,7 @@ OBJECT poly
 name "Needle1"
 data 8
 Mesh.008
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 10

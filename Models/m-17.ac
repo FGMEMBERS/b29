@@ -8,7 +8,7 @@ name "M-17"
 kids 3
 OBJECT poly
 name "M17Bomb"
-texture "m-17.rgb"
+texture "m-17.png"
 texrep 1 1
 crease 30
 numvert 123
@@ -607,7 +607,7 @@ refs 3
 kids 0
 OBJECT poly
 name "M17Fuse"
-texture "m-17.rgb"
+texture "m-17.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -658,7 +658,7 @@ refs 4
 kids 0
 OBJECT poly
 name "M17Fins"
-texture "m-17.rgb"
+texture "m-17.png"
 texrep 1 1
 crease 30
 numvert 66

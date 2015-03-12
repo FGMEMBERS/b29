@@ -7,7 +7,7 @@ OBJECT poly
 name "Frame"
 data 8
 Mesh.006
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 crease 30.000000
 numvert 72
 0.003176 0.038113 0.038287
@@ -256,7 +256,7 @@ OBJECT poly
 name "Bezel"
 data 8
 Mesh.010
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 crease 30.000000
 numvert 102
 -0.001574 0.037111 6e-006
@@ -724,7 +724,7 @@ OBJECT poly
 name "Knob"
 data 8
 Mesh.020
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 crease 30.000000
 numvert 49
 0.018812 -0.028986 0.039772
@@ -1070,7 +1070,7 @@ OBJECT poly
 name "Face"
 data 8
 Mesh.013
-texture "jrb-wbd-fluxgate.rgb"
+texture "jrb-wbd-fluxgate.png"
 crease 30.000000
 numvert 17
 0.004181 -0.000165 -0.037884
@@ -1192,7 +1192,7 @@ OBJECT poly
 name "Bug"
 data 9
 Plane.001
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 crease 30.000000
 numvert 12
 0.005756 0.019566 -0.005084
@@ -1261,7 +1261,7 @@ OBJECT poly
 name "Needle"
 data 5
 Plane
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 crease 30.000000
 numvert 7
 0.007258 0.028354 -0.001046

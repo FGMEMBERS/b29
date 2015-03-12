@@ -5,7 +5,7 @@ OBJECT world
 kids 3
 OBJECT poly
 name "Fuse"
-texture "m-19.rgb"
+texture "m-19.png"
 texrep 1 1
 numvert 8
 -0.640953 0.23547 -0.020081
@@ -55,7 +55,7 @@ refs 4
 kids 0
 OBJECT poly
 name "bomb"
-texture "m-19.rgb"
+texture "m-19.png"
 texrep 1 1
 numvert 123
 0.606209 0.150694 0.150694
@@ -713,7 +713,7 @@ refs 2
 kids 0
 OBJECT poly
 name "fins"
-texture "m-19.rgb"
+texture "m-19.png"
 texrep 1 1
 numvert 66
 0.926566 0.111484 0.111484

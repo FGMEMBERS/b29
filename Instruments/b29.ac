@@ -226,7 +226,7 @@ OBJECT poly
 name "PropDisc2f"
 data 9
 Plane.014
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 texrep 1 1
 crease 30
 numvert 9
@@ -691,7 +691,7 @@ OBJECT poly
 name "LowerVent3"
 data 8
 Mesh.552
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -1010,7 +1010,7 @@ OBJECT poly
 name "LowerVent1"
 data 8
 Mesh.602
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -1261,7 +1261,7 @@ OBJECT poly
 name "LowerVent4"
 data 8
 Mesh.557
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -2605,7 +2605,7 @@ OBJECT poly
 name "LowerVent2"
 data 8
 Mesh.605
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -2730,7 +2730,7 @@ OBJECT poly
 name "LROBombDoor"
 data 10
 Sphere.130
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 9
@@ -2777,7 +2777,7 @@ OBJECT poly
 name "LRIBombDoor"
 data 10
 Sphere.030
-texture "b29-bomb-door.rgb"
+texture "b29-bomb-door.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -2869,7 +2869,7 @@ OBJECT poly
 name "Intake3"
 data 8
 Mesh.005
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 125
@@ -3782,7 +3782,7 @@ OBJECT poly
 name "Blade4b"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -3920,7 +3920,7 @@ OBJECT poly
 name "Blade4c"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -4058,7 +4058,7 @@ OBJECT poly
 name "Blade4a"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -4196,7 +4196,7 @@ OBJECT poly
 name "Blade4d"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -4337,7 +4337,7 @@ OBJECT poly
 name "Blade3d"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -4475,7 +4475,7 @@ OBJECT poly
 name "Blade3c"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -4613,7 +4613,7 @@ OBJECT poly
 name "Blade3b"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -4751,7 +4751,7 @@ OBJECT poly
 name "Blade3a"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -5254,7 +5254,7 @@ OBJECT poly
 name "Blade1d"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -5392,7 +5392,7 @@ OBJECT poly
 name "Blade1a"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -5530,7 +5530,7 @@ OBJECT poly
 name "Blade1c"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -5668,7 +5668,7 @@ OBJECT poly
 name "Blade1b"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -5809,7 +5809,7 @@ OBJECT poly
 name "RearDorsalTurret"
 data 10
 Sphere.019
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 36
@@ -6384,7 +6384,7 @@ OBJECT poly
 name "TopFrontTurCollar"
 data 10
 Sphere.052
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 20
@@ -6550,7 +6550,7 @@ OBJECT poly
 name "TailGunBall"
 data 6
 Sphere
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 147
@@ -8224,7 +8224,7 @@ OBJECT poly
 name "TailGunShield"
 data 10
 Sphere.017
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 44
@@ -8641,7 +8641,7 @@ OBJECT poly
 name "RearVentTurret"
 data 10
 Sphere.022
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 36
@@ -9219,7 +9219,7 @@ OBJECT poly
 name "ForeVentTurret"
 data 10
 Sphere.010
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 36
@@ -9831,7 +9831,7 @@ OBJECT poly
 name "Exhaust4"
 data 6
 Circle
-texture "b29-exhaust.rgb"
+texture "b29-exhaust.png"
 texrep 1 1
 crease 30
 numvert 96
@@ -10325,7 +10325,7 @@ OBJECT poly
 name "Exhaust1"
 data 6
 Circle
-texture "b29-exhaust.rgb"
+texture "b29-exhaust.png"
 texrep 1 1
 crease 30
 numvert 96
@@ -10819,7 +10819,7 @@ OBJECT poly
 name "Exhaust3"
 data 6
 Circle
-texture "b29-exhaust.rgb"
+texture "b29-exhaust.png"
 texrep 1 1
 crease 30
 numvert 96
@@ -11313,7 +11313,7 @@ OBJECT poly
 name "Exhaust2"
 data 6
 Circle
-texture "b29-exhaust.rgb"
+texture "b29-exhaust.png"
 texrep 1 1
 crease 30
 numvert 96
@@ -11810,7 +11810,7 @@ OBJECT poly
 name "Blade2a"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -11948,7 +11948,7 @@ OBJECT poly
 name "Blade2b"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -12086,7 +12086,7 @@ OBJECT poly
 name "Blade2c"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -12224,7 +12224,7 @@ OBJECT poly
 name "Blade2d"
 data 10
 Circle.001
-texture "b29-yellow-tip-prop.rgb"
+texture "b29-yellow-tip-prop.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -12428,7 +12428,7 @@ OBJECT poly
 name "TailSkidStrut"
 data 12
 Cylinder.001
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 10
@@ -12483,7 +12483,7 @@ OBJECT poly
 name "TailSkid"
 data 10
 Sphere.013
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 22
@@ -12575,7 +12575,7 @@ OBJECT poly
 name "ForeDorsalTurret"
 data 10
 Sphere.020
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 36
@@ -13366,7 +13366,7 @@ OBJECT poly
 name "Antenna1"
 data 9
 Plane.022
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -13431,7 +13431,7 @@ OBJECT poly
 name "Antenna2"
 data 9
 Plane.022
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -13496,7 +13496,7 @@ OBJECT poly
 name "Antenna3"
 data 9
 Plane.007
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -13561,7 +13561,7 @@ OBJECT poly
 name "Dipole"
 data 8
 Tube.001
-texture "b29-aluminum-fixture.rgb"
+texture "b29-aluminum-fixture.png"
 texrep 1 1
 crease 30
 numvert 70
@@ -13963,7 +13963,7 @@ OBJECT poly
 name "PropDisc3b"
 data 9
 Plane.014
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 texrep 1 1
 crease 30
 numvert 9
@@ -14030,7 +14030,7 @@ OBJECT poly
 name "URWingInsig"
 data 9
 Plane.036
-texture "b29-mark-usaf.rgb"
+texture "b29-mark-usaf.png"
 texrep 1 1
 crease 30
 numvert 12
@@ -14095,7 +14095,7 @@ OBJECT poly
 name "RONoseGearDoor"
 data 10
 Sphere.139
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -14161,7 +14161,7 @@ OBJECT poly
 name "RINoseGearDoor"
 data 10
 Sphere.043
-texture "b29-nose-door.rgb"
+texture "b29-nose-door.png"
 texrep 1 1
 crease 30
 numvert 28
@@ -15144,7 +15144,7 @@ OBJECT poly
 name "Intake4"
 data 8
 Mesh.014
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 125
@@ -16051,7 +16051,7 @@ OBJECT poly
 name "Intake1"
 data 8
 Mesh.598
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 125
@@ -16958,7 +16958,7 @@ OBJECT poly
 name "Intake2"
 data 8
 Mesh.599
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 125
@@ -17865,7 +17865,7 @@ OBJECT poly
 name "VstabMark"
 data 9
 Plane.021
-texture "b29-mark-tail.rgb"
+texture "b29-mark-tail.png"
 texrep 1 1
 crease 30
 numvert 50
@@ -18710,7 +18710,7 @@ OBJECT poly
 name "LONoseGearDoor"
 data 10
 Sphere.138
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -18776,7 +18776,7 @@ OBJECT poly
 name "LINoseGearDoor"
 data 10
 Sphere.042
-texture "b29-nose-door.rgb"
+texture "b29-nose-door.png"
 texrep 1 1
 crease 30
 numvert 28
@@ -18954,7 +18954,7 @@ OBJECT poly
 name "LeftAileron"
 data 9
 Plane.039
-texture "b29-control-surf.rgb"
+texture "b29-control-surf.png"
 texrep 1 1
 crease 30
 numvert 26
@@ -19070,7 +19070,7 @@ OBJECT poly
 name "CowlFlap1j"
 data 8
 Mesh.590
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -19105,7 +19105,7 @@ OBJECT poly
 name "RightGearFork"
 data 8
 Cube.069
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 52
@@ -19436,7 +19436,7 @@ OBJECT poly
 name "RightGearLink"
 data 8
 Cube.030
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -19512,7 +19512,7 @@ OBJECT poly
 name "RightGearStrut"
 data 8
 Mesh.492
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 52
@@ -19763,7 +19763,7 @@ OBJECT poly
 name "RightUpperSwingArm"
 data 8
 Cube.011
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -19826,7 +19826,7 @@ OBJECT poly
 name "RightWheels"
 data 8
 Mesh.016
-texture "b29-main-tire.rgb"
+texture "b29-main-tire.png"
 texrep 1 1
 crease 30
 numvert 284
@@ -22240,7 +22240,7 @@ OBJECT poly
 name "RightLowerSwingArm"
 data 8
 Cube.041
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -22430,7 +22430,7 @@ OBJECT poly
 name "RightGearHydStrut"
 data 8
 Tube.017
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 34
@@ -22558,7 +22558,7 @@ OBJECT poly
 name "PropDisc4f"
 data 9
 Plane.014
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 texrep 1 1
 crease 30
 numvert 9
@@ -22625,7 +22625,7 @@ OBJECT poly
 name "PropDisc4b"
 data 9
 Plane.014
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 texrep 1 1
 crease 30
 numvert 9
@@ -22692,7 +22692,7 @@ OBJECT poly
 name "LeftOutStrutDoor"
 data 8
 Mesh.617
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 6
@@ -22722,7 +22722,7 @@ OBJECT poly
 name "Engine2"
 data 8
 Mesh.008
-texture "b29-engine-small.rgb"
+texture "b29-engine-small.png"
 texrep 1 1
 crease 30
 numvert 96
@@ -23248,7 +23248,7 @@ OBJECT poly
 name "Engine3"
 data 8
 Mesh.008
-texture "b29-engine-small.rgb"
+texture "b29-engine-small.png"
 texrep 1 1
 crease 30
 numvert 96
@@ -23774,7 +23774,7 @@ OBJECT poly
 name "Engine1"
 data 8
 Mesh.008
-texture "b29-engine-small.rgb"
+texture "b29-engine-small.png"
 texrep 1 1
 crease 30
 numvert 96
@@ -24300,7 +24300,7 @@ OBJECT poly
 name "PropDisc1f"
 data 9
 Plane.014
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 texrep 1 1
 crease 30
 numvert 9
@@ -24367,7 +24367,7 @@ OBJECT poly
 name "Engine4"
 data 8
 Mesh.008
-texture "b29-engine-small.rgb"
+texture "b29-engine-small.png"
 texrep 1 1
 crease 30
 numvert 96
@@ -24896,7 +24896,7 @@ OBJECT poly
 name "RFOBombDoor"
 data 10
 Sphere.136
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 7
@@ -24927,7 +24927,7 @@ OBJECT poly
 name "RFIBombDoor"
 data 10
 Sphere.040
-texture "b29-bomb-door.rgb"
+texture "b29-bomb-door.png"
 texrep 1 1
 crease 30
 numvert 10
@@ -24994,7 +24994,7 @@ OBJECT poly
 name "RightInInStrutDoor"
 data 8
 Mesh.023
-texture "b29-strut-door.rgb"
+texture "b29-strut-door.png"
 texrep 1 1
 crease 30
 numvert 12
@@ -25047,7 +25047,7 @@ OBJECT poly
 name "LLWingInsig"
 data 9
 Plane.035
-texture "b29-mark-usaf.rgb"
+texture "b29-mark-usaf.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -25418,7 +25418,7 @@ OBJECT poly
 name "Hstab"
 data 8
 Mesh.012
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 113
@@ -26480,7 +26480,7 @@ OBJECT poly
 name "Ladder"
 data 9
 Plane.017
-texture "b29-ladder.rgb"
+texture "b29-ladder.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -26540,7 +26540,7 @@ OBJECT poly
 name "NoseGearBay"
 data 10
 Sphere.016
-texture "b29-nose-well.rgb"
+texture "b29-nose-well.png"
 texrep 1 1
 crease 30
 numvert 34
@@ -26760,7 +26760,7 @@ OBJECT poly
 name "NGStrut"
 data 8
 Cube.065
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 68
@@ -27278,7 +27278,7 @@ OBJECT poly
 name "NGHydStrut"
 data 8
 Cylinder
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 26
@@ -27422,7 +27422,7 @@ OBJECT poly
 name "NoseGearStrut"
 data 8
 Mesh.029
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -27645,7 +27645,7 @@ OBJECT poly
 name "UpperNoseSwingArm"
 data 8
 Cube.001
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -27758,7 +27758,7 @@ OBJECT poly
 name "NGFork"
 data 8
 Tube.011
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 34
@@ -28034,7 +28034,7 @@ OBJECT poly
 name "LowerNoseSwingArm"
 data 4
 Cube
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -28150,7 +28150,7 @@ OBJECT poly
 name "NoseWheels"
 data 8
 Mesh.030
-texture "b29-front-tire.rgb"
+texture "b29-front-tire.png"
 texrep 1 1
 crease 30
 numvert 238
@@ -30477,7 +30477,7 @@ OBJECT poly
 name "NoseSteerStrut"
 data 8
 Mesh.028
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 18
@@ -30568,7 +30568,7 @@ OBJECT poly
 name "NoseGearDamper"
 data 8
 Mesh.097
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 100
@@ -31185,7 +31185,7 @@ OBJECT poly
 name "UpperVent2"
 data 8
 Mesh.604
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -31307,7 +31307,7 @@ OBJECT poly
 name "UpperVent3"
 data 8
 Mesh.551
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -31429,7 +31429,7 @@ OBJECT poly
 name "UpperVent1"
 data 8
 Mesh.601
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -31551,7 +31551,7 @@ OBJECT poly
 name "UpperVent4"
 data 8
 Mesh.559
-texture "b29-cowl-flap.rgb"
+texture "b29-cowl-flap.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -32174,7 +32174,7 @@ OBJECT poly
 name "BombBay"
 data 10
 Sphere.009
-texture "b29-bay-wall.rgb"
+texture "b29-bay-wall.png"
 texrep 1 1
 crease 30
 numvert 111
@@ -32730,7 +32730,7 @@ OBJECT poly
 name "CommunicationTube"
 data 8
 Tube.010
-texture "b29-tunnel.rgb"
+texture "b29-tunnel.png"
 texrep 1 1
 crease 30
 numvert 18
@@ -32814,7 +32814,7 @@ OBJECT poly
 name "Girder"
 data 9
 Plane.040
-texture "b29-girder.rgb"
+texture "b29-girder.png"
 texrep 1 1
 crease 30
 numvert 12
@@ -32864,7 +32864,7 @@ OBJECT poly
 name "BombRacks"
 data 8
 Tube.015
-texture "b29-bomb-rack.rgb"
+texture "b29-bomb-rack.png"
 texrep 1 1
 crease 30
 numvert 156
@@ -33642,7 +33642,7 @@ OBJECT poly
 name "WingSpar"
 data 8
 Tube.013
-texture "b29-wing-spar.rgb"
+texture "b29-wing-spar.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -33681,7 +33681,7 @@ OBJECT poly
 name "BombBayCaps"
 data 10
 Sphere.027
-texture "b29-bay-cap.rgb"
+texture "b29-bay-cap.png"
 texrep 1 1
 crease 30
 numvert 104
@@ -34198,7 +34198,7 @@ OBJECT poly
 name "Wing"
 data 5
 Plane
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 448
@@ -36994,7 +36994,7 @@ OBJECT poly
 name "WingPanel"
 data 9
 Plane.004
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 49
@@ -37249,7 +37249,7 @@ OBJECT poly
 name "Spinner2"
 data 9
 Plane.006
-texture "b29-aluminum-fixture.rgb"
+texture "b29-aluminum-fixture.png"
 texrep 1 1
 crease 30
 numvert 30
@@ -37583,7 +37583,7 @@ OBJECT poly
 name "Spinner3"
 data 9
 Plane.006
-texture "b29-aluminum-fixture.rgb"
+texture "b29-aluminum-fixture.png"
 texrep 1 1
 crease 30
 numvert 30
@@ -37917,7 +37917,7 @@ OBJECT poly
 name "Spinner1"
 data 9
 Plane.006
-texture "b29-aluminum-fixture.rgb"
+texture "b29-aluminum-fixture.png"
 texrep 1 1
 crease 30
 numvert 30
@@ -38251,7 +38251,7 @@ OBJECT poly
 name "Spinner4"
 data 9
 Plane.006
-texture "b29-aluminum-fixture.rgb"
+texture "b29-aluminum-fixture.png"
 texrep 1 1
 crease 30
 numvert 30
@@ -38588,7 +38588,7 @@ OBJECT poly
 name "OutGearDoor1"
 data 8
 Mesh.621
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -38665,7 +38665,7 @@ OBJECT poly
 name "InGearDoor1"
 data 8
 Mesh.622
-texture "b29-main-well.rgb"
+texture "b29-main-well.png"
 texrep 1 1
 crease 30
 numvert 21
@@ -38759,7 +38759,7 @@ OBJECT poly
 name "OutGearDoor3"
 data 8
 Mesh.020
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -38836,7 +38836,7 @@ OBJECT poly
 name "InGearDoor3"
 data 8
 Mesh.513
-texture "b29-main-well.rgb"
+texture "b29-main-well.png"
 texrep 1 1
 crease 30
 numvert 21
@@ -38930,7 +38930,7 @@ OBJECT poly
 name "OutGearDoor2"
 data 8
 Mesh.619
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -39007,7 +39007,7 @@ OBJECT poly
 name "InGearDoor2"
 data 8
 Mesh.620
-texture "b29-main-well.rgb"
+texture "b29-main-well.png"
 texrep 1 1
 crease 30
 numvert 21
@@ -39101,7 +39101,7 @@ OBJECT poly
 name "InGearDoor4"
 data 8
 Mesh.514
-texture "b29-main-well.rgb"
+texture "b29-main-well.png"
 texrep 1 1
 crease 30
 numvert 21
@@ -39192,7 +39192,7 @@ OBJECT poly
 name "OutGearDoor4"
 data 8
 Mesh.019
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -39269,7 +39269,7 @@ OBJECT poly
 name "CowlFlap3j"
 data 8
 Mesh.538
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -39301,7 +39301,7 @@ OBJECT poly
 name "CowlFlap3k"
 data 8
 Mesh.537
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -39333,7 +39333,7 @@ OBJECT poly
 name "CowlFlap3h"
 data 8
 Mesh.540
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -39365,7 +39365,7 @@ OBJECT poly
 name "CowlFlap3i"
 data 8
 Mesh.539
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -39397,7 +39397,7 @@ OBJECT poly
 name "FuselageInsig"
 data 10
 Sphere.031
-texture "b29-mark-insignia.rgb"
+texture "b29-mark-insignia.png"
 texrep 1 1
 crease 30
 numvert 44
@@ -39641,7 +39641,7 @@ OBJECT poly
 name "CowlFlap3l"
 data 8
 Mesh.536
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -39673,7 +39673,7 @@ OBJECT poly
 name "CowlFlap3b"
 data 8
 Mesh.546
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -39705,7 +39705,7 @@ OBJECT poly
 name "CowlFlap3c"
 data 8
 Mesh.545
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -39866,7 +39866,7 @@ OBJECT poly
 name "CowlFlap3a"
 data 8
 Mesh.535
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -39898,7 +39898,7 @@ OBJECT poly
 name "CowlFlap3f"
 data 8
 Mesh.574
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -39930,7 +39930,7 @@ OBJECT poly
 name "CowlFlap3g"
 data 8
 Mesh.541
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -39962,7 +39962,7 @@ OBJECT poly
 name "CowlFlap3d"
 data 8
 Mesh.544
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -39994,7 +39994,7 @@ OBJECT poly
 name "CowlFlap3e"
 data 8
 Mesh.543
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -44463,7 +44463,7 @@ OBJECT poly
 name "NoseArt"
 data 10
 Sphere.128
-texture "b29-noseart-lady.rgb"
+texture "b29-noseart-lady.png"
 texrep 1 1
 crease 30
 numvert 171
@@ -45719,7 +45719,7 @@ OBJECT poly
 name "LeftFlap"
 data 4
 Mesh
-texture "b29-control-surf.rgb"
+texture "b29-control-surf.png"
 texrep 1 1
 crease 30
 numvert 148
@@ -46490,7 +46490,7 @@ OBJECT poly
 name "RightAileron"
 data 9
 Plane.008
-texture "b29-control-surf.rgb"
+texture "b29-control-surf.png"
 texrep 1 1
 crease 30
 numvert 26
@@ -46609,7 +46609,7 @@ OBJECT poly
 name "Floor"
 data 10
 Sphere.026
-texture "b29-floor.rgb"
+texture "b29-floor.png"
 texrep 1 1
 crease 30
 numvert 42
@@ -46829,7 +46829,7 @@ OBJECT poly
 name "TopFrontInnerDome"
 data 10
 Sphere.028
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 111
@@ -48050,7 +48050,7 @@ OBJECT poly
 name "CoPilotFrame"
 data 8
 Cube.021
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 240
@@ -48983,7 +48983,7 @@ OBJECT poly
 name "PilotSeat"
 data 8
 Cube.052
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 34
@@ -49167,7 +49167,7 @@ OBJECT poly
 name "Grooves"
 data 8
 Cube.061
-texture "b29-groove.rgb"
+texture "b29-groove.png"
 texrep 1 1
 crease 30
 numvert 60
@@ -49539,7 +49539,7 @@ OBJECT poly
 name "LeftWall"
 data 9
 Plane.010
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 42
@@ -49715,7 +49715,7 @@ OBJECT poly
 name "CoPilotCluster"
 data 8
 Cube.056
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -49768,7 +49768,7 @@ OBJECT poly
 name "LdgInspectionHatch"
 data 8
 Cube.020
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 12
@@ -49825,7 +49825,7 @@ OBJECT poly
 name "PilotSeatCusion"
 data 8
 Cube.013
-texture "b29-upholstery.rgb"
+texture "b29-upholstery.png"
 texrep 1 1
 crease 30
 numvert 122
@@ -50716,7 +50716,7 @@ OBJECT poly
 name "Hatch"
 data 10
 Sphere.012
-texture "b29-hatch.rgb"
+texture "b29-hatch.png"
 texrep 1 1
 crease 80
 numvert 201
@@ -51803,7 +51803,7 @@ OBJECT poly
 name "BombadierSeatCusion"
 data 8
 Cube.023
-texture "b29-upholstery.rgb"
+texture "b29-upholstery.png"
 texrep 1 1
 crease 30
 numvert 64
@@ -52323,7 +52323,7 @@ OBJECT poly
 name "PilotConsole"
 data 8
 Cube.029
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 29
@@ -52444,7 +52444,7 @@ OBJECT poly
 name "EngineerSeat"
 data 8
 Cube.031
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -52623,7 +52623,7 @@ OBJECT poly
 name "CoPilotConsole"
 data 8
 Cube.032
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 29
@@ -52744,7 +52744,7 @@ OBJECT poly
 name "BotFrontInnerDome"
 data 10
 Sphere.008
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 111
@@ -53965,7 +53965,7 @@ OBJECT poly
 name "Pedestal"
 data 8
 Cube.018
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 94
@@ -54672,7 +54672,7 @@ OBJECT poly
 name "EngineerConsole"
 data 10
 Circle.006
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 54
@@ -54977,7 +54977,7 @@ OBJECT poly
 name "BombadierHeater"
 data 8
 Cube.008
-texture "b29-heater.rgb"
+texture "b29-heater.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -55030,7 +55030,7 @@ OBJECT poly
 name "CoPilotHeater"
 data 8
 Cube.008
-texture "b29-heater.rgb"
+texture "b29-heater.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -55083,7 +55083,7 @@ OBJECT poly
 name "EngPanel"
 data 10
 Circle.007
-texture "b29-eng-panel.rgb"
+texture "b29-eng-panel.png"
 texrep 1 1
 crease 30
 numvert 7
@@ -55130,7 +55130,7 @@ OBJECT poly
 name "CoarseNorden"
 data 8
 Tube.006
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 104
@@ -55865,7 +55865,7 @@ OBJECT poly
 name "RightWall"
 data 9
 Plane.011
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 42
@@ -56041,7 +56041,7 @@ OBJECT poly
 name "EngineerSeatCusion"
 data 8
 Cube.015
-texture "b29-upholstery.rgb"
+texture "b29-upholstery.png"
 texrep 1 1
 crease 30
 numvert 68
@@ -56704,7 +56704,7 @@ OBJECT poly
 name "RightPedal"
 data 8
 Cube.027
-texture "b29-pedal.rgb"
+texture "b29-pedal.png"
 texrep 1 1
 crease 30
 numvert 16
@@ -56902,7 +56902,7 @@ OBJECT poly
 name "CoPilotAilIndex"
 data 9
 Plane.015
-texture "b29-ail-trim-index.rgb"
+texture "b29-ail-trim-index.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -57060,7 +57060,7 @@ OBJECT poly
 name "PilotRudderIndex"
 data 9
 Plane.002
-texture "b29-rudder-trim-index.rgb"
+texture "b29-rudder-trim-index.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -57130,7 +57130,7 @@ OBJECT poly
 name "EmergGear"
 data 8
 Tube.005
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 texrep 1 1
 crease 30
 numvert 34
@@ -57366,7 +57366,7 @@ OBJECT poly
 name "PropFeather4"
 data 10
 Sphere.049
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 texrep 1 1
 crease 30
 numvert 36
@@ -57722,7 +57722,7 @@ OBJECT poly
 name "PropFeather3"
 data 10
 Sphere.049
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 texrep 1 1
 crease 30
 numvert 36
@@ -58078,7 +58078,7 @@ OBJECT poly
 name "PropFeather2"
 data 10
 Sphere.049
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 texrep 1 1
 crease 30
 numvert 36
@@ -58434,7 +58434,7 @@ OBJECT poly
 name "PropFeather1"
 data 10
 Sphere.049
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 texrep 1 1
 crease 30
 numvert 36
@@ -58816,7 +58816,7 @@ OBJECT poly
 name "LocalizerSwitch"
 data 8
 Cube.012
-texture "b29-localizer.rgb"
+texture "b29-localizer.png"
 texrep 1 1
 crease 30
 numvert 12
@@ -58873,7 +58873,7 @@ OBJECT poly
 name "TurboDial"
 data 9
 Plane.028
-texture "b29-turbo-dial.rgb"
+texture "b29-turbo-dial.png"
 texrep 1 1
 crease 30
 numvert 95
@@ -59523,7 +59523,7 @@ OBJECT poly
 name "CoPilotInterPhone"
 data 8
 Cube.007
-texture "b29-white-control.rgb"
+texture "b29-white-control.png"
 texrep 1 1
 crease 30
 numvert 41
@@ -59730,7 +59730,7 @@ OBJECT poly
 name "EmergPressure"
 data 8
 Tube.005
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 texrep 1 1
 crease 30
 numvert 34
@@ -60560,7 +60560,7 @@ OBJECT poly
 name "Mixture1"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -61928,7 +61928,7 @@ OBJECT poly
 name "PilotRadioFilter"
 data 8
 Cube.010
-texture "b29-white-control.rgb"
+texture "b29-white-control.png"
 texrep 1 1
 crease 30
 numvert 20
@@ -62035,7 +62035,7 @@ OBJECT poly
 name "CoPilotRudderIndex"
 data 9
 Plane.002
-texture "b29-rudder-trim-index.rgb"
+texture "b29-rudder-trim-index.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -63161,7 +63161,7 @@ OBJECT poly
 name "PilotInterPhone"
 data 8
 Cube.007
-texture "b29-white-control.rgb"
+texture "b29-white-control.png"
 texrep 1 1
 crease 30
 numvert 41
@@ -63368,7 +63368,7 @@ OBJECT poly
 name "RudderMount"
 data 12
 Cylinder.007
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 54
@@ -63648,7 +63648,7 @@ OBJECT poly
 name "CoPilotYokeWheel"
 data 8
 Mesh.623
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 197
@@ -65330,7 +65330,7 @@ OBJECT poly
 name "CoPilotYokecap"
 data 8
 Mesh.624
-texture "b29-yoke.rgb"
+texture "b29-yoke.png"
 texrep 1 1
 crease 30
 numvert 26
@@ -65546,7 +65546,7 @@ OBJECT poly
 name "Stick"
 data 8
 Cube.028
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 44
@@ -65771,7 +65771,7 @@ OBJECT poly
 name "PilotYokecap"
 data 8
 Mesh.001
-texture "b29-yoke.rgb"
+texture "b29-yoke.png"
 texrep 1 1
 crease 30
 numvert 26
@@ -65987,7 +65987,7 @@ OBJECT poly
 name "PilotYokeWheel"
 data 8
 Mesh.334
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 197
@@ -67669,7 +67669,7 @@ OBJECT poly
 name "Mixture4"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -67885,7 +67885,7 @@ OBJECT poly
 name "Mixture3"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -68101,7 +68101,7 @@ OBJECT poly
 name "Mixture2"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -68317,7 +68317,7 @@ OBJECT poly
 name "RightPedalArm"
 data 8
 Tube.004
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 272
@@ -69635,7 +69635,7 @@ OBJECT poly
 name "ElevTrimIndex"
 data 8
 Tube.007
-texture "b29-elev-trim-index.rgb"
+texture "b29-elev-trim-index.png"
 texrep 1 1
 crease 30
 numvert 54
@@ -70242,7 +70242,7 @@ OBJECT poly
 name "CoPilotO2Guages"
 data 8
 Cube.005
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -70288,7 +70288,7 @@ OBJECT poly
 name "EngSwitchBox"
 data 8
 Cube.060
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -70720,7 +70720,7 @@ OBJECT poly
 name "FuelTransfer1"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -71224,7 +71224,7 @@ OBJECT poly
 name "FlapSwitchGuard"
 data 9
 Plane.030
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -71503,7 +71503,7 @@ OBJECT poly
 name "EngThrottle2"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -71993,7 +71993,7 @@ OBJECT poly
 name "GunsightMount"
 data 8
 Cube.039
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 20
@@ -72142,7 +72142,7 @@ OBJECT poly
 name "EngThrottle4"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -72358,7 +72358,7 @@ OBJECT poly
 name "Gunsight"
 data 8
 Cube.037
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 332
@@ -74997,7 +74997,7 @@ OBJECT poly
 name "LeftPedal"
 data 8
 Cube.055
-texture "b29-pedal.rgb"
+texture "b29-pedal.png"
 texrep 1 1
 crease 30
 numvert 16
@@ -76315,7 +76315,7 @@ OBJECT poly
 name "ThrottleLock"
 data 8
 Tube.008
-texture "b29-blue-lever.rgb"
+texture "b29-blue-lever.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -76558,7 +76558,7 @@ OBJECT poly
 name "PilotO2Guages"
 data 8
 Cube.005
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -76604,7 +76604,7 @@ OBJECT poly
 name "EmergBomb"
 data 8
 Tube.005
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 texrep 1 1
 crease 30
 numvert 34
@@ -77114,7 +77114,7 @@ OBJECT poly
 name "EmergRelease"
 data 8
 Cube.006
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 7
@@ -77152,7 +77152,7 @@ OBJECT poly
 name "IFFBox"
 data 8
 Cube.019
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -77249,7 +77249,7 @@ OBJECT poly
 name "XferBox"
 data 8
 Cube.059
-texture "b29-xfer.rgb"
+texture "b29-xfer.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -78010,7 +78010,7 @@ OBJECT poly
 name "EngO2Guages"
 data 8
 Cube.005
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -78740,7 +78740,7 @@ OBJECT poly
 name "PilotO2Regulator"
 data 8
 Tube.002
-texture "b29-o2-regulator.rgb"
+texture "b29-o2-regulator.png"
 texrep 1 1
 crease 30
 numvert 67
@@ -79118,7 +79118,7 @@ OBJECT poly
 name "EngThrottle3"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -79334,7 +79334,7 @@ OBJECT poly
 name "HydraulicPump"
 data 8
 Cube.040
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 63
@@ -79910,7 +79910,7 @@ OBJECT poly
 name "ThrottleLockHousing"
 data 11
 Suzanne.002
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 29
@@ -80018,7 +80018,7 @@ OBJECT poly
 name "EngThrottle1"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -80234,7 +80234,7 @@ OBJECT poly
 name "BombDoorLever"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -80450,7 +80450,7 @@ OBJECT poly
 name "EngSmSwPanel"
 data 9
 Plane.018
-texture "b29-eng-panel.rgb"
+texture "b29-eng-panel.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -80890,7 +80890,7 @@ OBJECT poly
 name "ControlLock"
 data 8
 Tube.012
-texture "b29-blue-lever.rgb"
+texture "b29-blue-lever.png"
 texrep 1 1
 crease 30
 numvert 48
@@ -81149,7 +81149,7 @@ OBJECT poly
 name "XferBezel"
 data 10
 Sphere.050
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 20
@@ -81347,7 +81347,7 @@ OBJECT poly
 name "PilotAilIndex"
 data 9
 Plane.015
-texture "b29-ail-trim-index.rgb"
+texture "b29-ail-trim-index.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -81399,7 +81399,7 @@ OBJECT poly
 name "GunsightArm"
 data 8
 Cube.038
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 74
@@ -81777,7 +81777,7 @@ OBJECT poly
 name "VacuumSelector"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -82694,7 +82694,7 @@ OBJECT poly
 name "CoPilotRudderTrim"
 data 12
 Cylinder.009
-texture "b29-trim-wheel.rgb"
+texture "b29-trim-wheel.png"
 texrep 1 1
 crease 30
 numvert 50
@@ -83220,7 +83220,7 @@ OBJECT poly
 name "FluorSw3"
 data 12
 Cylinder.012
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 texrep 1 1
 crease 30
 numvert 59
@@ -83656,7 +83656,7 @@ OBJECT poly
 name "EngRSw.003"
 data 12
 Cylinder.012
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 texrep 1 1
 crease 30
 numvert 59
@@ -83949,7 +83949,7 @@ OBJECT poly
 name "EngRSw.002"
 data 12
 Cylinder.012
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 texrep 1 1
 crease 30
 numvert 59
@@ -84242,7 +84242,7 @@ OBJECT poly
 name "LGSwitchGuard.001"
 data 8
 Cube.062
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 texrep 1 1
 crease 30
 numvert 30
@@ -84405,7 +84405,7 @@ OBJECT poly
 name "EmergBrakeGuard"
 data 9
 Plane.031
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 16
@@ -84480,7 +84480,7 @@ OBJECT poly
 name "EngO2Regulator"
 data 8
 Tube.002
-texture "b29-o2-regulator.rgb"
+texture "b29-o2-regulator.png"
 texrep 1 1
 crease 30
 numvert 67
@@ -84858,7 +84858,7 @@ OBJECT poly
 name "EngRSw.001"
 data 12
 Cylinder.012
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 texrep 1 1
 crease 30
 numvert 59
@@ -85151,7 +85151,7 @@ OBJECT poly
 name "MixtureLock"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -86017,7 +86017,7 @@ OBJECT poly
 name "ElevTrimWheel"
 data 12
 Cylinder.008
-texture "b29-trim-wheel.rgb"
+texture "b29-trim-wheel.png"
 texrep 1 1
 crease 30
 numvert 74
@@ -86569,7 +86569,7 @@ OBJECT poly
 name "Throttle4"
 data 8
 Mesh.341
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 46
@@ -86842,7 +86842,7 @@ OBJECT poly
 name "Norden"
 data 8
 Tube.003
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 252
@@ -88610,7 +88610,7 @@ OBJECT poly
 name "Throttle2"
 data 8
 Mesh.340
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 46
@@ -88883,7 +88883,7 @@ OBJECT poly
 name "Throttle3"
 data 8
 Mesh.339
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -89092,7 +89092,7 @@ OBJECT poly
 name "Throttle1"
 data 8
 Mesh.335
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 46
@@ -89365,7 +89365,7 @@ OBJECT poly
 name "CoPilotO2Regulator"
 data 8
 Tube.002
-texture "b29-o2-regulator.rgb"
+texture "b29-o2-regulator.png"
 texrep 1 1
 crease 30
 numvert 67
@@ -90031,7 +90031,7 @@ OBJECT poly
 name "RpmSwitchPlates"
 data 9
 Plane.032
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 16
@@ -90935,7 +90935,7 @@ OBJECT poly
 name "PilotJunkPanel"
 data 10
 Sphere.002
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -91079,7 +91079,7 @@ OBJECT poly
 name "Poles"
 data 8
 Cube.034
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 56
@@ -91537,7 +91537,7 @@ OBJECT poly
 name "HydraulicHinge"
 data 8
 Cube.017
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -91864,7 +91864,7 @@ OBJECT poly
 name "EBrakePlaque"
 data 9
 Plane.026
-texture "b29-brake-warning.rgb"
+texture "b29-brake-warning.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -91896,7 +91896,7 @@ OBJECT poly
 name "LGSwitchHinge"
 data 8
 Cube.063
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 texrep 1 1
 crease 30
 numvert 10
@@ -92209,7 +92209,7 @@ OBJECT poly
 name "EngInterPhone"
 data 8
 Cube.007
-texture "b29-white-control.rgb"
+texture "b29-white-control.png"
 texrep 1 1
 crease 30
 numvert 41
@@ -92416,7 +92416,7 @@ OBJECT poly
 name "TailGunsight"
 data 8
 Cube.004
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 164
@@ -93187,7 +93187,7 @@ OBJECT poly
 name "EngRadioFilter"
 data 8
 Cube.010
-texture "b29-white-control.rgb"
+texture "b29-white-control.png"
 texrep 1 1
 crease 30
 numvert 20
@@ -93294,7 +93294,7 @@ OBJECT poly
 name "PilotAileronTrim"
 data 12
 Cylinder.009
-texture "b29-trim-wheel.rgb"
+texture "b29-trim-wheel.png"
 texrep 1 1
 crease 30
 numvert 50
@@ -94562,7 +94562,7 @@ OBJECT poly
 name "FantasticLever2"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -94778,7 +94778,7 @@ OBJECT poly
 name "FantasticLever1"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -95983,7 +95983,7 @@ OBJECT poly
 name "LeftPedalArm"
 data 8
 Tube.018
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 272
@@ -97742,7 +97742,7 @@ OBJECT poly
 name "EngJunkPanel"
 data 10
 Sphere.011
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -97788,7 +97788,7 @@ OBJECT poly
 name "PBrake"
 data 12
 Cylinder.011
-texture "b29-p-brake.rgb"
+texture "b29-p-brake.png"
 texrep 1 1
 crease 30
 numvert 50
@@ -98326,7 +98326,7 @@ OBJECT poly
 name "CoPilotAileronTrim"
 data 12
 Cylinder.009
-texture "b29-trim-wheel.rgb"
+texture "b29-trim-wheel.png"
 texrep 1 1
 crease 30
 numvert 50
@@ -99035,7 +99035,7 @@ OBJECT poly
 name "CoPilotJunkPanel"
 data 10
 Sphere.005
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -99255,7 +99255,7 @@ OBJECT poly
 name "NordenKnobs_1"
 data 8
 Tube.019
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 71
@@ -99783,7 +99783,7 @@ OBJECT poly
 name "PilotRudderTrim"
 data 12
 Cylinder.009
-texture "b29-trim-wheel.rgb"
+texture "b29-trim-wheel.png"
 texrep 1 1
 crease 30
 numvert 50
@@ -100051,7 +100051,7 @@ OBJECT poly
 name "FuelTransfer2"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -100267,7 +100267,7 @@ OBJECT poly
 name "LGPlaque"
 data 9
 Plane.033
-texture "b29-gear-warning.rgb"
+texture "b29-gear-warning.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -100319,7 +100319,7 @@ OBJECT poly
 name "FluorSw1"
 data 12
 Cylinder.012
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 texrep 1 1
 crease 30
 numvert 59
@@ -100612,7 +100612,7 @@ OBJECT poly
 name "EmergencyBrake"
 data 9
 Plane.012
-texture "b29-red-lever.rgb"
+texture "b29-red-lever.png"
 texrep 1 1
 crease 30
 numvert 60
@@ -101022,7 +101022,7 @@ OBJECT poly
 name "BombReleaseLever"
 data 8
 Cube.035
-texture "b29-white-lever.rgb"
+texture "b29-white-lever.png"
 texrep 1 1
 crease 30
 numvert 38
@@ -101238,7 +101238,7 @@ OBJECT poly
 name "FluorSw2"
 data 12
 Cylinder.012
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 texrep 1 1
 crease 30
 numvert 59
@@ -102110,7 +102110,7 @@ OBJECT poly
 name "CPRadioFilter"
 data 8
 Cube.010
-texture "b29-white-control.rgb"
+texture "b29-white-control.png"
 texrep 1 1
 crease 30
 numvert 20
@@ -102217,7 +102217,7 @@ OBJECT poly
 name "EngRSw"
 data 12
 Cylinder.012
-texture "b29-fluor-sw.rgb"
+texture "b29-fluor-sw.png"
 texrep 1 1
 crease 30
 numvert 59
@@ -102510,7 +102510,7 @@ OBJECT poly
 name "PilotArmor"
 data 9
 Plane.020
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -102563,7 +102563,7 @@ OBJECT poly
 name "TailCabin"
 data 9
 Plane.009
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 103
@@ -102863,7 +102863,7 @@ OBJECT poly
 name "NordenMount"
 data 8
 Cube.009
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 28
@@ -103048,7 +103048,7 @@ OBJECT poly
 name "CoPilotSeatCusion"
 data 8
 Cube.067
-texture "b29-upholstery.rgb"
+texture "b29-upholstery.png"
 texrep 1 1
 crease 30
 numvert 122
@@ -103939,7 +103939,7 @@ OBJECT poly
 name "CoPilotStand"
 data 11
 Suzanne.001
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 66
@@ -104274,7 +104274,7 @@ OBJECT poly
 name "PillotHeater"
 data 8
 Cube.008
-texture "b29-heater.rgb"
+texture "b29-heater.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -104327,7 +104327,7 @@ OBJECT poly
 name "PilotPanel"
 data 8
 Cube.025
-texture "b29-panels.rgb"
+texture "b29-panels.png"
 texrep 1 1
 crease 30
 numvert 5
@@ -104360,7 +104360,7 @@ OBJECT poly
 name "BombadierConsole"
 data 10
 Circle.008
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 58
@@ -104676,7 +104676,7 @@ OBJECT poly
 name "BombadierSeatCusi"
 data 8
 Cube.053
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -104856,7 +104856,7 @@ OBJECT poly
 name "PilotStand"
 data 7
 Suzanne
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 25
@@ -105019,7 +105019,7 @@ OBJECT poly
 name "StingerSeat"
 data 8
 Cube.064
-texture "b29-upholstery.rgb"
+texture "b29-upholstery.png"
 texrep 1 1
 crease 30
 numvert 6
@@ -105049,7 +105049,7 @@ OBJECT poly
 name "CoPilotSeat"
 data 8
 Cube.068
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 34
@@ -105233,7 +105233,7 @@ OBJECT poly
 name "BombadierPanel"
 data 8
 Cube.036
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 20
@@ -105347,7 +105347,7 @@ OBJECT poly
 name "EngineerHeater"
 data 8
 Cube.008
-texture "b29-heater.rgb"
+texture "b29-heater.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -105620,7 +105620,7 @@ OBJECT poly
 name "Cabin"
 data 10
 Sphere.018
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 80
 numvert 1096
@@ -111147,7 +111147,7 @@ OBJECT poly
 name "CoPilotPanel"
 data 8
 Cube.054
-texture "b29-panels.rgb"
+texture "b29-panels.png"
 texrep 1 1
 crease 30
 numvert 7
@@ -111182,7 +111182,7 @@ OBJECT poly
 name "hotspots-console"
 data 8
 Cube.066
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -111203,7 +111203,7 @@ OBJECT poly
 name "PilotFrame"
 data 8
 Cube.024
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 240
@@ -112136,7 +112136,7 @@ OBJECT poly
 name "PilotCluster"
 data 8
 Cube.026
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -112209,7 +112209,7 @@ OBJECT poly
 name "CoPilotArmor"
 data 9
 Plane.023
-texture "b29-green-paint.rgb"
+texture "b29-green-paint.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112262,7 +112262,7 @@ OBJECT poly
 name "TailCabinLiner"
 data 9
 Plane.019
-texture "b29-quilt.rgb"
+texture "b29-quilt.png"
 texrep 1 1
 crease 30
 numvert 50
@@ -112494,7 +112494,7 @@ OBJECT poly
 name "CowlFlap4l"
 data 8
 Mesh.531
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112526,7 +112526,7 @@ OBJECT poly
 name "CowlFlap4k"
 data 8
 Mesh.530
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112558,7 +112558,7 @@ OBJECT poly
 name "CowlFlap4j"
 data 8
 Mesh.529
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112590,7 +112590,7 @@ OBJECT poly
 name "CowlFlap4i"
 data 8
 Mesh.528
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112622,7 +112622,7 @@ OBJECT poly
 name "CowlFlap4h"
 data 8
 Mesh.527
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112654,7 +112654,7 @@ OBJECT poly
 name "CowlFlap4g"
 data 8
 Mesh.526
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112686,7 +112686,7 @@ OBJECT poly
 name "CowlFlap4f"
 data 8
 Mesh.525
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112718,7 +112718,7 @@ OBJECT poly
 name "CowlFlap4e"
 data 8
 Mesh.524
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112750,7 +112750,7 @@ OBJECT poly
 name "CowlFlap4d"
 data 8
 Mesh.523
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112782,7 +112782,7 @@ OBJECT poly
 name "CowlFlap4c"
 data 8
 Mesh.521
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112814,7 +112814,7 @@ OBJECT poly
 name "CowlFlap4b"
 data 8
 Mesh.518
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112846,7 +112846,7 @@ OBJECT poly
 name "CowlFlap4a"
 data 8
 Mesh.532
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -112881,7 +112881,7 @@ OBJECT poly
 name "RRIBombDoor"
 data 10
 Sphere.029
-texture "b29-bomb-door.rgb"
+texture "b29-bomb-door.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -112973,7 +112973,7 @@ OBJECT poly
 name "RROBombDoor"
 data 10
 Sphere.132
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 9
@@ -113335,7 +113335,7 @@ OBJECT poly
 name "LRWingInsig"
 data 9
 Plane.037
-texture "b29-mark-insignia.rgb"
+texture "b29-mark-insignia.png"
 texrep 1 1
 crease 30
 numvert 14
@@ -113406,7 +113406,7 @@ OBJECT poly
 name "PropDiscf"
 data 9
 Plane.014
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 texrep 1 1
 crease 30
 numvert 9
@@ -113847,7 +113847,7 @@ OBJECT poly
 name "LFIBombDoor"
 data 10
 Sphere.041
-texture "b29-bomb-door.rgb"
+texture "b29-bomb-door.png"
 texrep 1 1
 crease 30
 numvert 10
@@ -113914,7 +113914,7 @@ OBJECT poly
 name "LFOBombDoor"
 data 10
 Sphere.134
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 6
@@ -114004,7 +114004,7 @@ OBJECT poly
 name "Number"
 data 10
 Sphere.137
-texture "b29-mark-number.rgb"
+texture "b29-mark-number.png"
 texrep 1 1
 crease 30
 numvert 32
@@ -114154,7 +114154,7 @@ OBJECT poly
 name "Vstab"
 data 9
 Plane.001
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 210
@@ -115627,7 +115627,7 @@ OBJECT poly
 name "CowlFlap1a"
 data 8
 Mesh.581
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -115659,7 +115659,7 @@ OBJECT poly
 name "CowlFlap1b"
 data 8
 Mesh.582
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -115691,7 +115691,7 @@ OBJECT poly
 name "CowlFlap1c"
 data 8
 Mesh.583
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -115723,7 +115723,7 @@ OBJECT poly
 name "CowlFlap1d"
 data 8
 Mesh.584
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -115755,7 +115755,7 @@ OBJECT poly
 name "CowlFlap1e"
 data 8
 Mesh.585
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -115787,7 +115787,7 @@ OBJECT poly
 name "CowlFlap1f"
 data 8
 Mesh.586
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -115819,7 +115819,7 @@ OBJECT poly
 name "CowlFlap1g"
 data 8
 Mesh.587
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -115851,7 +115851,7 @@ OBJECT poly
 name "CowlFlap1h"
 data 8
 Mesh.588
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -115883,7 +115883,7 @@ OBJECT poly
 name "CowlFlap1i"
 data 8
 Mesh.589
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -115915,7 +115915,7 @@ OBJECT poly
 name "RightOutStrutDoor"
 data 8
 Mesh.011
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 6
@@ -115945,7 +115945,7 @@ OBJECT poly
 name "CowlFlap1k"
 data 8
 Mesh.591
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -115977,7 +115977,7 @@ OBJECT poly
 name "CowlFlap1l"
 data 8
 Mesh.592
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -116012,7 +116012,7 @@ OBJECT poly
 name "RudderMark"
 data 9
 Plane.034
-texture "b29-mark-tail.rgb"
+texture "b29-mark-tail.png"
 texrep 1 1
 crease 30
 numvert 26
@@ -116192,7 +116192,7 @@ OBJECT poly
 name "RudderFin"
 data 9
 Plane.003
-texture "b29-control-surf.rgb"
+texture "b29-control-surf.png"
 texrep 1 1
 crease 30
 numvert 48
@@ -116552,7 +116552,7 @@ OBJECT poly
 name "RightFlap"
 data 8
 Mesh.007
-texture "b29-control-surf.rgb"
+texture "b29-control-surf.png"
 texrep 1 1
 crease 30
 numvert 148
@@ -117323,7 +117323,7 @@ OBJECT poly
 name "RightInStrutDoor"
 data 8
 Mesh.018
-texture "b29-strut-door.rgb"
+texture "b29-strut-door.png"
 texrep 1 1
 crease 30
 numvert 6
@@ -117480,7 +117480,7 @@ OBJECT poly
 name "LeftInStrutDoor"
 data 8
 Mesh.618
-texture "b29-strut-door.rgb"
+texture "b29-strut-door.png"
 texrep 1 1
 crease 30
 numvert 6
@@ -117508,7 +117508,7 @@ OBJECT poly
 name "PropDisc2b"
 data 9
 Plane.014
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 texrep 1 1
 crease 30
 numvert 9
@@ -117575,7 +117575,7 @@ OBJECT poly
 name "Radome"
 data 10
 Sphere.003
-texture "b29-fixtures.rgb"
+texture "b29-fixtures.png"
 texrep 1 1
 crease 30
 numvert 45
@@ -117996,7 +117996,7 @@ OBJECT poly
 name "ULWingInsig"
 data 9
 Plane.038
-texture "b29-mark-insignia.rgb"
+texture "b29-mark-insignia.png"
 texrep 1 1
 crease 30
 numvert 12
@@ -118134,7 +118134,7 @@ OBJECT poly
 name "PropDisc1b"
 data 9
 Plane.014
-texture "yellow-tip-disc.rgb"
+texture "yellow-tip-disc.png"
 texrep 1 1
 crease 30
 numvert 9
@@ -118244,7 +118244,7 @@ OBJECT poly
 name "Fuselage_1"
 data 10
 Sphere.125
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 657
@@ -122560,7 +122560,7 @@ OBJECT poly
 name "CabinLiner"
 data 10
 Sphere.007
-texture "b29-quilt.rgb"
+texture "b29-quilt.png"
 texrep 1 1
 crease 30
 numvert 300
@@ -124922,7 +124922,7 @@ OBJECT poly
 name "LeftGearFork"
 data 8
 Cube.002
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 52
@@ -125124,7 +125124,7 @@ OBJECT poly
 name "LeftGearHydStrut"
 data 8
 Tube.020
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 34
@@ -125388,7 +125388,7 @@ OBJECT poly
 name "LeftWheels"
 data 8
 Mesh.613
-texture "b29-main-tire.rgb"
+texture "b29-main-tire.png"
 texrep 1 1
 crease 30
 numvert 284
@@ -127802,7 +127802,7 @@ OBJECT poly
 name "LeftLowerSwingArm"
 data 8
 Cube.003
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -127862,7 +127862,7 @@ OBJECT poly
 name "LeftGearLink"
 data 8
 Cube.070
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 24
@@ -127938,7 +127938,7 @@ OBJECT poly
 name "LeftGearStrut"
 data 8
 Mesh.615
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 52
@@ -128189,7 +128189,7 @@ OBJECT poly
 name "LeftUpperSwingArm"
 data 8
 Cube.071
-texture "b29-strut.rgb"
+texture "b29-strut.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129292,7 +129292,7 @@ OBJECT poly
 name "CowlFlap2e"
 data 8
 Mesh.576
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129324,7 +129324,7 @@ OBJECT poly
 name "CowlFlap2d"
 data 8
 Mesh.577
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129356,7 +129356,7 @@ OBJECT poly
 name "CowlFlap2g"
 data 8
 Mesh.542
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129388,7 +129388,7 @@ OBJECT poly
 name "CowlFlap2f"
 data 8
 Mesh.575
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129420,7 +129420,7 @@ OBJECT poly
 name "CowlFlap2a"
 data 8
 Mesh.580
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129452,7 +129452,7 @@ OBJECT poly
 name "CowlFlap2c"
 data 8
 Mesh.578
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129484,7 +129484,7 @@ OBJECT poly
 name "CowlFlap2b"
 data 8
 Mesh.579
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129516,7 +129516,7 @@ OBJECT poly
 name "CowlFlap2l"
 data 8
 Mesh.595
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129548,7 +129548,7 @@ OBJECT poly
 name "CowlFlap2i"
 data 8
 Mesh.572
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129580,7 +129580,7 @@ OBJECT poly
 name "CowlFlap2h"
 data 8
 Mesh.573
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129612,7 +129612,7 @@ OBJECT poly
 name "CowlFlap2k"
 data 8
 Mesh.571
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129644,7 +129644,7 @@ OBJECT poly
 name "CowlFlap2j"
 data 8
 Mesh.570
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 8
@@ -129676,7 +129676,7 @@ OBJECT poly
 name "Elevator"
 data 8
 Mesh.010
-texture "b29-control-surf.rgb"
+texture "b29-control-surf.png"
 texrep 1 1
 crease 30
 numvert 56
@@ -129942,7 +129942,7 @@ OBJECT poly
 name "FuselagePanel"
 data 10
 Sphere.126
-texture "b29-aluminum.rgb"
+texture "b29-aluminum.png"
 texrep 1 1
 crease 30
 numvert 48
@@ -130266,7 +130266,7 @@ OBJECT poly
 name "LeftInInStrutDoor"
 data 8
 Mesh.616
-texture "b29-strut-door.rgb"
+texture "b29-strut-door.png"
 texrep 1 1
 crease 30
 numvert 12

@@ -8,7 +8,7 @@ name "M47A2"
 kids 1
 OBJECT poly
 name "M47A2-Bomb"
-texture "m-17.rgb"
+texture "m-17.png"
 texrep 1 1
 crease 30
 numvert 115

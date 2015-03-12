@@ -9,7 +9,7 @@ OBJECT poly
 name "AdjustKnob"
 data 8
 Mesh.007
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 48
@@ -308,7 +308,7 @@ OBJECT poly
 name "HourHand"
 data 8
 Mesh.005
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 5
@@ -341,7 +341,7 @@ OBJECT poly
 name "Frame"
 data 8
 Mesh.008
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 72
@@ -591,7 +591,7 @@ OBJECT poly
 name "Bezel"
 data 8
 Mesh.009
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 102
@@ -1060,7 +1060,7 @@ OBJECT poly
 name "MinuteHand"
 data 8
 Mesh.001
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 5
@@ -1102,7 +1102,7 @@ OBJECT poly
 name "Face"
 data 4
 Mesh
-texture "jrb-wbd-clock.rgb"
+texture "jrb-wbd-clock.png"
 texrep 1 1
 crease 30
 numvert 17

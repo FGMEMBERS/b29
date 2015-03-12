@@ -9,7 +9,7 @@ OBJECT poly
 name "Bezel"
 data 4
 Tube
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 57
@@ -333,7 +333,7 @@ OBJECT poly
 name "Knob"
 data 8
 Mesh.020
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 80
 numvert 31
@@ -709,7 +709,7 @@ OBJECT poly
 name "Needle"
 data 8
 Mesh.017
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -730,7 +730,7 @@ OBJECT poly
 name "Wheel"
 data 8
 Mesh.009
-texture "jrb-wbd-compass.rgb"
+texture "jrb-wbd-compass.png"
 texrep 1 1
 crease 80
 numvert 32

@@ -6,7 +6,7 @@ kids 6
 OBJECT poly
 name "Rim"
 loc 0.00550754 0.0160149 0.00103346
-texture "b29-compass-bezel.rgb"
+texture "b29-compass-bezel.png"
 numvert 128
 0.00534703 -0.002659 -0.035797
 0.00534703 0.00415589 -0.0351374
@@ -752,7 +752,7 @@ loc 0.00381127 0.0128969 -0.000446467
 kids 16
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep -0.25 0.25
 texoff 0.25 -0.25
 numvert 4
@@ -776,7 +776,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep -0.25 0.25
 texoff -0.5 -0.25
 numvert 4
@@ -800,7 +800,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep -0.25 0.25
 texoff 0.75 0.75
 numvert 4
@@ -824,7 +824,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep -0.25 0.25
 texoff 0 -0.25
 numvert 4
@@ -848,7 +848,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep -0.25 0.25
 texoff 0.25 -0.5
 numvert 4
@@ -872,7 +872,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep -0.25 0.25
 texoff 0.5 -0.5
 numvert 4
@@ -896,7 +896,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep 0.25 0.25
 texoff 0.5 -0.5
 numvert 4
@@ -920,7 +920,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep 0.25 0.25
 texoff 0.75 -0.5
 numvert 4
@@ -944,7 +944,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep 0.25 0.25
 texoff 0 0.25
 numvert 4
@@ -968,7 +968,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep 0.25 0.25
 texoff 0.25 0.25
 numvert 4
@@ -992,7 +992,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep 0.25 0.25
 texoff 0.5 0.25
 numvert 4
@@ -1016,7 +1016,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep 0.25 0.25
 texoff 0.75 0.25
 numvert 4
@@ -1040,7 +1040,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep 0.25 0.25
 numvert 4
 -0.013007 0.0175333 0.0266886
@@ -1063,7 +1063,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep 0.25 0.25
 texoff 0.25 0
 numvert 4
@@ -1087,7 +1087,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep -0.25 0.25
 texoff 0.75 0
 numvert 4
@@ -1111,7 +1111,7 @@ refs 3
 kids 0
 OBJECT poly
 loc -0.00147955 0 0
-texture "b29-compass.rgb"
+texture "b29-compass.png"
 texrep -0.25 0.25
 numvert 4
 0.00280518 0.0175333 0.0109989
@@ -1226,7 +1226,7 @@ kids 0
 OBJECT poly
 name "rect"
 loc 6.51162e-05 0.0152723 3.55582e-06
-texture "b29-compass-bezel.rgb"
+texture "b29-compass-bezel.png"
 numvert 8
 0 0.0467907 -0.0619237
 0 0.0467907 0.0619237
@@ -1269,7 +1269,7 @@ kids 0
 OBJECT poly
 name "Knob"
 loc 0.00772738 -0.0388224 0.00129146
-texture "b29-compass-bezel.rgb"
+texture "b29-compass-bezel.png"
 numvert 20
 0.00772738 0.0121613 0.00492855
 0.00772738 0.0149016 0.000972865

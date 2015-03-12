@@ -329,7 +329,7 @@ This file is released under the GNU GPL.
     <shader>chrome</shader>
     <name>CabinDetailChrome</name>
     <!--for some reason, fg is looking in Istruments for this file ...-->
-    <texture>Aircraft/b29/Models/chrome2.rgb</texture>
+    <texture>Aircraft/b29/Models/chrome2.png</texture>
     <object-name>PilotAshTray</object-name>
     <object-name>CoPilotAshTray</object-name>
     <object-name>ActionSwitch</object-name>

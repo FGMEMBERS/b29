@@ -10,7 +10,7 @@ OBJECT poly
 name "Pin"
 data 5
 Plane
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -36,7 +36,7 @@ OBJECT poly
 name "Bezel"
 data 8
 Cylinder
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 102
@@ -505,7 +505,7 @@ OBJECT poly
 name "CageKnob"
 data 9
 Plane.001
-texture "jrb-wbd-horizon.rgb"
+texture "jrb-wbd-horizon.png"
 texrep 1 1
 crease 30
 numvert 115
@@ -938,7 +938,7 @@ OBJECT poly
 name "HorizKnob"
 data 12
 Cylinder.002
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 28
@@ -1184,7 +1184,7 @@ OBJECT poly
 name "Horizon"
 data 9
 Plane.004
-texture "jrb-wbd-bezel.rgb"
+texture "jrb-wbd-bezel.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -1248,7 +1248,7 @@ OBJECT poly
 name "Face"
 data 12
 Cylinder.001
-texture "jrb-wbd-horizon.rgb"
+texture "jrb-wbd-horizon.png"
 texrep 1 1
 crease 30
 numvert 42
@@ -1472,7 +1472,7 @@ OBJECT poly
 name "CageFlag"
 data 9
 Plane.003
-texture "jrb-wbd-horizon.rgb"
+texture "jrb-wbd-horizon.png"
 texrep 1 1
 crease 30
 numvert 13
@@ -1536,7 +1536,7 @@ OBJECT poly
 name "Wings"
 data 9
 Plane.002
-texture "jrb-wbd-horizon-level.rgb"
+texture "jrb-wbd-horizon-level.png"
 texrep 1 1
 crease 30
 numvert 4
