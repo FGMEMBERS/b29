@@ -37,8 +37,8 @@
                      submodel normal to the airflow.
       <weight>       The weight of the submodel (lbs). Defaults to 0.25	
       <aero-stabilised> If true, the submodel aligns with the local airflow. Defaults to true
-      
 -->
+
 <PropertyList>
 
   <submodel>

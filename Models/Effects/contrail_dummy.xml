@@ -2,10 +2,10 @@
 
 <PropertyList>
 
-	<!--<path>dummy.ac</path>-->
+  <!--<path>dummy.ac</path>-->
 
-	<animation>
-		<enable-hot type="bool">false</enable-hot>
-	</animation>
+  <animation>
+    <enable-hot type="bool">false</enable-hot>
+  </animation>
 
 </PropertyList>

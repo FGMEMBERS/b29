@@ -7,23 +7,27 @@ jbabcock@atlantech.net
 
 Copyright 2010 Vivian Meazza
 vivian.meazza@atlineone.net
+
+USA TOUR Consortium, March 2015
+JWocky, IH-COL
 -->
 
 <PropertyList include="b29-wingman.xml">
 
-	<sim>
-		<description>Boeing B-29 Superfortress - 4 Ship Formation</description>
-		<author>Joshua Babcock, Vivian Meazza</author>
-		<status>early-production</status>
-		<rating>
-			<FDM type="int">3</FDM>
-			<systems type="int">2</systems>
-			<cockpit type="int">5</cockpit>
-			<model type="int">4</model>
-		</rating>
-		<flight-model>yasim</flight-model>
-		<aero>b29-yasim</aero>
-	</sim>
+  <sim>
+    <description>Boeing B-29 Superfortress - 4 Ship Formation</description>
+    <author>Joshua Babcock, Vivian Meazza, JWOCKY, IH-COL</author>
+    <status>alpha</status>
+    <!-- Rating adjusted for FG3.x standards, IH-COL -->
+    <rating>
+      <FDM type="int">1</FDM>
+      <systems type="int">1</systems>
+      <cockpit type="int">2</cockpit>
+      <model type="int">3</model>
+    </rating>
+    <flight-model>yasim</flight-model>
+    <aero>b29-yasim</aero>
+  </sim>
 
 </PropertyList>
 

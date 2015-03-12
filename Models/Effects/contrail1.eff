@@ -31,9 +31,9 @@
         <property>/sim/rendering/shaders/contrails</property>
         <!--<property>/environment/contrail</property>-->
         <!--<less-equal>
-          <value>100</value>
-          <property>/velocities/airspeed-kt</property>
-        </less-equal>-->
+            <value>100</value>
+            <property>/velocities/airspeed-kt</property>
+            </less-equal>-->
         <less-equal>
           <value type="float">1.0</value>
           <shader-language/>

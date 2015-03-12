@@ -2,53 +2,53 @@
 
 <PropertyList>
 
- <path>jrb-wbd-bli.ac</path>
+  <path>jrb-wbd-bli.ac</path>
 
- <animation>
-  <type>range</type>
-  <min-m>0</min-m>
-  <max-m>3</max-m>
- </animation>
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>3</max-m>
+  </animation>
 
- <animation>
-  <name>VertTransform</name>
-  <type>rotate</type>
-  <object-name>VertNeedle</object-name>
-  <property>/instrumentation/nav[0]/heading-needle-deflection</property>
-  <factor>2</factor>
-  <min>-20</min>
-  <max>20</max>
-  <center>
-   <x-m>0</x-m>
-   <y-m>0</y-m>
-   <z-m>0.03</z-m>
-  </center>
-  <axis>
-   <x>1</x>
-   <y>0</y>
-   <z>0</z>
-  </axis>
- </animation>
+  <animation>
+    <name>VertTransform</name>
+    <type>rotate</type>
+    <object-name>VertNeedle</object-name>
+    <property>/instrumentation/nav[0]/heading-needle-deflection</property>
+    <factor>2</factor>
+    <min>-20</min>
+    <max>20</max>
+    <center>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0.03</z-m>
+    </center>
+    <axis>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+  </animation>
 
- <animation>
-  <name>HorizTransform</name>
-  <type>rotate</type>
-  <object-name>HorizNeedle</object-name>
-  <property>/instrumentation/nav[0]/gs-needle-deflection</property>
-  <factor>2</factor>
-  <min-deg>-20</min-deg>
-  <max-deg>20</max-deg>
-  <center>
-   <x-m>0</x-m>
-   <y-m>-0.03</y-m>
-   <z-m>0</z-m>
-  </center>
-  <axis>
-   <x>1</x>
-   <y>0</y>
-   <z>0</z>
-  </axis>
- </animation>
+  <animation>
+    <name>HorizTransform</name>
+    <type>rotate</type>
+    <object-name>HorizNeedle</object-name>
+    <property>/instrumentation/nav[0]/gs-needle-deflection</property>
+    <factor>2</factor>
+    <min-deg>-20</min-deg>
+    <max-deg>20</max-deg>
+    <center>
+      <x-m>0</x-m>
+      <y-m>-0.03</y-m>
+      <z-m>0</z-m>
+    </center>
+    <axis>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+  </animation>
 
 </PropertyList>
 

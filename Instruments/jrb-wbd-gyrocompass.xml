@@ -1,42 +1,42 @@
 <?xml version="1.0"?>
 <PropertyList>
 
- <path>jrb-wbd-gyrocompass.ac</path>
+  <path>jrb-wbd-gyrocompass.ac</path>
 
- <animation>
-  <type>range</type>
-  <min-m>0</min-m>
-  <max-m>3</max-m>
- </animation>
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>3</max-m>
+  </animation>
 
- <animation>
-  <type>rotate</type>
-  <object-name>Wheel</object-name>
-  <property>/instrumentation/heading-indicator/indicated-heading-deg</property>
-  <center>
-   <x-m>-0.06</x-m>
-   <y-m>0</y-m>
-   <z-m>0</z-m>
-  </center>
-  <axis>
-   <z>1</z>
-  </axis>
- </animation>
+  <animation>
+    <type>rotate</type>
+    <object-name>Wheel</object-name>
+    <property>/instrumentation/heading-indicator/indicated-heading-deg</property>
+    <center>
+      <x-m>-0.06</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+    </center>
+    <axis>
+      <z>1</z>
+    </axis>
+  </animation>
 
- <animation>
-  <type>rotate</type>
-  <object-name>Knob</object-name>
-  <property>/instrumentation/heading-indicator/offset-deg</property>
-  <factor>20</factor>
-  <center>
-   <x-m>0</x-m>
-   <y-m>0</y-m>
-   <z-m>-0.06</z-m>
-  </center>
-  <axis>
-   <x>1</x>
-  </axis>
- </animation>
+  <animation>
+    <type>rotate</type>
+    <object-name>Knob</object-name>
+    <property>/instrumentation/heading-indicator/offset-deg</property>
+    <factor>20</factor>
+    <center>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>-0.06</z-m>
+    </center>
+    <axis>
+      <x>1</x>
+    </axis>
+  </animation>
 
 </PropertyList>
 

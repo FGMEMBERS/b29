@@ -1,21 +1,18 @@
 <?xml version="1.0"?>
 <!--
-  File:     eng_R-3350.xml
-  Author:   Ron Jensen
+File:     eng_R-3350.xml
+Author:   Ron Jensen
 
-  Inputs:
-    name:           Wright R-3350-C18-BA Duplex-Cyclone
-    type:           piston
-    power:          2200.0 hp
-    augmented?      no
-    injected?       no
-    
-    References:
-    http://en.wikipedia.org/wiki/Wright_R-3350
-    Supercharger data is fantasy.
-    
+Inputs:
+name:           Wright R-3350-C18-BA Duplex-Cyclone
+type:           piston
+power:          2200.0 hp
+augmented?      no
+injected?       no
 
-    
+References:
+http://en.wikipedia.org/wiki/Wright_R-3350
+Supercharger data is fantasy.
 -->
 
 <piston_engine name="R-3350-C18-BA">

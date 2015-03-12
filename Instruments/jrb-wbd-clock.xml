@@ -1,48 +1,48 @@
 <?xml version="1.0"?>
 <PropertyList>
 
- <path>jrb-wbd-clock.ac</path>
+  <path>jrb-wbd-clock.ac</path>
 
- <animation>
-  <type>range</type>
-  <min-m>0</min-m>
-  <max-m>3</max-m>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>HourHand</object-name>
-  <property>/instrumentation/clock/indicated-sec</property>
-  <factor>0.00833333333333333</factor>
-  <axis>
-   <x>-1</x>
-   <y>0</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>MinuteHand</object-name>
-  <property>/instrumentation/clock/indicated-sec</property>
-  <factor>0.1</factor>
-  <axis>
-   <x>-1</x>
-   <y>0</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>SecondHand</object-name>
-  <property>/instrumentation/clock/indicated-sec</property>
-  <factor>6</factor>
-  <axis>
-   <x>-1</x>
-    <y>0</y>
-    <z>0</z>
-   </axis>
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>3</max-m>
   </animation>
- 
- </PropertyList>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>HourHand</object-name>
+    <property>/instrumentation/clock/indicated-sec</property>
+    <factor>0.00833333333333333</factor>
+    <axis>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>MinuteHand</object-name>
+    <property>/instrumentation/clock/indicated-sec</property>
+    <factor>0.1</factor>
+    <axis>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>SecondHand</object-name>
+    <property>/instrumentation/clock/indicated-sec</property>
+    <factor>6</factor>
+    <axis>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+  </animation>
+  
+</PropertyList>

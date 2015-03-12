@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <PropertyList>
 
- <path>jrb-wbd-pdi.ac</path>
+  <path>jrb-wbd-pdi.ac</path>
 
- <animation>
-  <type>range</type>
-  <min-m>0</min-m>
-  <max-m>3</max-m>
- </animation>
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>3</max-m>
+  </animation>
 
 </PropertyList>
 

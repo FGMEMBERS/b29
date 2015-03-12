@@ -8,19 +8,20 @@ jbabcock@atlantech.net
 
 <PropertyList include="b29-common.xml">
 
-	<sim>
-		<description>Boeing B-29 Superfortress - YASim</description>
-		<author>Joshua Babcock, Vivian Meazza</author>
-		<status>early-production</status>
-		<rating>
-			<FDM type="int">3</FDM>
-			<systems type="int">2</systems>
-			<cockpit type="int">5</cockpit>
-			<model type="int">4</model>
-		</rating>
-		<flight-model>yasim</flight-model>
-		<aero>b29-yasim</aero>
-	</sim>
+  <sim>
+    <description>Boeing B-29 Superfortress - YASim</description>
+    <author>Joshua Babcock, Vivian Meazza, JWOCKY, IH-COL</author>
+    <status>alpha</status>
+    <!-- IHCOL downgraded rating to a more accurate set for recent fligthgear versions 3.x | March 2015-->
+    <rating>
+      <FDM type="int">1</FDM>
+      <systems type="int">1</systems>
+      <cockpit type="int">2</cockpit>
+      <model type="int">3</model>
+    </rating>
+    <flight-model>yasim</flight-model>
+    <aero>b29-yasim</aero>
+  </sim>
 
 </PropertyList>
 
