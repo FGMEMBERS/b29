@@ -325,7 +325,7 @@ Common definitions
     <!--path>b29-electrical.xml</path-->
     </electrical>
     <autopilot>
-      <path>b29-autopilot.xml</path>
+      <path>Aircraft/b29/Systems/Autopilot/JWOCKY_SYS7_1_autopilot.xml</path>
     </autopilot>
   </systems>
 
