@@ -60,7 +60,7 @@
     <random>true</random>
     <randomness>0.1</randomness>
     <life>180</life>
-    <submodel-path>Aircraft/b29/b29-subsubsubsubmodels.xml</submodel-path>
+    <submodel-path>Aircraft/b29/Models/submodels/b29-subsubsubsubmodels.xml</submodel-path>
     <expiry>true</expiry>
   </submodel>
 

@@ -59,7 +59,7 @@ submodel normal to the airflow.
     <buoyancy>32.0</buoyancy>
     <random>false</random>
     <life>36</life>
-    <submodel-path>Aircraft/b29/b29-subsubsubmodels.xml</submodel-path>
+    <submodel-path>Aircraft/b29/Models/submodels/b29-subsubsubmodels.xml</submodel-path>
     <expiry>true</expiry>
   </submodel>
 

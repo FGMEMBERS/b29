@@ -1394,7 +1394,7 @@
     <buoyancy>32.1740485564</buoyancy>
     <random>false</random>
     <life>8.0</life>
-    <submodel-path>Aircraft/b29/b29-subsubmodels.xml</submodel-path>
+    <submodel-path>Aircraft/b29/Models/submodels/b29-subsubmodels.xml</submodel-path>
     <expiry>true</expiry>
   </submodel>
 

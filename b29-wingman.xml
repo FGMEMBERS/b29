@@ -116,7 +116,7 @@ Common definitions
 
     <submodels>
       <servicable type="bool">true</servicable>
-      <path type="string">Aircraft/b29/b29-submodels.xml</path>
+      <path type="string">Aircraft/b29/Models/submodels/b29-submodels.xml</path>
     </submodels>
 
     <virtual-cockpit archive="y">true</virtual-cockpit>
