@@ -14,25 +14,25 @@ Common definitions
 		<engines>
 			<wastegate type="double">1</wastegate>
 			<engine n="0">
-				<boost>0.8</boost>
+				<boost>1.0</boost>
 				<cowl-flaps-norm>0</cowl-flaps-norm>
 				<intercooler-norm>0</intercooler-norm>
 				<throttle>0</throttle>
 			</engine>
 			<engine n="1">
-				<boost>0.8</boost>
+				<boost>1.0</boost>
 				<cowl-flaps-norm>0</cowl-flaps-norm>
 				<intercooler-norm>0</intercooler-norm>
 				<throttle>0</throttle>
 			</engine>
 			<engine n="2">
-				<boost>0.8</boost>
+				<boost>1.0</boost>
 				<cowl-flaps-norm>0</cowl-flaps-norm>
 				<intercooler-norm>0</intercooler-norm>
 				<throttle>0</throttle>
 			</engine>
 			<engine n="3">
-				<boost>0.8</boost>
+				<boost>1.0</boost>
 				<cowl-flaps-norm>0</cowl-flaps-norm>
 				<intercooler-norm>0</intercooler-norm>
 				<throttle>0</throttle>
@@ -242,17 +242,35 @@ Common definitions
 							 alias="/controls/engines/engine[3]/intercooler-norm"/>
 			</generic>
 		</multiplay>
-    
+        
+	</sim>
+
+	<!-- Systems parallel to sim -->
 	<systems>
 		<electrical>
-			<!--path>b29-electrical.xml</path-->
+			<path>Aircraft/Generic/generic-electrical.xml</path>
 		</electrical>
-		<!--<autopilot>
-			<path>b29-autopilot.xml</path>
-		</autopilot>-->
+		<autopilot>
+			<!-- path>Aircraft/Condor-Jsb/Systems/Autopilot.xml</path -->
+			<path>Aircraft/JPack/Voodoomaster/Systems/SYS7_1_autopilot.xml</path>
+		</autopilot>
+		<refuel>
+			<type>probe</type>
+			<serviceable type="bool">true</serviceable>
+			<max-fuel-transfer-lbs-min>6000</max-fuel-transfer-lbs-min>
+			<offset-x-m>-33.908398</offset-x-m>
+			<offset-y-m>0.423219</offset-y-m>
+			<offset-z-m>0.0</offset-z-m>
+			<range type="int">200</range> <!-- 200m range to compensate for rubber banding -->
+		</refuel>	
 	</systems>
-    
-	</sim>
+
+	<!-- Initial values for autopilot SYS7 -->
+	<autopilot>
+		<settings>
+			<kts-mach-select type="string">kts</kts-mach-select>
+		</settings>
+	</autopilot>
 
 	<instrumentation>
 		<pdi>

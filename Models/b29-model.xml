@@ -1728,15 +1728,34 @@ MELCHIOR
   </axis>
   -->
 	</animation>
+<!-- animation>
+<type>rotate</type>
+<object-name>voletG1</object-name>
+<property>surface-positions/flap-pos-norm</property>
+<factor> 40 </factor>
+<axis>
+<x1-m> -1.901 </x1-m>
+<y1-m> -4.233 </y1-m>
+<z1-m> -0.766 </z1-m>
+<x2-m> -1.677 </x2-m>
+<y2-m> -1.400 </y2-m>
+<z2-m> -0.760 </z2-m>
+</axis>
+</animation-->
 
 	<animation>
 		<type>rotate</type>
 		<object-name>LeftFlap</object-name>
 		<property>surface-positions/flap-pos-norm</property>
 		<factor>0.5</factor>
-		<axis>
-			<x>1</x>
-		</axis>
+  <axis>
+   <x1>12.76</x1>
+   <y1>-6.75</y1>
+   <z1>-0.12</z1>
+   <x2>13.84</x2>
+   <y2>-6.74</y2>
+   <z2>0.1</z2>
+  </axis>
 	</animation>
 
 	<animation>
