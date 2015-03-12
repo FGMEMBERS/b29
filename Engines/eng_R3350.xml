@@ -24,8 +24,8 @@ Supercharger data is fantasy.
   <stroke unit="IN"> 6.312 </stroke>
   <cylinders> 18 </cylinders>
   <compression-ratio> 16.85 </compression-ratio>  
-  <bsfc>                      0.20 </bsfc>
-  <volumetric-efficiency>     0.80  </volumetric-efficiency>  
+  <bsfc>                      0.10 </bsfc>
+  <volumetric-efficiency>     1.05  </volumetric-efficiency>  
   <cycles>                    4.0  </cycles>
   <idlerpm>                 450.0  </idlerpm>
   <maxrpm>                 2800.0  </maxrpm>
