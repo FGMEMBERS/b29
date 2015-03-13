@@ -1,3 +1,28 @@
+===========================================================================
+USA TOUR CONSORTIUM, MARCH 2015
+==========================================================================
+
+The B-29 Superfortress for Flightgear has received some quick fixes and improvements on March 2015.
+This work can not be considered a complete rework, but the changes make a significant progress to get the Superfortress back in the air
+
+Before changes, JSBSim version is unable to launch, and YASim version is overall very poor in its fligth dynamic models.
+
+Work by JWocky, and IH-COL bring a Jsbsim rework that launches, and corrects instabilities in flight. Also, a new autopilot is set that allows more stable flying.
+
+Work by Buckaroo reworks a basic FDM that also allows a better stability in-flight.
+
+In addition to bring the plane back in the air, this work is a good basis to progress making a Superfortress that better simulates the behavior of this aircraft.
+
+Source code was reorganized and all textures are now converted to png (as opposed to rgb).
+
+Read the file "THANKS" to revise acknowledge contributions.
+
+This aircraft is licensed under GPLv2 Conditions, and this license is reprinted in the file LICENSE
+
+Enjoy!
+
+=====================================================================
+
 B-29 Superfortress.
 
 LICENSE:

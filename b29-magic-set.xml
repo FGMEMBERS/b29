@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <!--
+B-29 Superfortress for Fligthgear 3.x
+(c) USA TOUR CONSORTIUM, March 2015
+The aircraft remains under GPLv2
+
+==========================================
+
 B-29 Superfortress for FlightGear 0.9.3
 
 Copyright 2004 Joshua Babcock
@@ -9,9 +15,10 @@ jbabcock@atlantech.net
 <PropertyList include="b29-common.xml">
   <sim>
     <flight-model>ufo</flight-model>
-    <description>Test model B-29</description>
-    <author>Joshua Babcock</author>
+    <description>Test model B-29 --WARNING: UFO FDM</description>
+    <author>JWOCKY, IH-COL, Joshua Babcock</author>
     <status>alpha</status>
+    <variant-of>b29</variant-of>
   </sim>
   <!-- Kluge the YASim gear animation code -->
   <gear>

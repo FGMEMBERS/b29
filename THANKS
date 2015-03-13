@@ -1,3 +1,28 @@
+======================================================================
+March 2015
+======================================================================
+USA TOUR CONSORTIUM
+
+Thanks to contributions to the b29 by
+
+Jwocky: Making the b29-jsbsim version fly again. Much work done in
+        very little time.
+	* The b29-jsbsim does not launch originally, and stalls on Initializing.Fixed
+	* The b29-jsbsim have major FDM issues. Many of these are corrected, including improved engine strenght, balance, gear retraction, stability of the autopilot, and stability of flight. Improved. FDM rate step up 1 level.
+
+Buckaroo: Re-working a brand-new version of yasim. Corrects many of the problems of the yasim fligth dynamics of the original model.
+
+IH-COL: Making the b29 source code cleaner
+        * General cleaning of directory, including relocation of sources in individual directories, Nasal, Sounds, Systems/Autopilot
+	* All textures were migrated from rgb->png
+	* Removal of external dependencies: dch2, dc3, JPack
+
+Lesbof: Comments and positive suggestions for improvements on the FDMs
+
+Thanks to these contributions, the Superfortress flies again in Flightgear. All this work was done expeditely, and in a very short time frame, to allow IH-COL to use it during the USA TOUR leg 33rd. Althought much refinement can still be done, we will present it as a :USA TOUR READY: Aircraft putatively, but remember this was a quick hack. Contributions are welcomed.
+
+=======================================================================
+
 In order of appearance:
 
 Andy Ross
