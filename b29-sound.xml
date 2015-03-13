@@ -88,19 +88,20 @@
 	  <value>700</value>
 	</greater-than>
       </condition>
-      <volume>
-	<property>/engines/engine[0]/rpm</property>
-	<!--factor>0.00037</factor-->
-	<factor>0.00042</factor>
-	<max>0.9</max>
-      </volume>
-      <pitch>
-	<property>/engines/engine[0]/rpm</property>
-	<!--factor>0.00037</factor-->
-	<factor>0.00020</factor>
-	<min>0</min>
-	<max>0.8</max>
-      </pitch>
+   <volume>
+    <property>/engines/engine[0]/mp-osi</property>
+    <factor>0.010</factor>
+    <min>0.15</min>
+    <max>4.0</max>
+    <offset>0.15</offset>
+   </volume>
+   <pitch>
+    <property>/engines/engine[0]/rpm</property>
+    <factor>0.00020</factor>
+    <min>0.0</min>
+    <max>2.0</max>
+    <offset>0.3</offset>
+   </pitch>
     </engine>
 
     <!-- Engine 2 -->
@@ -184,17 +185,20 @@
 	  <value>700</value>
 	</greater-than>
       </condition>
-      <volume>
-	<property>/engines/engine[1]/rpm</property>
-	<factor>0.00037</factor>
-	<max>1.0</max>
-      </volume>
-      <pitch>
-	<property>/engines/engine[1]/rpm</property>
-	<factor>0.00037</factor>
-	<min>0</min>
-	<max>0.8</max>
-      </pitch>
+   <volume>
+    <property>/engines/engine[0]/mp-osi</property>
+    <factor>0.010</factor>
+    <min>0.15</min>
+    <max>4.0</max>
+    <offset>0.15</offset>
+   </volume>
+   <pitch>
+    <property>/engines/engine[0]/rpm</property>
+    <factor>0.00020</factor>
+    <min>0.0</min>
+    <max>2.0</max>
+    <offset>0.3</offset>
+   </pitch>
     </engine>
 
     <!-- Engine 3 -->
@@ -277,17 +281,20 @@
 	  <value>700</value>
 	</greater-than>
       </condition>
-      <volume>
-	<property>/engines/engine[2]/rpm</property>
-	<factor>0.00037</factor>
-	<max>1.0</max>
-      </volume>
-      <pitch>
-	<property>/engines/engine[2]/rpm</property>
-	<factor>0.00037</factor>
-	<min>0</min>
-	<max>0.8</max>
-      </pitch>
+   <volume>
+    <property>/engines/engine[0]/mp-osi</property>
+    <factor>0.010</factor>
+    <min>0.15</min>
+    <max>4.0</max>
+    <offset>0.15</offset>
+   </volume>
+   <pitch>
+    <property>/engines/engine[0]/rpm</property>
+    <factor>0.00020</factor>
+    <min>0.0</min>
+    <max>2.0</max>
+    <offset>0.3</offset>
+   </pitch>
     </engine>
 
     <!-- Engine 4 -->
@@ -370,17 +377,20 @@
 	  <value>700</value>
 	</greater-than>
       </condition>
-      <volume>
-	<property>/engines/engine[3]/rpm</property>
-	<factor>0.00037</factor>
-	<max>0.9</max>
-      </volume>
-      <pitch>
-	<property>/engines/engine[3]/rpm</property>
-	<factor>0.00037</factor>
-	<min>0</min>
-	<max>0.8</max>
-      </pitch>
+   <volume>
+    <property>/engines/engine[0]/mp-osi</property>
+    <factor>0.010</factor>
+    <min>0.15</min>
+    <max>4.0</max>
+    <offset>0.15</offset>
+   </volume>
+   <pitch>
+    <property>/engines/engine[0]/rpm</property>
+    <factor>0.00020</factor>
+    <min>0.0</min>
+    <max>2.0</max>
+    <offset>0.3</offset>
+   </pitch>
     </engine>
 
     <!-- Gear -->
@@ -390,11 +400,17 @@
       <mode>looped</mode>
       <path>Aircraft/b29/Sounds/rumblingOnGround.wav</path>
       <condition>
-	<or>
-	  <property>/gear/gear[0]/wow</property>
-	  <property>/gear/gear[1]/wow</property>
-	  <property>/gear/gear[2]/wow</property>
-	</or>
+	<and>
+		<or>
+		  <property>/gear/gear[0]/wow</property>
+		  <property>/gear/gear[1]/wow</property>
+		  <property>/gear/gear[2]/wow</property>
+		</or>
+		<greater-than>
+			<property>/velocities/airspeed-kt</property>
+			<value>10</value>
+		</greater-than>
+	</and>
       </condition>
       <volume>
 	<property>/velocities/airspeed-kt</property>
@@ -422,7 +438,10 @@
       </condition>
       <volume>
 	<property>/velocities/airspeed-kt</property>
-	<factor>20.5</factor>
+	<factor>1</factor>
+	<min>0.0</min>
+	<max>6.0</max>
+	<offset>2</offset>
       </volume>
     </rumble>
 
