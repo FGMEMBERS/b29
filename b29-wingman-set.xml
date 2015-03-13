@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <!--
+B-29 Superfortress for Fligthgear 3.x
+(c) USA TOUR CONSORTIUM, March 2015
+The aircraft remains under GPLv2
+
+========================================
+
 B-29 Superfortress for FlightGear 0.9.3
 
 Copyright 2003 Joshua Babcock
@@ -7,24 +13,21 @@ jbabcock@atlantech.net
 
 Copyright 2010 Vivian Meazza
 vivian.meazza@atlineone.net
-
-USA TOUR Consortium, March 2015
-JWocky, IH-COL
 -->
 
 <PropertyList include="b29-wingman.xml">
 
   <sim>
     <description>Boeing B-29 Superfortress - 4 Ship Formation</description>
-    <author>Joshua Babcock, Vivian Meazza, JWOCKY, IH-COL</author>
-    <status>alpha</status>
-    <!-- Rating adjusted for FG3.x standards, IH-COL -->
+    <author>JWOCKY, IH-COL, Joshua Babcock, Vivian Meazza</author>
+    <status>beta</status>
     <rating>
-      <FDM type="int">1</FDM>
+      <FDM type="int">3</FDM>
       <systems type="int">1</systems>
       <cockpit type="int">2</cockpit>
       <model type="int">3</model>
     </rating>
+    <variant-of>b29</variant-of>
     <flight-model>yasim</flight-model>
     <aero>b29-yasim</aero>
   </sim>

@@ -1,6 +1,11 @@
 <?xml version="1.0"?>
 <!--
-B-29 Superfortress for FlightGear 2.4
+B-29 Superfortress for Fligthgear 3.x
+(c) USA TOUR CONSORTIUM, March 2015
+The aircraft remains under GPLv2
+
+==========================================
+B-29 Superfortress for FlightGear 0.9.3
 
 Copyright 2003 Joshua Babcock
 jbabcock@atlantech.net
@@ -11,8 +16,15 @@ wino@jentronics.com
 <PropertyList include="b29-common.xml">
   <sim>
     <description>Boeing B-29 Superfortress - JSBSim</description>
-    <author>Joshua Babcock</author>
-    <status>alpha</status>
+    <author>JWOCKY, Joshua Babcock</author>
+    <status>beta</status>
+    <rating>
+      <FDM type="int">3</FDM>
+      <systems type="int">1</systems>
+      <cockpit type="int">2</cockpit>
+      <model type="int">3</model>
+    </rating>
+    <variant-of>b29</variant-of>
     <flight-model>jsb</flight-model>
     <aero>b29</aero>
   </sim>
