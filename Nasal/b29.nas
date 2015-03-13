@@ -293,23 +293,51 @@ nextPosition = func {
 ########
 
 controls.flapsDown = func {
-    setprop('/sim/model/b29/flap-switch-pos-norm', arg[0]);
-    if (arg[0] == 1) {
-        if ( getprop('/controls/flight/flaps') < 1 ) {
-            interpolate('/controls/flight/flaps', 1, (9*(1-getprop('/controls/flight/flaps'))));
-# } else {
-# check for motor burnout
+	setprop('/sim/model/b29/flap-switch-pos-norm', arg[0]);
+	var result=getprop("/controls/flight/flaps");
+	if (arg[0] == 1) {
+		if ( getprop('/controls/flight/flaps') < 1 ) {
+#			interpolate('/controls/flight/flaps', 1, (9*(1-getprop('/controls/flight/flaps'))));
+			if (getprop("/controls/flight/flaps")<getprop("sim/flaps/setting[4]")) {
+				result=getprop("sim/flaps/setting[4]");
+			}
+			if (getprop("/controls/flight/flaps")<getprop("sim/flaps/setting[3]")) {
+				result=getprop("sim/flaps/setting[3]");
+			}
+			if (getprop("/controls/flight/flaps")<getprop("sim/flaps/setting[2]")) {
+				result=getprop("sim/flaps/setting[2]");
+			}
+			if (getprop("/controls/flight/flaps")<getprop("sim/flaps/setting[1]")) {
+				result=getprop("sim/flaps/setting[1]");
+			}
+			if (getprop("/controls/flight/flaps")<getprop("sim/flaps/setting[0]")) {
+				result=getprop("sim/flaps/setting[0]");
+			}
                 }
         } elsif (arg[0] == -1) {
-            if ( getprop('/controls/flight/flaps') > 0 ) {
-                interpolate('/controls/flight/flaps', 0, (9*getprop('/controls/flight/flaps')));
-# } else {
-# check for motor burnout
-                    }
+		if ( getprop('/controls/flight/flaps') > 0 ) {
+#	                interpolate('/controls/flight/flaps', 0, (9*getprop('/controls/flight/flaps')));
+			if (getprop("/controls/flight/flaps")>=getprop("sim/flaps/setting[0]")) {
+				result=getprop("sim/flaps/setting[0]");
+			}
+			if (getprop("/controls/flight/flaps")>getprop("sim/flaps/setting[1]")) {
+				result=getprop("sim/flaps/setting[1]");
+			}
+			if (getprop("/controls/flight/flaps")>getprop("sim/flaps/setting[2]")) {
+				result=getprop("sim/flaps/setting[2]");
+			}
+			if (getprop("/controls/flight/flaps")>getprop("sim/flaps/setting[3]")) {
+				result=getprop("sim/flaps/setting[3]");
+			}
+			if (getprop("/controls/flight/flaps")>getprop("sim/flaps/setting[4]")) {
+				result=getprop("sim/flaps/setting[4]");
+			}
+		}
         } else {
-            interpolate('/controls/flight/flaps');
-            }
-    }
+#            interpolate('/controls/flight/flaps');
+	}
+	setprop("/controls/flight/flaps", result);
+}
 
 ########
 #
