@@ -40,31 +40,31 @@ puttPuttStart = func {
 pBrakeCheck = func {
 
 # When attempting to pull handle, check to make sure the pedals are depressed too.  
-    if ( !oldPbrakeSetting and getprop("/controls/gear/brake-parking") ) {
-        if ( !getprop("/controls/gear/brake-left") or !getprop("/controls/gear/brake-right") ) {
+#    if ( !oldPbrakeSetting and getprop("/controls/gear/brake-parking") ) {
+#        if ( !getprop("/controls/gear/brake-left") or !getprop("/controls/gear/brake-right") ) {
 # Nope. You gotta press both the pedals too. Pop it back out.
-            setprop("/controls/gear/brake-parking", 0);
-            }      
+#            setprop("/controls/gear/brake-parking", 0);
+#            }      
 # Don't let the handle popping routine touch us yet.
-        primedToPop = 0;
-        }
+#        primedToPop = 0;
+#        }
 
-    if ( !getprop("/controls/gear/brake-left") and !getprop("/controls/gear/brake-right") ) {
+#    if ( !getprop("/controls/gear/brake-left") and !getprop("/controls/gear/brake-right") ) {
 # OK, now it's ok to pop the handle.
-        primedToPop = 1;
-        }
+#        primedToPop = 1;
+#        }
 
 # Pop handle when both pedals are touched.
-    if ( primedToPop and getprop("/controls/gear/brake-left") and getprop("/controls/gear/brake-right") ) {
-        setprop("/controls/gear/brake-parking", 0);
-        }
+#    if ( primedToPop and getprop("/controls/gear/brake-left") and getprop("/controls/gear/brake-right") ) {
+#        setprop("/controls/gear/brake-parking", 0);
+#        }
 
 # Set the real control prop to whatever the handle is now set at.
-    setprop("/controls/gear/brake-my-parking", getprop("controls/gear/brake-parking"));
+#    setprop("/controls/gear/brake-my-parking", getprop("controls/gear/brake-parking"));
 # Remember it here in case something mucks with the property vaue.
-    oldPbrakeSetting = getprop("/controls/gear/brake-parking");
+#    oldPbrakeSetting = getprop("/controls/gear/brake-parking");
 
-    settimer(pBrakeCheck, 0.05);
+#    settimer(pBrakeCheck, 0.05);
     }
 
 ########
