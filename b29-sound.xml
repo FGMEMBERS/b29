@@ -7,7 +7,7 @@
     <!-- Engine 1 -->
     <crank>
       <name>engstart1</name>
-      <path>Aircraft/b29/Sounds/engstart.wav</path>
+      <path>Aircraft/b29/Sounds/startup.wav</path>
       <property>/engines/engine[0]/cranking</property>
       <volume>
 	<offset>0.4</offset>
@@ -17,7 +17,7 @@
     <crank>
       <name>crank1</name>
       <mode>looped</mode>
-      <path>Aircraft/b29/Sounds/cranking.wav</path>
+      <path>Aircraft/b29/Sounds/starter.wav</path>
       <condition>
 	<property>/engines/engine[0]/cranking</property>
 	<not>
@@ -107,7 +107,7 @@
 
     <crank>
       <name>engstart2</name>
-      <path>Aircraft/b29/Sounds/engstart.wav</path>
+      <path>Aircraft/b29/Sounds/startup.wav</path>
       <property>/engines/engine[1]/cranking</property>
       <volume>
 	<offset>0.4</offset>
@@ -117,7 +117,7 @@
     <crank>
       <name>crank2</name>
       <mode>looped</mode>
-      <path>Aircraft/b29/Sounds/cranking.wav</path>
+      <path>Aircraft/b29/Sounds/starter.wav</path>
       <condition>
 	<property>/engines/engine[1]/cranking</property>
 	<not>
@@ -200,7 +200,7 @@
     <!-- Engine 3 -->
     <crank>
       <name>engstart3</name>
-      <path>Aircraft/b29/Sounds/engstart.wav</path>
+      <path>Aircraft/b29/Sounds/startup.wav</path>
       <property>/engines/engine[2]/cranking</property>
       <volume>
 	<offset>0.4</offset>
@@ -210,7 +210,7 @@
     <crank>
       <name>crank3</name>
       <mode>looped</mode>
-      <path>Aircraft/b29/Sounds/cranking.wav</path>
+      <path>Aircraft/b29/Sounds/starter.wav</path>
       <condition>
 	<property>/engines/engine[2]/cranking</property>
 	<not>
@@ -293,7 +293,7 @@
     <!-- Engine 4 -->
     <crank>
       <name>engstart4</name>
-      <path>Aircraft/b29/Sounds/engstart.wav</path>
+      <path>Aircraft/b29/Sounds/startup.wav</path>
       <property>/engines/engine[3]/cranking</property>
       <volume>
 	<offset>0.4</offset>
@@ -303,7 +303,7 @@
     <crank>
       <name>crank4</name>
       <mode>looped</mode>
-      <path>Aircraft/b29/Sounds/cranking.wav</path>
+      <path>Aircraft/b29/Sounds/starter.wav</path>
       <condition>
 	<property>/engines/engine[3]/cranking</property>
 	<not>
@@ -388,7 +388,7 @@
     <rumble>
       <name>rumble</name>
       <mode>looped</mode>
-      <path>Aircraft/b29/Sounds/rumble.wav</path>
+      <path>Aircraft/b29/Sounds/rumblingOnGround.wav</path>
       <condition>
 	<or>
 	  <property>/gear/gear[0]/wow</property>
@@ -403,16 +403,39 @@
       </volume>
     </rumble>
 
+    <rumble>
+      <name>jack</name>
+      <mode>looped</mode>
+      <path>Aircraft/b29/Sounds/jack_sparrow.wav</path>
+      <condition>
+	<and>
+		<or>
+		  <property>/gear/gear[0]/wow</property>
+		  <property>/gear/gear[1]/wow</property>
+		  <property>/gear/gear[2]/wow</property>
+		</or>
+		<greater-than>
+			<property>/velocities/airspeed-kt</property>
+			<value>20</value>
+		</greater-than>
+	</and>
+      </condition>
+      <volume>
+	<property>/velocities/airspeed-kt</property>
+	<factor>20.5</factor>
+      </volume>
+    </rumble>
+
     <gear>
       <name>gear</name>
       <mode>in-transit</mode>
       <path>Aircraft/b29/Sounds/gear_move.wav</path>
       <property>/gear/gear[0]/position-norm</property>
-      <pitch>
+      <!--pitch>
 	<internal>dt_play</internal>
 	<offset>1.0</offset>
 	<factor>-0.001</factor>
-      </pitch>
+      </pitch-->
     </gear>
 
     <gear>
@@ -428,7 +451,7 @@
 
     <squeal>
       <name>squeal</name>
-      <path>Aircraft/b29/Sounds/squeal.wav</path>
+      <path>Aircraft/b29/Sounds/squeal2.wav</path>
       <condition>
 	<or>
 	  <property>/gear/gear[0]/wow</property>
