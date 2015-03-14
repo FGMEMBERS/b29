@@ -711,9 +711,9 @@
             <independentVar lookup="row">aero/alpha-rad</independentVar>
             <tableData>
               -0.20 -0.740
-              0.00  0.340
-              0.24  1.600
-              0.60  0.904
+              0.00  1.640
+              0.24  1.820
+              0.60  1.904
             </tableData>
           </table>
 	</product>
@@ -725,7 +725,7 @@
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
           <property>fcs/flap-pos-deg</property>
-          <value>0.02500</value>
+          <value>0.03500</value>
 	</product>
       </function>
 
@@ -745,7 +745,7 @@
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
           <property>fcs/elevator-pos-rad</property>
-          <value>0.3</value>
+          <value>0.25</value>
 	</product>
       </function>
     </axis>
@@ -802,7 +802,7 @@
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
           <property>fcs/flap-pos-deg</property>
-          <value>0.00117</value>
+          <value>0.00217</value>
         </product>
       </function>
 
@@ -812,7 +812,7 @@
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
           <property>gear/gear-pos-norm</property>
-          <value>0.023</value>
+          <value>0.013</value>
         </product>
       </function>
 
@@ -850,7 +850,7 @@
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
           <abs><property>fcs/elevator-pos-norm</property></abs>
-          <value>0.04</value>
+          <value>0.035</value>
 	</product>
       </function>
     </axis>
