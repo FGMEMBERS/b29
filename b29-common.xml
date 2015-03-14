@@ -29,7 +29,7 @@ Common definitions
 		</model>
 
 		<startup>
-			<splash-texture>Aircraft/b29/splash.png</splash-texture>
+			<splash-texture>Aircraft/b29/splash_USATour.png</splash-texture>
 		</startup>
 
 		<submodels>
