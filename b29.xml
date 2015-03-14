@@ -96,7 +96,7 @@
     <description> 99516 LBS + full (33909 LBS) fuel should bring model up to entered max weight</description>
     <weight unit="LBS">  22000.2 </weight>
     <location name="POINTMASS" unit="IN">
-      <x> 630.00 </x>
+      <x> 730.00 </x>
       <y>   0.00 </y>
       <z> -29.70 </z>
     </location>
@@ -124,7 +124,7 @@
 
     <contact type="BOGEY" name="LEFT">
       <location unit="IN">
-	<x>590.65</x>
+	<x>570.65</x>
 	<y>-341.6</y>
 	<z>-145</z>
       </location>
@@ -140,7 +140,7 @@
 
     <contact type="BOGEY" name="RIGHT">
       <location unit="IN">
-	<x>590.65</x>
+	<x>570.65</x>
 	<y>341.6</y>
 	<z>-145</z>
       </location>
@@ -299,7 +299,7 @@
   <propulsion>
     <engine file="eng_R3350">
       <location unit="IN">
-	<x>588.32</x>
+	<x>558.32</x>
 	<y>-386.4</y>
 	<z>16</z>
       </location>
@@ -311,7 +311,7 @@
       <feed>0</feed>
       <thruster file="prop_200in4v">
 	<location>
-	  <x>586.32</x>
+	  <x>556.32</x>
 	  <y>-386.4</y>
 	  <z>16</z>
 	</location>
@@ -326,7 +326,7 @@
     <!-- Engine #2 -->
     <engine file="eng_R3350">
       <location unit="IN">
-	<x>588.32</x>
+	<x>558.32</x>
 	<y>-177.84</y>
 	<z>12</z>
       </location>
@@ -338,7 +338,7 @@
       <feed>1</feed>
       <thruster file="prop_200in4v">
 	<location>
-	  <x>586.32</x>
+	  <x>556.32</x>
 	  <y>-177.84</y>
 	  <z>12</z>
 	</location>
@@ -353,7 +353,7 @@
     <!-- Engine #3 -->
     <engine file="eng_R3350">
       <location unit="IN">
-	<x>588.32</x>
+	<x>558.32</x>
 	<y>177.84</y>
 	<z>12</z>
       </location>
@@ -365,7 +365,7 @@
       <feed>2</feed>
       <thruster file="prop_200in4v">
 	<location>
-	  <x>586.32</x>
+	  <x>556.32</x>
 	  <y>177.84</y>
 	  <z>12</z>
 	</location>
@@ -380,7 +380,7 @@
     <!-- Engine #4 -->
     <engine file="eng_R3350">
       <location unit="IN">
-	<x>588.32</x>
+	<x>558.32</x>
 	<y>386.4</y>
 	<z>16</z>
       </location>
@@ -392,7 +392,7 @@
       <feed>3</feed>
       <thruster file="prop_200in4v">
 	<location>
-	  <x>586.32</x>
+	  <x>556.32</x>
 	  <y>386.4</y>
 	  <z>16</z>
 	</location>
@@ -710,9 +710,9 @@
             <independentVar lookup="row">aero/alpha-rad</independentVar>
 						<tableData>
 					              -0.20 -0.740
-					               0.00  0.240
-					               0.24  1.400
-					               0.60  0.704
+					               0.00  0.440
+					               0.24  1.600
+					               0.60  0.904
 						</tableData>
           </table>
       </product>
