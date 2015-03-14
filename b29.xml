@@ -48,7 +48,7 @@
     <vtailarea unit="FT2">131.9</vtailarea>
     <vtailarm unit="FT">45.0</vtailarm>
     <location name="AERORP" unit="IN">
-      <x>588.0</x>
+      <x>488.0</x>
       <y>0</y>
       <z>0</z>
     </location>
@@ -70,7 +70,7 @@
     <izz unit="SLUG*FT2">5001121</izz>
     <emptywt unit="LBS">74500</emptywt>
     <location name="CG" unit="IN">
-      <x>588.0</x>
+      <x>488.0</x>
       <y>0.0</y>
       <z>0.0</z>
     </location>
@@ -299,7 +299,7 @@
   <propulsion>
     <engine file="eng_R3350">
       <location unit="IN">
-	<x>460.32</x>
+	<x>588.32</x>
 	<y>-386.4</y>
 	<z>16</z>
       </location>
@@ -311,7 +311,7 @@
       <feed>0</feed>
       <thruster file="prop_200in4v">
 	<location>
-	  <x>450.32</x>
+	  <x>586.32</x>
 	  <y>-386.4</y>
 	  <z>16</z>
 	</location>
@@ -710,9 +710,9 @@
             <independentVar lookup="row">aero/alpha-rad</independentVar>
             <tableData>
               -0.20 -0.740
-               0.00  0.340
-               0.24  1.600
-               0.60  0.904
+               0.00  0.840
+               0.24  2.100
+               0.60  1.404
             </tableData>
           </table>
       </product>
@@ -724,7 +724,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/flap-pos-deg</property>
-           <value> 0.02500 </value>
+           <value> 0.04000 </value>
        </product>
     </function>
 
