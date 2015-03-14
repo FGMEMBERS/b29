@@ -34,7 +34,7 @@ Supercharger data is fantasy.
   <boostoverride>  0   </boostoverride>
   <boostmanual>0</boostmanual>
 
-  <ratedboost1 unit="INHG"> 36.0 </ratedboost1>   <!-- 52.0 inHg -->
+  <ratedboost1 unit="INHG"> 12.0 </ratedboost1>   <!-- 52.0 inHg -->
   <ratedpower1> 2200   </ratedpower1>
   <ratedrpm1>   2600   </ratedrpm1>
   <ratedaltitude1> 0 </ratedaltitude1> <!-- check this altitude. Should be the same gear ratio as speed 2 -->
