@@ -25,8 +25,8 @@ Before engaging the autopilot be certain that the aircraft is in reasonably leve
 -Buckaroo, March 2015
 
 -->
-
 <airplane mass="74500">
+
   <approach speed="100" aoa="7" fuel="0.2">
     <control-setting axis="/controls/engines/engine[0]/throttle" value="0.5"/>
     <control-setting axis="/controls/engines/engine[1]/throttle" value="0.5"/>
@@ -72,6 +72,7 @@ Before engaging the autopilot be certain that the aircraft is in reasonably leve
   <cockpit x="-1.63" y="0.41" z="0.76"/>
 
   <fuselage ax="0" ay="0" az="0" bx="-30" by="0" bz="0" width="3" taper="0.5" midpoint="0.25"/>
+
   <!--
   Move wing forward 0.168 to compensate for YASim wing moment forces when placing the CG at
   the recommended 25% MAC.
@@ -280,9 +281,7 @@ Before engaging the autopilot be certain that the aircraft is in reasonably leve
     </piston-engine>
   </propeller>
 
-
   <!-- Gear -->
-
   <gear x="-1.09" y="0.0" z="-3.27"
 	compression="0.3"
 	upx="-0.08" upy="0" upz="0.29"
@@ -363,4 +362,5 @@ Before engaging the autopilot be certain that the aircraft is in reasonably leve
   <weight x="-15.06" y="-0.83" z="0" mass-prop="/yasim/weights/rack-7"/>
   <weight x="-15.06" y="0.83"  z="0" mass-prop="/yasim/weights/rack-8"/>
   -->
+
 </airplane>
