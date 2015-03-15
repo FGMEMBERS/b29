@@ -12,6 +12,7 @@ jbabcock@atlantech.net
 		<description>Test model B-29</description>
 		<author>Joshua Babcock</author>
 		<status>alpha</status>
+        <variant-of>b29</variant-of>
 	</sim>
 	<!-- Kluge the YASim gear animation code -->
 	<gear>
