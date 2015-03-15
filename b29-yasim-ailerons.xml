@@ -345,7 +345,7 @@ Before engaging the autopilot be certain that the aircraft is in reasonably leve
   <!-- #4: 1367.5 gal -->
   <tank x="-10.4" y="-8.9" z="0" capacity="8205"/>
 
-  <!-- Ballast -->
+  <!-- Ballast
   CG at ~29% MAC is x=-11.23, 13600
   CG at ~25% MAC is x=-11.06, 14300
   -->
