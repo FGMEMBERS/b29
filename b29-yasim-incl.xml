@@ -10,6 +10,22 @@ jbabcock@atlantech.net
  <sim>
   <flight-model>yasim</flight-model>
   <aero>b29-yasim</aero>
+  
+  <long-description>
+      The B-29 Superfortress is a four-engine propeller-driven heavy bomber
+      designed by Boeing that was flown primarily by the United States toward the
+      end of World War II and during the Korean War. It was one of the largest
+      aircraft to have seen service during World War II and a very advanced bomber 
+      for its time, with features such as a pressurized cabin
+      and an electronic fire-control system.
+     </long-description>
+     
+     <tag>ww2</tag>
+     <tag>boeing</tag>
+     <tag>bomber</tag>
+     <tag>usaf</tag>
+     <tag>piston</tag>
+     <tag>radial</tag>
  </sim>
 </PropertyList>
 

@@ -20,6 +20,8 @@ jbabcock@atlantech.net
 		</rating>
 		<flight-model>yasim</flight-model>
 		<aero>b29-yasim</aero>
+        
+        <variant-of>b29</variant-of>
 	</sim>
 
 </PropertyList>
