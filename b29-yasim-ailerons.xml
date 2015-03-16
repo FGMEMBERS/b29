@@ -1,9 +1,11 @@
 <?xml version="1.0"?>
 
 <!--
+
 YASim aerodynamic model for a Boeing b29 Superfortress
 
 The reference datum for measurements is the nose.
+
 
 Author: Gary "Buckaroo" Neely
 
@@ -25,6 +27,7 @@ Before engaging the autopilot be certain that the aircraft is in reasonably leve
 -Buckaroo, March 2015
 
 -->
+
 <airplane mass="74500">
 
   <approach speed="100" aoa="7" fuel="0.2">
@@ -147,6 +150,7 @@ Before engaging the autopilot be certain that the aircraft is in reasonably leve
     <control-output control="FLAP0" prop="/surface-positions/rudder-pos-norm"/>
     <control-speed control="FLAP0" transition-time="2.0"/>
   </vstab>
+
 
   <!--
   Engine properties represent a somewhat later generation R-3350. This is necessary in part
@@ -345,11 +349,13 @@ Before engaging the autopilot be certain that the aircraft is in reasonably leve
   <!-- #4: 1367.5 gal -->
   <tank x="-10.4" y="-8.9" z="0" capacity="8205"/>
 
+
   <!-- Ballast
   CG at ~29% MAC is x=-11.23, 13600
   CG at ~25% MAC is x=-11.06, 14300
   -->
   <ballast x="-2" y="0.0" z="0" mass="14300"/>
+
 
   <!-- Bomb racks -->
   <!--
