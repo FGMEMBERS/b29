@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+B-29 Superfortress for FlightGear 0.9.3
+
+Copyright 2004 Joshua Babcock
+jbabcock@atlantech.net
+-->
+
+<PropertyList include="b29-common.xml">
+  <sim>
+    <flight-model>ufo</flight-model>
+    <description>Test model B-29</description>
+    <author>Joshua Babcock</author>
+    <status>alpha</status>
+    <exclude-from-gui type="bool">true</exclude-from-gui>
+  </sim>
+  <!-- Kluge the YASim gear animation code -->
+  <gear>
+    <gear n="0">
+      <position-norm>1.0</position-norm>
+      <compression-norm>0.6</compression-norm>
+    </gear>
+    <gear n="1">
+      <position-norm>1.0</position-norm>
+      <compression-norm>0.5</compression-norm>
+    </gear>
+    <gear n="2">
+      <position-norm>1.0</position-norm>
+      <compression-norm>0.5</compression-norm>
+    </gear>
+    <gear n="3">
+      <position-norm>1.0</position-norm>
+    </gear>
+  </gear>
+
+  <!-- Make standard animations work -->
+  <surface-positions>
+    <elevator-pos-norm alias="/controls/flight/elevator"/>
+    <rudder-pos-norm alias="/controls/flight/rudder"/>
+    <aileron-pos-norm alias="/controls/flight/aileron"/>
+    <flaps-pos-norm alias="/controls/engines/engine/throttle"/>
+  </surface-positions>
+
+  <engines>
+    <engine n="0">
+      <propeller-pitch alias="/controls/engines/engine[0]/propeller-pitch"/>
+    </engine>
+    <engine n="1">
+      <propeller-pitch alias="/controls/engines/engine[1]/propeller-pitch"/>
+    </engine>
+    <engine n="2">
+      <propeller-pitch alias="/controls/engines/engine[2]/propeller-pitch"/>
+    </engine>
+    <engine n="3">
+      <propeller-pitch alias="/controls/engines/engine[3]/propeller-pitch"/>
+    </engine>
+  </engines>
+
+  <input>
+    <joysticks>
+      <js>
+	<axis n="3">
+	  <binding>
+	    <command>property-scale</command>
+	    <setting>/controls//engines/engine[0]/throttle</setting>
+	    <property>/engines/engine[0]/rpm</property>
+	    <factor>3000</factor>
+	  </binding>
+	  <binding>
+	    <command>property-scale</command>
+	    <property>/engines/engine[1]/rpm</property>
+	    <factor>3000</factor>
+	  </binding>
+	  <binding>
+	    <command>property-scale</command>
+	    <property>/engines/engine[2]/rpm</property>
+	    <factor>3000</factor>
+	  </binding>
+	  <binding>
+	    <command>property-scale</command>
+	    <property>/engines/engine[3]/rpm</property>
+	    <factor>3000</factor>
+	  </binding>
+	</axis>
+      </js>
+    </joysticks>
+  </input>
+
+</PropertyList>
+

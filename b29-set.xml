@@ -11,5 +11,17 @@ Copyright 2003 Joshua Babcock
 jbabcock@atlantech.net
 -->
 
-<PropertyList include="b29-yasim-incl.xml"/>
+<PropertyList include="b29-yasim-incl.xml">
+    <sim>
+    	<description>Boeing B-29 Superfortress - YASim</description>
+    	<author>Joshua Babcock, Vivian Meazza</author>
+    	<status>early-production</status>
+    	<rating>
+    		<FDM type="int">3</FDM>
+    		<systems type="int">2</systems>
+    		<cockpit type="int">5</cockpit>
+    		<model type="int">4</model>
+    	</rating>
+    </sim>
+</PropertyList>
 
