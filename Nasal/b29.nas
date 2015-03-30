@@ -544,7 +544,7 @@ dropBombs = func (){
         var impact = impact_node.getValue();
         var node = props.globals.getNode(n.getValue(), 1);
         print ("impact ", impact, " lon " , node.getNode("impact/longitude-deg").getValue(),);
-        geo.put_model("/Aircraft/b29/Models/wildfire.xml",
+        geo.put_model("Aircraft/b29/Models/wildfire.xml",
             node.getNode("impact/latitude-deg").getValue(),
             node.getNode("impact/longitude-deg").getValue(),
             node.getNode("impact/elevation-m").getValue()+ 0.25,
