@@ -1,8 +1,8 @@
-===========================================================================
 USA TOUR CONSORTIUM, MARCH 2015
-==========================================================================
+===============================
 
 The B-29 Superfortress for Flightgear has received some quick fixes and improvements on March 2015.
+
 This work can not be considered a complete rework, but the changes make a significant progress to get the Superfortress back in the air
 
 Before changes, JSBSim version is unable to launch, and YASim version is overall very poor in its fligth dynamic models.
@@ -15,20 +15,22 @@ In addition to bring the plane back in the air, this work is a good basis to pro
 
 Source code was reorganized and all textures are now converted to png (as opposed to rgb).
 
-Read the file "THANKS" to revise acknowledge contributions.
+Read the file *THANKS* to revise acknowledge contributions.
 
-This aircraft is licensed under GPLv2 Conditions, and this license is reprinted in the file LICENSE
+This aircraft is licensed under GPLv2 Conditions, and this license is reprinted in the file *LICENSE*
 
 Enjoy!
 
-=====================================================================
+***
 
-B-29 Superfortress.
+B-29 Superfortress
+===================
 
 LICENSE:
+--------
+
 This package is released under the GNU GPL. See the file LICENSE for the
-complete license.
-All files are copyright Josh Babcock 2005 unless otherwise noted.
+complete license. All files are copyright Josh Babcock 2005 unless otherwise noted.
 
 At the moment this airplane is under heavy develpoment. The FDM is flyable but
 does not reflect the performance of the real world aircraft. The 3D model is
@@ -39,6 +41,5 @@ started.
 
 For more information see the files changelog, stuff/NOTES and stuff/TODO.
 
-Aug 1 `05
-Josh
-jbabcock<at>atlantech<dot>net
+Aug 1 2005<br>
+Josh: <jbabcock@atlantech.net>
