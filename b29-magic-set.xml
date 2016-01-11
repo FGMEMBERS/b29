@@ -13,6 +13,7 @@ jbabcock@atlantech.net
 		<author>Joshua Babcock</author>
 		<status>alpha</status>
         <exclude-from-gui type="bool">true</exclude-from-gui>
+				<variant-of>b29</variant-of>
 	</sim>
 	<!-- Kluge the YASim gear animation code -->
 	<gear>
@@ -87,4 +88,3 @@ jbabcock@atlantech.net
 	</input>
 
 </PropertyList>
-
